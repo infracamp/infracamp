@@ -21,7 +21,7 @@ documentation suitable for everybody. That's what this text is about.
 
 ## Global writing guidelines 
 
-- ***In english please***: Write your documention in English so other users can participate.
+- ***In english please***: Write your documention in english so everyone can participate.
 
 - ***The more, the better***: Wikipedia has become the best source of information because everybody
   can participate. The more humans authoring a document, the better it becomes.
@@ -30,16 +30,19 @@ documentation suitable for everybody. That's what this text is about.
   topics of your project. Provide short example snippets with *links* to additional information.
 
 - ***Provide links to professional topics on top***: Don't let professionals read your entire README to 
-  find the stuff they want. Most professionals expect the same: Provide *links* to examples on the top of 
+  find the stuff they want. Most professionals expect the same: Provide *links* to examples on top of 
   your README.
   
-- ***Full working Examples***: Provide ready to copy-n-paste examples. Link them in your `README.md` file
+- ***Fully working Examples***: Provide ready to copy-n-paste examples. Link them in your `README.md` file
   so everyone interested can find them quickly
   
 - ***Detail information***: Provide detailed information about topics in separate files with links to 
   *working examples*
   
-- ***CODE b4 PROSA***: Write code-examples including some hints instead of writing books of wisdom
+- ***CODE b4 PROSE***: Write code-examples including some hints instead of writing books of wisdom
+
+- ***Invite***: Everyone`s oppinion counts. Invite people - whatever experience they have - to participate
+  in the project. Be polite to recurring questions and try to eliminate them first hand in the documentation.
   
  
 ## Structure of `README.md` *[Example](docs/README.dist.md)*
