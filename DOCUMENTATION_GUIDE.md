@@ -8,7 +8,7 @@ and professionals (quick entry).
 
 ## Manifest
 
-- Students and newbies need should be provided with the best documentation we have to get started quick
+- Students and newbies should be provided with the best documentation we have to get started quick
   and develop awesome software. They don't need to experience the same learning curve senior developers did.
   
 - Seniors and professionals know other frameworks and techniques. They want to know exactly, how to
