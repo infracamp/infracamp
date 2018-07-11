@@ -8,8 +8,8 @@ and professionals (quick entry).
 
 ## Manifest
 
-- Students and newbies need should be provided with the best documentation we have, to get started quick
-  and develop awesome software. They don't need to experience the same learning curve, senior developers did.
+- Students and newbies need should be provided with the best documentation we have to get started quick
+  and develop awesome software. They don't need to experience the same learning curve senior developers did.
   
 - Seniors and professionals know other frameworks and techniques. They want to know exactly, how to
   do stuff without reading information they already know.
@@ -44,6 +44,7 @@ It should provide information for all.
 - Project Marketing (max 10 lines): Describe the goals of your Project including
     - Basic example (max 10 lines - or provide a link) 
     - What is the project about, why did you do it
+    - Link them to working examples
 
 - Professional Topics (max 15 Lines): Links to professional grade examples or detailed documentation.
   - Use professional language and short cuts
