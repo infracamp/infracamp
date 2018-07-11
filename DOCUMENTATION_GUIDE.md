@@ -14,11 +14,15 @@ and professionals (quick entry).
 - Seniors and professionals know other frameworks and techniques. They want to know exactly, how to
   do stuff without reading information they already know.
 
-Although both, seniors and newbies, have different expectations on good documentation, this 
+Both, seniors and newbies, have different expectations on good documentation. The holy grale is to write
+documentation suitable for everybody. That's what this text is about.
 
 ## Global writing guidelines 
 
 - ***In english please***: Write your documention in English so other users can participate.
+
+- ***The more, the better***: Wikipedia has become the best source of information because everybody
+  can participate. The more humans authoring a document, the better it becomes.
 
 - ***The shorter - the better***: Provide short information in your primary `README.md` file covering all
   topics of your project. Provide short example snippets with *links* to additional information.
