@@ -67,5 +67,9 @@ It should provide information for all.
 - Contribution guide
     - Ask the reader for suggestions / contributions
     
+- Searchable Reference
+    - Professionals want to find topics using `CRTL-F`. Provide these topics with links to
+      examples here.
+    
 
     
