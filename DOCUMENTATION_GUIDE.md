@@ -13,6 +13,8 @@ and professionals (quick entry).
   
 - Seniors and professionals know other frameworks and techniques. They want to know exactly, how to
   do stuff without reading information they already know.
+  
+- Every text should be subject to public discussion and improvement.
 
 Both, seniors and newbies, have different expectations on good documentation. The holy grale is to write
 documentation suitable for everybody. That's what this text is about.
