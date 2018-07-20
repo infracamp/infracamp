@@ -1,0 +1,7 @@
+# Kickstart
+
+## Install kickstart
+
+```
+
+```
