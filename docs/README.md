@@ -3,7 +3,7 @@ Documents, Website, Rules, Protocols
 
 ## Quicklinks
 
-- [Kickstart]()
+- [Kickstart](kickstart.html)
 
 ## Goals of this organisation
 
