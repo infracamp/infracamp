@@ -1,16 +1,17 @@
 # Kickstart container config file - see https://gitub.com/c7lab/kickstart
 # Run ./kickstart.sh to start a development-container for this project
 version: 1
-from: "infracamp/kickstart-flavor-gaia"
+from: "infracamp/kickstart-flavor-jekyll:testing"
 
-apache_www_root: /opt/docs
 
 command:
-  build:
-    - "sudo apt-get -y install libxml2-dev ruby-full ruby-bundler gem"
-    - "sudo gem install bundler"
-    - "bundle install"
+#  build:
+#    - "sudo apt-get -y install libxml2-dev ruby-full ruby-bundler gem"
+#    - "sudo gem install jekyll jekyll-optional-front-matter"
+#    - "bundle install"
+
+  update:
+    - "git submodule update --init --remote"
 
   run:
-    - "sudo service apache2 stop"
-    #- "D:cd /opt/docs && jekyll serve -H 0.0.0.0"
+    - "D:jekyll serve -H 0.0.0.0 -s /opt/docs -d /tmp/_build"

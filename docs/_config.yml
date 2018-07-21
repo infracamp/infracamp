@@ -4,8 +4,13 @@ google_analytics:
 show_downloads: true
 include:
 - projects/kickstart
-safe: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      title: developer camp
 
 plugins:
-#- jekyll-mentions
-#- jekyll-default-layout
+- jekyll-optional-front-matter
