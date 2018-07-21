@@ -1,6 +1,6 @@
 ---
 layout: default
-title: php5/7 template rendering library
+title: developer camp
 ---
 
 {% include_relative README.md %}

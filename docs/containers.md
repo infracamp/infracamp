@@ -1,3 +1,8 @@
+---
+layout: default
+title: Containers ready to run
+---
+
 # Containers build on kickstart
 
 | Name | Synopsis | Documentation |

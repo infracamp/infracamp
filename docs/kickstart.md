@@ -1,3 +1,7 @@
+---
+layout: default
+title: kickstart container runner
+---
 # Kickstart
 
 - [Kickstart Project](https://github.com/infracamp/kickstart)
