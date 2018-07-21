@@ -1,0 +1,6 @@
+[submodule "doc/projects/kickstart"]
+	path = doc/projects/kickstart
+	url = https://github.com/infracamp/kickstart.git
+[submodule "docs/projects/kickstart"]
+	path = docs/projects/kickstart
+	url = https://github.com/infracamp/kickstart.git
