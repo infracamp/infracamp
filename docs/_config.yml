@@ -1,7 +1,9 @@
-title: text/template
-description: Simple string template engine supporting if/loops/filters for PHP5+
+title: infracamp.org
+description: educational grade development tools
 google_analytics:
 show_downloads: true
+include:
+- projects/kickstart
 
 gems:
 - jekyll-mentions
