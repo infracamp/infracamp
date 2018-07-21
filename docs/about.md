@@ -10,7 +10,7 @@ Clemens-August Str. 16
 
 Germany
 
-Website: [https://leuffen.de]
+Website: [leuffen.de](https://leuffen.de)
 
 ## Participating
 
