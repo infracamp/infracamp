@@ -4,9 +4,12 @@ title: kickstart container runner
 ---
 # Kickstart
 
-- [Kickstart Project](https://github.com/infracamp/kickstart)
+`kickstart.sh` is a bash-script you might want to include in your projects. It is
+a easy-to-use wrapper to the `docker`-command, to help you develop awesome software.
 
-## Install kickstart
+It uses the projects `.kick.yml` as configuration file.
+
+## Download / install kickstart
 
 **Copy'n'Paste installer script**: (execute as user in your project-directory)
 ```bash
