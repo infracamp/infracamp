@@ -1,0 +1,17 @@
+<script language="javascript">
+    var copyTextareaBtn = document.querySelector('#kickstart-code-copy');
+
+    copyTextareaBtn.addEventListener('click', function(event) {
+        var copyTextarea = document.querySelector('#kickstart-code');
+        copyTextarea.focus();
+        copyTextarea.select();
+
+        try {
+            var successful = document.execCommand('copy');
+            var msg = successful ? 'successful' : 'unsuccessful';
+            console.log('Copying text command was ' + msg);
+        } catch (err) {
+            console.log('Oops, unable to copy');
+        }
+    });
+</script>

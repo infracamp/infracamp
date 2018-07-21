@@ -1,9 +1,6 @@
 # infracamp
 Documents, Website, Rules, Protocols
 
-
-
-
 ## Quicklinks
 
 - [Kickstart](kickstart.html)

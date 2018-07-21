@@ -14,4 +14,4 @@ command:
     - "git submodule update --init --remote"
 
   run:
-    - "D:jekyll serve -H 0.0.0.0 -s /opt/docs -d /tmp/_build"
+    - "D:jekyll serve -H 0.0.0.0 -s /opt/docs -d /tmp/_build --force_polling"
