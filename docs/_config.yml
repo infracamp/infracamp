@@ -4,6 +4,8 @@ google_analytics:
 show_downloads: true
 include:
 - projects/kickstart
+safe: true
 
-gems:
-- jekyll-mentions
+plugins:
+#- jekyll-mentions
+#- jekyll-default-layout
