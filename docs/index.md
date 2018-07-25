@@ -20,7 +20,7 @@ title: Open-Source expert network
             <h6 class="card-subtitle mb-2 text-muted">Free, no registration.</h6>
             <p class="card-text">We run some servers offering base services for manageing cloud, develop better software and have 
             easier life.</p>
-            <a href="/services.html" class="card-link">See Webservices</a>
+            <a href="/webservices/" class="card-link">See Webservices</a>
             <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
           </div>
         </div>
@@ -33,7 +33,7 @@ title: Open-Source expert network
            <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
            <p class="card-text">Run preinstalled development containers on your desktop.</p>
            <a href="/kickstart.html" class="card-link">Getting started</a>
-           <a href="/containers.html" class="card-link">Containers</a>
+           <a href="/container/" class="card-link">Containers</a>
          </div>
        </div>
    </div>

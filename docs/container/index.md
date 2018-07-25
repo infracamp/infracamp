@@ -3,7 +3,7 @@ layout: default
 title: Containers ready to run
 ---
 
-# Containers build on kickstart
+# Docker containers build on kickstart
 
 OpenSource and community managed containers. 
 
