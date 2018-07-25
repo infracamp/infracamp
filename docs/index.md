@@ -1,6 +1,59 @@
 ---
-layout: default
-title: developer camp
+layout: html
+title: Open-Source expert network
 ---
 
-{% include_relative README.md %}
+<div class="jumbotron">
+  <h1 class="display-4">infracamp.org  <small> - open-source expert network</small></h1>
+  <p class="lead">We are a non-profit open-source community. We provide free-to-use cloud infrastructure
+  servcies, best-practice containers and cloud infrastructure. For everybody. For free.</p>
+  <hr class="my-4">
+  <p>Learn cloud, build your own infrasturctre, gain know-how.</p>
+  <!-- a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a-->
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">our webservices</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Free, no registration.</h6>
+            <p class="card-text">We run some servers offering base services for manageing cloud, develop better software and have 
+            easier life.</p>
+            <a href="/services.html" class="card-link">See Webservices</a>
+            <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
+          </div>
+        </div>
+    </div>
+    
+   <div class="col-sm-4">
+       <div class="card">
+         <div class="card-body">
+           <h5 class="card-title">prebuild containers</h5>
+           <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
+           <p class="card-text">Run preinstalled development containers on your desktop.</p>
+           <a href="/kickstart.html" class="card-link">Getting started</a>
+           <a href="/containers.html" class="card-link">Containers</a>
+         </div>
+       </div>
+   </div>
+   
+   <div class="col-sm-4">
+       <div class="card">
+         <div class="card-body">
+           <h5 class="card-title">frameworks</h5>
+           <h6 class="card-subtitle mb-2 text-muted">Phore</h6>
+           <p class="card-text">Frameworks with small footprint, developed to educate and develop faster</p>
+           <a href="http://github.com/phore/" class="card-link">See on GitHub</a>
+          
+         </div>
+       </div>
+   </div>
+</div>
+
+<div class="row">
+    <div class="container">
+    <h2>News</h2>
+    <p>Some text here</p>
+    </div>
+</div>

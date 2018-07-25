@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # infracamp
 Documents, Website, Rules, Protocols
 
@@ -21,7 +24,7 @@ To allow
 Learning isn't done by showing stuff. It's all about doing stuff.
 We want students to have guided tooling they can work with right away.
 
-## Principals
+## Principles
 
 - ***TOUR.md***: A readme with references and further readings for
   understandig the concepts. The Tour should explain step by step,

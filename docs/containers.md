@@ -7,7 +7,7 @@ title: Containers ready to run
 
 OpenSource and community managed containers. 
 
-## Kickstart devlopment containers
+## Kickstart development containers
 
 {:.table .table-bordered}
 | Name                                  | Synopsis                  | Documentation                                    |
