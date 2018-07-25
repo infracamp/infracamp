@@ -5,11 +5,6 @@ from: "infracamp/kickstart-flavor-jekyll:testing"
 
 
 command:
-#  build:
-#    - "sudo apt-get -y install libxml2-dev ruby-full ruby-bundler gem"
-#    - "sudo gem install jekyll jekyll-optional-front-matter"
-#    - "bundle install"
-
   update:
     - "git submodule update --init --remote"
 
