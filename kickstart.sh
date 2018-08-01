@@ -16,6 +16,7 @@
 
 # Error Handling.
 
+set -o errtrace
 trap 'on_error $LINENO' ERR;
 PROGNAME=$(basename $0)
 PROGPATH="$( cd "$(dirname "$0")" ; pwd -P )"   # The absolute path to kickstart.sh
@@ -262,24 +263,23 @@ _ci_build() {
 
 
 DOCKER_OPT_PARAMS=$KICKSTART_DOCKER_RUN_OPTS;
+
 if [ -e "$HOME/.ssh" ]
 then
     echo "Mounting $HOME/.ssh..."
-    if [ -e "$HOME/.ssh/id_rsa" ]
-    then
-        DOCKER_OPT_PARAMS="$DOCKER_OPT_PARAMS  -e FILE_USER_SSH_ID_RSA=$(printf %q "$(cat $HOME/.ssh/id_rsa)") ";
-    fi;
-
-    if [ -e "$HOME/.ssh/id_ed25519" ]
-    then
-        DOCKER_OPT_PARAMS="$DOCKER_OPT_PARAMS  -e FILE_USER_SSH_ID_ED25519=$(printf %q "$(cat $HOME/.ssh/id_ed25519)") ";
-    fi;
+    DOCKER_OPT_PARAMS="$DOCKER_OPT_PARAMS -v $HOME/.ssh:/home/user/.ssh";
 fi
 
 if [ -e "$HOME/.gitconfig" ]
 then
     echo "Mounting $HOME/.gitconfig..."
-    DOCKER_OPT_PARAMS="$DOCKER_OPT_PARAMS -e FILE_USER_GITCONFIG=$(printf %q "$(cat $HOME/.gitconfig)") ";
+    DOCKER_OPT_PARAMS="$DOCKER_OPT_PARAMS -v $HOME/.gitconfig:/home/user/.gitconfig";
+fi
+
+if [ -e "$HOME/.bash_history" ]
+then
+    echo "Mounting $HOME/.bash_history..."
+    DOCKER_OPT_PARAMS="$DOCKER_OPT_PARAMS -v $HOME/.bash_history:/home/user/.bash_history";
 fi
 
 if [ -e "$PROGPATH/.env" ]
@@ -306,7 +306,7 @@ run_container() {
 		PROGPATH="${PROGPATH/\/mnt\/c\//$KICKSTART_WIN_PATH}"
 	fi
 
-    docker rm $CONTAINER_NAME
+    docker rm $CONTAINER_NAME || true
     echo -e $COLOR_WHITE "==> [$0] STARTING CONTAINER (docker run): Running container in dev-mode..." $COLOR_NC
     cmd="docker $KICKSTART_DOCKER_OPTS run -it                \
             -v \"$PROGPATH/:/opt/\"                           \
