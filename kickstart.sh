@@ -154,7 +154,7 @@ _print_header() {
 
 
 
-    KICKSTART_NEWEST_VERSION=`curl -s "$_KICKSTART_VERSION_URL"`
+KICKSTART_NEWEST_VERSION=$(curl -s "$_KICKSTART_VERSION_URL")
     if [ "$KICKSTART_NEWEST_VERSION" != "$_KICKSTART_CURRENT_VERSION" ]
     then
         echo "|                                                           "

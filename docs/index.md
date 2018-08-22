@@ -1,5 +1,5 @@
 ---
-layout: html
+layout: default
 title: Open-Source expert network
 ---
 

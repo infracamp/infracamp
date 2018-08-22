@@ -4,3 +4,6 @@
 [submodule "docs/projects/kickstart"]
 	path = docs/projects/kickstart
 	url = https://github.com/infracamp/kickstart.git
+[submodule "docs/projects/kickguest-virutalbox"]
+	path = docs/projects/kickguest-virutalbox
+	url = https://github.com/infracamp/kickguest-virtualbox.git
