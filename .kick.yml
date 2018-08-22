@@ -3,10 +3,12 @@
 version: 1
 from: "infracamp/kickstart-flavor-jekyll:testing"
 
-
 command:
-  update:
-    - "git submodule update --init --remote"
+  build:
+  - "jekyll build -s /opt/docs -d /var/www/html"
 
-  run:
-    - "D:jekyll serve -H 0.0.0.0 -s /opt/docs -d /tmp/_build --force_polling"
+  update:
+  - "git submodule update --init --remote"
+
+  dev:
+  - "D:jekyll build -s /opt/docs -d /var/www/html --watch --force_polling"
