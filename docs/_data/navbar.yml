@@ -1,0 +1,21 @@
+main:
+  - name: "Home"
+    href: "/"
+  - name: "Getting started"
+    href: "/kickstart.html"
+  - name: "Projects"
+    childreen:
+      - name: "Kickstart"
+        href: "/projects/kickstart"
+      - name: "Kickguest VirtualBox"
+        href: "/projects/kickguest-virtualbox"
+  - name: "Container"
+    href: "/container/"
+
+
+right:
+  - icon: "fab fa-github"
+    href: "http://github.com/infracamp"
+
+  - icon: "fas fa-comments"
+    href: "http://github.com/infracamp/infracamp/issues"

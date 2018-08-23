@@ -1,1 +1,5 @@
-{% include_relative kickguest-virtualbox/README.md %}
+---
+layout: default
+---
+
+# Projects

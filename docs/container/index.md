@@ -9,7 +9,6 @@ OpenSource and community managed containers.
 
 ## Kickstart development containers
 
-{:.table .table-bordered}
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
 | `infracamp/kickstart-flavor-gaia`     | PHP7.2, Apache2           | [GitHub](https://github.com/infracamp/kickstart-flavor-gaia) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-gaia/) |
@@ -19,7 +18,6 @@ OpenSource and community managed containers.
 
 ## Viper application containers
 
-{:.table .table-bordered}
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
 | `infracamp/viper-smtpd`               | SMTPd Server              | [GitHub](https://github.com/infracamp/viper-smtpd) - [DockerHub](https://hub.docker.com/r/infracamp/viper-smtpd/) |
@@ -27,7 +25,6 @@ OpenSource and community managed containers.
 
 ## Rudl cloud management tools
 
-{:.table .table-bordered}
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
 | `infracamp/rudl-manager`              | Docker Cluster Manager    | [GitHub](https://github.com/infracamp/rudl-manager) - [DockerHub](https://hub.docker.com/r/infracamp/rudl-manager/) |

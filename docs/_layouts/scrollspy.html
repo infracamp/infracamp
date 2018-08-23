@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-{% include head.html %}
+{% include layout/head.html %}
 <body>
-{% include header.html %}
+{% include layout/navbar.html %}
 <div class="container container-fluid">
     <div class="row flex-xl-nowrap">
         <div class="col-12 col-md-12 col-lg-9">
@@ -14,8 +14,8 @@
         </div>
     </div>
 </div>
-{% include footer.html %}
-{% include script.html %}
+{% include layout/footer.html %}
+{% include layout/script.html %}
 <script language="javascript">hljs.initHighlightingOnLoad();</script>
 <script language="javascript">
     $("h2").each(function (elem) {

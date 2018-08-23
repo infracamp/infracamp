@@ -1,0 +1,39 @@
+<header class="navbar shadow-sm flex-column flex-md-row navbar-dark bg-dark box-shadow sticky-top">
+    <div class="navbar-expand-sm container">
+        <a class="navbar-brand mr-0 mr-md-2" href="http://infracamp.org">
+            <img src="/assets/infracamp.png" width="30" height="30"/>
+            infracamp.org</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                {% for nav in site.data.navbar.main %}
+                {% if nav.childreen %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="dropdownMenuId1" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ nav.name }}</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuId1">
+                            {% for subnav in nav.childreen %}
+                                <a class="dropdown-item" href="{{ subnav.href }}">{{ subnav.name }}</a>
+                            {% endfor %}
+
+                        </div>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ nav.href }}"><i class="{{ nav.icon }}"></i>{{ nav.name }}</a>
+                    </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+
+            {% for nav in site.data.navbar.right %}
+            <a class="navbar-brand fa-2x align-middle" href="{{ nav.href }}">
+                <i class="{{ nav.icon }}"></i>
+            </a>
+            {% endfor %}
+        </div>
+
+    </div>
+
+</header>
