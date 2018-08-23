@@ -17,5 +17,8 @@ right:
   - icon: "fab fa-github"
     href: "http://github.com/infracamp"
 
+  - icon: "fab fa-wikipedia-w"
+    href: "http://github.com/infracamp/infracamp/wiki"
+
   - icon: "fas fa-comments"
     href: "http://github.com/infracamp/infracamp/issues"
