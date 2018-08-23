@@ -1,3 +1,8 @@
+
+brand_src: "/assets/infracamp.png"
+brand_name: "infracamp.org"
+brand_href: "/"
+
 main:
   - name: "Home"
     href: "/"
