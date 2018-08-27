@@ -6,7 +6,7 @@ title: kickstart container runner
 
 Install Docker / Kickstart on
 
-- [Windows 8/10 or MacOS using VirtualBox](projects/kickguest-virutalbox/)
+- [Windows 8/10 or MacOS using VirtualBox](projects/kickguest-virtualbox/)
 
 `kickstart.sh` is a bash-script you might want to include in your projects. It is
 a easy-to-use wrapper to the `docker`-command, to help you develop awesome software.
