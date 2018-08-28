@@ -1,6 +1,6 @@
 # Our mission
 
-***We are the developers-group.  We are independent businesses sharing the development of our
+***We are developers. We are independent businesses, sharing the development of our
 foundations.***
 
 Developing and maintaining highly scalable infrastructure services is 
