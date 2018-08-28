@@ -75,7 +75,7 @@ Even if you have the best concept on doing one thing - you might miss another. I
 main effort is boosting the exchange between developers and their ideas. We want to provide
 a friendly and open community to discuss and try out controversial concepts.
 
-It's your employees ideas. And they can (hopefully will) contribute to it even if they leave
+It's your employees ideas. And they can (hopefully will) contribute to it, even if they leave
 your company. It might sound wired, but this is the only way to keep the knowledge of a leaving
 colleague inside the company: Mainly because you'll won't find a developer maintaining some other ones ideas.
 
