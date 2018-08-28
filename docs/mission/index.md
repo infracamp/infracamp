@@ -13,7 +13,7 @@ We believe concepts and architecture are way more important than programming-lan
 and platforms. To prevent chaos, infracamp provides preconfigured best-practice 
 container-setups suitable for our needs. 
 
-Our backers provide manpower to develop open-source infrastructure services
+Our backers provide the manpower to develop open-source infrastructure services
 properly designed to the needs of their businesses (instead of any businesses).
 
 ## Target group
