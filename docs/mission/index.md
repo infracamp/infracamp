@@ -124,4 +124,4 @@ If you are a company: We are no promotional (PR) factor.
 To become a backer you'll have to:
 - Provide coding hours of your programmers.
 
-If you still want to become a backer: Contact [me](/about.html)
+If you want to become a backer: Contact [me](/about.html)
