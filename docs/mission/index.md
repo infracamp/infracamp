@@ -14,7 +14,7 @@ and platforms. To prevent chaos, infracamp provides preconfigured best-practice
 container-setups suitable for our needs. 
 
 Our backers provide the manpower to develop open-source infrastructure services
-properly designed to the needs of their businesses (instead of any businesses).
+properly designed to the needs of our businesses (instead of any businesses).
 
 ## Target group
 
