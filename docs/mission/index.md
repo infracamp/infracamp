@@ -31,12 +31,6 @@ We can't provide frameworks for everyone's needs! We focus on:
 Our belief: Secretiveness won't lead to success; collaboration and
 know-how transfer does.
 
-Maybe you'll be featured if you'll do:
-
-- Machine Learning
-- KI
-- Big data warehousing
-
 ## Mission-statement
 
 Imfracamp is an organisation to let your employees become developers.
