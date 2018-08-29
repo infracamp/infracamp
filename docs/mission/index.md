@@ -14,13 +14,13 @@ and platforms. To prevent chaos, infracamp provides preconfigured best-practice
 container-setups suitable for our needs. 
 
 Our backers provide the manpower to develop open-source infrastructure services
-properly designed to the needs of our businesses (instead of any businesses).
+properly designed to the needs of our businesses.
 
 ## Target group
 
 We can't provide frameworks for everyone's needs! We focus on:
 
-- (Micro-)Webservices powered by script-languages as Python, PHP, Ruby, JavaScript, etc)
+- (Micro-)Webservices powered by script-languages as Python, PHP, Ruby, JavaScript, etc.
 - container landscape (docker)
 - HTTP based APIs
 - massive hardware-scalability (1 - >100k CPU Cores)
@@ -77,22 +77,27 @@ a friendly and open community to discuss and try out controversial concepts.
 
 It's your employees ideas. And they can (hopefully will) contribute to it, even if they leave
 your company. It might sound wired, but this is the only way to keep the knowledge of a leaving
-colleague inside the company: Mainly because you'll won't find a developer maintaining some other ones ideas.
+colleague inside your company: Mainly because you'll won't find a developer maintaining some other ones ideas.
 
 Furthermore: Infracamp is independent, so developers might be engaged to provide 
 their spare-work projects. These projects might power your business for years.
 
 Because all infracamp's projects are MIT licenced, you can make a copy and maintain the work
-done on your own. (Feel free to do so with any of our projects)
+done on your own. (Feel free to do so with any of our projects - you'll miss all the further work done)
 
 ## Why do developers engage in infracamp? 
 
 It's your project. Not your's companies one. Even if you change your company or get
-self-employed: you'll keep your personal work and benefit from the work of other contributors.
+self-employed: you'll keep your personal work and benefit from your and the work done of other contributors.
 
-List contributions in your CV or hold a talk about it in a conference. It's MIT licenced. 
+List contributions in your CV or hold a talk about it in a conference. It's yours. It's MIT licenced. 
 
+Infracamp empowers you to:
 
+- engage in public events (like conferences, etc.)
+- disclose features in public events
+
+as long they won't compromise your employers interests (as told to you - see [regularities](regularities.html)).
 
 ## Technical goals
 
