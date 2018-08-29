@@ -9,7 +9,7 @@ title: Open-Source expert network
   servcies, best-practice containers and cloud infrastructure. For everybody. For free.</p>
   <hr class="my-4">
   <p>Learn cloud, build your own infrasturctre, gain know-how.</p>
-  <a class="btn btn-primary btn-lg" href="/mission" role="button">Learn more</a>
+  <!-- a class="btn btn-primary btn-lg" href="/mission" role="button">Learn more</a-->
 </div>
 
 <div class="row">
