@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Open-Source expert network
+title: Open Source expert network
 ---
 
 <div class="jumbotron">
-  <h1 class="display-4">infracamp.org  <small> - open-source expert network</small></h1>
-  <p class="lead">We are a non-profit open-source community. We provide free-to-use cloud infrastructure
-  servcies, best-practice containers and cloud infrastructure. For everybody. For free.</p>
+  <h1 class="display-4">infracamp.org  <small> - open source expert network</small></h1>
+  <p class="lead">We are a non profit open source community. We provide free-to-use cloud infrastructure
+  services, best practice containers and cloud infrastructure. For everybody. For free.</p>
   <hr class="my-4">
-  <p>Learn cloud, build your own infrasturctre, gain know-how.</p>
+  <p>Learn cloud, build your own infrastructure, gain know how.</p>
   <!-- a class="btn btn-primary btn-lg" href="/mission" role="button">Learn more</a-->
 </div>
 
@@ -16,11 +16,11 @@ title: Open-Source expert network
     <div class="col-sm-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">our webservices</h5>
+            <h5 class="card-title">our web services</h5>
             <h6 class="card-subtitle mb-2 text-muted">Free, no registration.</h6>
-            <p class="card-text">We run some servers offering base services for manageing cloud, develop better software and have 
+            <p class="card-text">We run some servers offering base services for managing cloud, develop better software and have 
             easier life.</p>
-            <a href="/webservices/" class="card-link">See Webservices</a>
+            <a href="/webservices/" class="card-link">See web services</a>
             <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
           </div>
         </div>
@@ -29,9 +29,9 @@ title: Open-Source expert network
    <div class="col-sm-4">
        <div class="card">
          <div class="card-body">
-           <h5 class="card-title">prebuild containers</h5>
+           <h5 class="card-title">pre build containers</h5>
            <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
-           <p class="card-text">Run preinstalled development containers on your desktop.</p>
+           <p class="card-text">Run pre installed development containers on your desktop.</p>
            <a href="/kickstart.html" class="card-link">Getting started</a>
            <a href="/container/" class="card-link">Containers</a>
          </div>
