@@ -99,8 +99,23 @@ Infracamp empowers you to:
 
 as long they won't compromise your employers interests (as told to you - see [regularities](regularities.html)).
 
-## Technical goals
+## Ideology
 
+- No Frontend for internals: UI development is painful and slows the
+  whole company down: The only UI for us is the IDE
+- All configuration is version-controlled
+- All communication is accessible
+- Focus on technology not platforms: We don't want to teach platforms like jombla or
+  typo3 (knowledge that might be useless in a few month). We teach long lasting technology like 
+  HTML, CSS with a little bit of Jekyll.
+- Beginners need real-world projects. Therefor we need a secured environment to
+  stop poor programming skills from compromising our whole system.
+- 95% Frameworks is enough: We want intuitive frameworks that help us in our daily work instead of
+  providing an complex api to cover 99%.
+- Home-Grown frameworks: We collect our know how in libraries so others don't have to know
+  what we know,... now.
+- Fail fast: Having a minimalistic application today is the goal. Because the perfect app will
+  be dropped after the world ends.
 - Less credentials: 
     - No credentials in repositories
     - Automatic rotation of application credentials
@@ -108,7 +123,8 @@ as long they won't compromise your employers interests (as told to you - see [re
 - Develop on your workstation
 - Test on your workstation
 - Automate everything you did more than twice
-- Less waiting
+- Don't try to optimize server-resource usage (e.g. against waiting time) before you have a resource problem.
+- Minimize waiting time whenever possible
 
 ## Becoming a backer
 
