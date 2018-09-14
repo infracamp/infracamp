@@ -108,6 +108,7 @@ as long they won't compromise your employers interests (as told to you - see [re
 - Focus on technology not platforms: We don't want to teach platforms like jombla or
   typo3 (knowledge that might be useless in a few month). We teach long lasting technology like 
   HTML, CSS with a little bit of Jekyll.
+- Collaborate parallel not serial
 - Beginners need real-world projects. Therefor we need a secured environment to
   stop poor programming skills from compromising our whole system.
 - 95% Frameworks is enough: We want intuitive frameworks that help us in our daily work instead of

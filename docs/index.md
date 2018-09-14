@@ -54,7 +54,7 @@ title: Open Source expert network
 <div class="row">
     <div class="container">
     <h2>News</h2>
-    <p>Some text here</p>
+    <p>Discussion: <a href="mission/methods.html">Product development using User Stories</a></p>
     </div>
 </div>
 
