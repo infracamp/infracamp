@@ -7,7 +7,7 @@ title: Containers ready to run
 
 OpenSource and community managed containers. 
 
-## Kickstart development containers
+## Kickstart development container
 
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
@@ -17,7 +17,7 @@ OpenSource and community managed containers.
 | `infracamp/kickstart-flavor-py3`      | Python3, pip              | [GitHub](https://github.com/infracamp/kickstart-flavor-py3) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/) |
 
 
-## Viper application containers
+## Viper application container
 
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
