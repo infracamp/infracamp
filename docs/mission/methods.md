@@ -13,7 +13,7 @@ ony features, we or our clients really need. Why do we need to focus on KISS?
   documentation for basic usage.
 
 - Development should focus on demands instead of selling. Selling is important, too.
-  But focus of development should be to meed your customers demand in the first place.
+  But focus of development should be to meet your customers demands in the first place.
   
 - You can't develop unless you know your user: Programming is formalized knowledge.
   You need a very detailed understanding of your customers tasks and needs to develop
@@ -44,6 +44,10 @@ Therefore we need to know:
     - Who decides what
     
     - Who spends time to what
+    
+The most important thing to accomplish this task is to understand sales.
+
+
 
 
 

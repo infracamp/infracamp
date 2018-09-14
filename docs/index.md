@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Source expert network
+title: open source cloud services expert network 
 ---
 
 <div class="jumbotron">
