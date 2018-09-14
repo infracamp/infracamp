@@ -1,3 +1,7 @@
+---
+title: User Stories: Develop great products by understanding your customer
+---
+
 # Methods developing products from ideas
 
 Developing products is a difficult task. Not because the technology
