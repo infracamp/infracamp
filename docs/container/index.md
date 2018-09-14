@@ -5,9 +5,14 @@ title: Containers ready to run
 
 # Docker containers build on kickstart
 
-OpenSource and community managed containers. 
+Open Source and community managed containers. 
 
 ## Kickstart development container
+
+Managed containers for specific development environments meant to be used for both development and
+deployment. (Include bash-completion, debugging, profiling in dev-mode; low resource usage and security in production mode)
+
+Additional packages and features might be installed using [.kick.yml](/projects/kickstart)
 
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
