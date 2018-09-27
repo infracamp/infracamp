@@ -6,26 +6,28 @@ title: Getting Started with kickstart
 
 `kickstart.sh` is a wrapper around `docker run` to provide a easy-to-use container running, upgrades and deployments.
 
-<div class="alert alert-success">
+<div class="alert alert-success shadow">
 <h2 class="alert-heading">Quick Access: Download kickstart.sh for your project</h2>
 <hr/>
 <div class="row">
-<div class="col col-md-11" markdown="1">
+<div class="col col-9 col-md-11" markdown="1">
 
 <div class="form-group">
 <input type="text" class="form-control" readonly id="kick_text" value="curl -o kickstart.sh 'https://raw.githubusercontent.com/infracamp/kickstart/master/dist/kickstart.sh' && chmod +x kickstart.sh"/>
 </div>
-<small>
-This code requires <code>curl</code> to be installed on your computer. On debian type <code>sudo apt install curl</code> to install.
-</small>
+
 
 </div>
-<div class="col col-md-1">
+
+<div class="col col-3 col-md-1">
 <button id="kickstart-code-copy" class="btn btn-primary" title="Copy code to clipboard" onclick="$('#kick_text').select();document.execCommand('copy');">
     <i class="fas fa-copy"></i>
 </button>
 </div>
 </div>
+<small>
+    This code requires <code>curl</code> to be installed on your computer. On debian type <code>sudo apt install curl</code> to install.
+</small>
 </div>
 
 
