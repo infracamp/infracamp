@@ -32,7 +32,7 @@ title: open source cloud services expert network
            <h5 class="card-title">pre build containers</h5>
            <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
            <p class="card-text">Run pre installed development containers on your desktop.</p>
-           <a href="/kickstart.html" class="card-link">Getting started</a>
+           <a href="/getting-started/" class="card-link">Getting started</a>
            <a href="/container/" class="card-link">Containers</a>
          </div>
        </div>
