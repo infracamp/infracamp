@@ -1,6 +1,6 @@
 ---
 layout: default
-title: kickstart container runner
+title: Getting Started with kickstart
 ---
 # Kickstart
 
