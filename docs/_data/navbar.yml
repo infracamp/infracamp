@@ -7,7 +7,7 @@ main:
   - name: "Home"
     href: "/"
   - name: "Getting started"
-    href: "/kickstart.html"
+    href: "/getting-started/"
   - name: "Projects"
     childreen:
       - name: "Kickstart"
