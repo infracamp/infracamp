@@ -20,6 +20,7 @@ Additional packages and features might be installed using [.kick.yml](/projects/
 | `infracamp/kickstart-flavor-gaia`     | PHP7.2, Apache2           | [GitHub](https://github.com/infracamp/kickstart-flavor-gaia) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-gaia/) |
 | `infracamp/kickstart-flavor-jekyll`   | Jekyll Github pages       | [GitHub](https://github.com/infracamp/kickstart-flavor-jekyll) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-jekyll/) |
 | `infracamp/kickstart-flavor-py3`      | Python3, pip              | [GitHub](https://github.com/infracamp/kickstart-flavor-py3) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/) |
+| `infracamp/kickstart-flavor-erebos`   | nodejs, angular           | [GitHub](https://github.com/infracamp/kickstart-flavor-erebos) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-erebos/) |
 
 
 ## Viper application container
