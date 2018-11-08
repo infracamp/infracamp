@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+{% include layout/head.html %}
+<body>
+{% include layout/navbar.html %}
+
+<div class="container">
+
+    <div class="alert alert-success" role="alert">
+        This text is exported from our <a href="https://github.com/infracamp/infracamp/wiki">WIKI page</a> and might
+        be outdated. Feel free to edit.
+    </div>
+</div>
+
+<div class="container container-fluid">
+
+    <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-12 col-lg-12 markdown-body">
+            {{ content }}
+        </div>
+    </div>
+</div>
+{% include layout/footer.html %}
+{% include layout/script.html %}
+</body>
+</html>

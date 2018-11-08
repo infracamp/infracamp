@@ -1,5 +1,5 @@
 ---
-layout: html
+layout: default
 title: Free webservices for commercial and private use
 ---
 
