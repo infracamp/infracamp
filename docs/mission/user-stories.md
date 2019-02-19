@@ -1,5 +1,5 @@
 ---
-title: User Stories: Develop great products by understanding your customer
+title: "User Stories: Develop great products by understanding your customer"
 ---
 
 # Methods developing products from ideas

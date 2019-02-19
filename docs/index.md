@@ -54,7 +54,7 @@ title: open source cloud services expert network
 <div class="row">
     <div class="container">
     <h2>News</h2>
-    <p>Discussion: <a href="mission/user-stories.html">Product development using User Stories</a></p>
+    <p>Discussion: <a href="mission/user-stories">Product development using User Stories</a></p>
     </div>
 </div>
 

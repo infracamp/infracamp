@@ -4,13 +4,21 @@ google_analytics:
 show_downloads: true
 include:
 
+# Make directory-style links
+permalink: pretty
 
 defaults:
+  - scope:
+      path: "projects/infracamp.wiki"
+    values:
+      layout: "wiki-default"
   - scope:
       path: ""
     values:
       layout: "default"
       title: developer camp
+
+
 
 plugins:
 - jekyll-optional-front-matter

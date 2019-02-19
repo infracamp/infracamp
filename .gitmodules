@@ -8,3 +8,6 @@
 	path = docs/projects/kickguest-virtualbox
 	url = https://github.com/infracamp/kickguest-virtualbox.git
 
+[submodule "docs/projects/infracamp.wiki"]
+	path = docs/projects/infracamp.wiki
+	url = https://github.com/infracamp/infracamp.wiki.git
