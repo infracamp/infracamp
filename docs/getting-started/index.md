@@ -37,7 +37,7 @@ Kickstart requires [Docker](http://docker.io) to be installed on your system for
 installation how-tos for various platforms: 
 
 - [**Windows** 8/10 or **any OS** using VirtualBox (kickguest)](../projects/kickguest-virtualbox/)
-- [**Linux** (Debian/Ubuntu) or **MacOS** native Installation](../projects/install_linux_mac.html)
+- [**Linux** (Debian/Ubuntu) or **MacOS** native Installation](../projects/install_linux_mac/)
 
 
 ## Step 2: Clone the demo repository
