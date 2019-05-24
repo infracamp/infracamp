@@ -8,8 +8,9 @@ command:
   - "jekyll build -s /opt/docs -d /var/www/html"
 
   update:
-  - "git submodule update --init --remote"
+
 
   dev:
+    - "git submodule update --init --remote"
     - "D:jekyll build -s /opt/docs -d /var/www/html --watch --force_polling"
 
