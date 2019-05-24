@@ -15,9 +15,10 @@ title: open source cloud services expert network
 <div class="row">
     <div class="col-sm-4">
         <div class="card">
+          <img class="card-img-top" src="/assets/img/server2.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">our web services</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Free, no registration.</h6>
+            <h5 class="card-title">develop, collaborate, deploy</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Time is money.</h6>
             <p class="card-text">We run some servers offering base services for managing cloud, develop better software and have 
             easier life.</p>
             <a href="/webservices/" class="card-link">See web services</a>
@@ -28,6 +29,7 @@ title: open source cloud services expert network
     
    <div class="col-sm-4">
        <div class="card">
+         <img class="card-img-top" src="/assets/img/coding1.jpg" alt="Card image cap">
          <div class="card-body">
            <h5 class="card-title">pre build containers</h5>
            <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
@@ -40,6 +42,7 @@ title: open source cloud services expert network
    
    <div class="col-sm-4">
        <div class="card">
+         <img class="card-img-top" src="/assets/img/coding2.jpg" alt="Card image cap">
          <div class="card-body">
            <h5 class="card-title">frameworks</h5>
            <h6 class="card-subtitle mb-2 text-muted">Phore</h6>
