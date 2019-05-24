@@ -20,14 +20,15 @@ title: open source cloud services expert network
             <h5 class="card-title">automate everything</h5>
             <h6 class="card-subtitle mb-2 text-muted">continuous integration</h6>
             <p class="card-text">
-                Deliver fast. Zero configuration. Safe time. Best pactice develop on linux, windows and MacOS.
+                 Zero configuration. Safe time. Deliver fast. Best pactice develop on linux, windows and MacOS.
+                 Its open-source and free.
             </p>
             <a href="/webservices/" class="card-link">See web services</a>
             
-            <h6 class="card-subtitle mb-2 text-muted">platform agnostic</h6>
+            <h6 class="card-subtitle mb-2 text-muted">platform agnostic tooling</h6>
             <p class="card-text">
                 Deploy on GCS, AWS, Azure, BareMetal and HVM (libvirt). 
-                Supports x86 and arm32 (RaspberryPi).
+                Verified concepts for scaleing and high-availibility.
             </p>
             <a href="/webservices/" class="card-link">See web services</a>
             <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
