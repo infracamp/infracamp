@@ -41,7 +41,7 @@ title: open source cloud services expert network
          <img class="card-img-top" src="/assets/img/coding1.jpg" alt="Card image cap">
          <div class="card-body">
            <h5 class="card-title">ready to use containers</h5>
-           <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
+           <h6 class="card-subtitle mb-2 text-muted">Kickstart </h6>
            <p class="card-text">Development containers for PHP, Python, JS/Node.js - supporting x86 and ARM32 (RaspberryPi) platforms.</p>
            <p class="card-text">Seamless integrated to gitlab, github, dockerhub.</p>
 
