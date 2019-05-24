@@ -17,10 +17,18 @@ title: open source cloud services expert network
         <div class="card">
           <img class="card-img-top" src="/assets/img/server2.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">develop, collaborate, deploy</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Time is money.</h6>
-            <p class="card-text">We run some servers offering base services for managing cloud, develop better software and have 
-            easier life.</p>
+            <h5 class="card-title">automate everything</h5>
+            <h6 class="card-subtitle mb-2 text-muted">continuous integration</h6>
+            <p class="card-text">
+                Deliver fast. Zero configuration. Safe time. Best pactice develop on linux, windows and MacOS.
+            </p>
+            <a href="/webservices/" class="card-link">See web services</a>
+            
+            <h6 class="card-subtitle mb-2 text-muted">platform agnostic</h6>
+            <p class="card-text">
+                Deploy on GCS, AWS, Azure, BareMetal and HVM (libvirt). 
+                Supports x86 and arm32 (RaspberryPi).
+            </p>
             <a href="/webservices/" class="card-link">See web services</a>
             <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
           </div>
@@ -31,9 +39,11 @@ title: open source cloud services expert network
        <div class="card">
          <img class="card-img-top" src="/assets/img/coding1.jpg" alt="Card image cap">
          <div class="card-body">
-           <h5 class="card-title">pre build containers</h5>
+           <h5 class="card-title">ready to use containers</h5>
            <h6 class="card-subtitle mb-2 text-muted">Kickstart</h6>
-           <p class="card-text">Run pre installed development containers on your desktop.</p>
+           <p class="card-text">Development containers for PHP, Python, JS/Node.js - supporting x86 and ARM32 (RaspberryPi) platforms.</p>
+           <p class="card-text">Seamless integrated to gitlab, github, dockerhub.</p>
+
            <a href="/getting-started/" class="card-link">Getting started</a>
            <a href="/container/" class="card-link">Containers</a>
          </div>
@@ -41,16 +51,20 @@ title: open source cloud services expert network
    </div>
    
    <div class="col-sm-4">
-       <div class="card">
-         <img class="card-img-top" src="/assets/img/coding2.jpg" alt="Card image cap">
-         <div class="card-body">
-           <h5 class="card-title">frameworks</h5>
-           <h6 class="card-subtitle mb-2 text-muted">Phore</h6>
-           <p class="card-text">Frameworks with small footprint, developed to educate and develop faster</p>
-           <a href="http://github.com/phore/" class="card-link">See on GitHub</a>
-          
-         </div>
-       </div>
+        <div class="card">
+            <img class="card-img-top" src="/assets/img/coding2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">our frameworks</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Phore</h6>
+                <p class="card-text">PHP 7.2 modular microservice framework with small footprint, developed to educate and develop faster</p>
+                <a href="/phore" class="card-link">See documentation</a>
+            
+                <h6 class="card-subtitle mb-2 text-muted">comp-js</h6>
+                <p class="card-text">javascript library build on the new custom webcomponents</p>
+                <a href="http://github.com/phore/" class="card-link">See on GitHub</a>
+            
+            </div>
+        </div>
    </div>
 </div>
 
