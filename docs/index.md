@@ -1,6 +1,8 @@
 ---
 layout: default
-title: open source cloud services expert network 
+title: Open Source Cloud-Services 
+description: Infracamp is an open source community to provide platform services for webdevelopers across multiple companies and private projects. All services are free and will always be free.
+og_description: Infracamp - We think microservices, containers are the future of development of IoT and BigData projects. Developers cooperate to deliver first class experience. Let us share our know-how across company boundaries and do even better together. 
 ---
 
 <div class="jumbotron">

@@ -1,9 +1,17 @@
+---
+layout: default
+title: Develop ARM32 Containers on your Mac/PC
+description: ARM is the next architecture for IoT. Develop ARM Docker images on your PC or MAC using kickstart flavored containers.
+og_description: How to develop and build ARM images on PC continuous-integration platforms? A short overview.
+---
+
+
 # Developing arm32 on x86 
 
 We recommend using qemu-multiarch to execute arm32 containers on x86 
 computers.
 
-kickstart.sh will automaticly detect the plattform and ask you if it should run `multiarch/qemu-user-static`.
+kickstart.sh will automatically detect the architecture and ask you if it should run `multiarch/qemu-user-static`.
 
 ## Building arm32 
 

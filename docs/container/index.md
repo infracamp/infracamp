@@ -1,6 +1,8 @@
 ---
 layout: default
-title: List of kickstart flavored containers
+title: List of flavored containers
+description: Intermediate containers help speeding up build and deployment times. Kickstart flavors are intermediate containers on steroids.
+og_description: A platform for microservices. Develop in your favorite language, platform, framework. Python, Node.Js, PHP, Jekyll on PC, Mac, Windows or ARM. We have intermediate containers ready to start right now.
 ---
 
 # kickstart flavored containers <small>public available on hub.docker.com</small>
