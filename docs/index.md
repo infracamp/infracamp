@@ -27,6 +27,35 @@ og_description: Infracamp - We think microservice-containers are the future of I
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is kickstart.sh?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "kickstart.sh is a bash script reading information about the container to start from .kick.yml and executing docker run with the correct parameters."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are kickstart flavor containers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Flavor containers are intermediate containers. They provide preinstalled enviromnents but it is no application yet inside. Flavors are normally referred to in the from-section of .kick.yml and Dockerfile."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is Phore?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Phore is a set of PHP7.2+ libraries designed to support development of highly scalable microservices."
+    }
+  }]
+  }
+</script>
+
 <div class="jumbotron">
   <h1 class="display-4">infracamp.org  <small> - open source expert network</small></h1>
   <p class="lead">We are a non profit open source community. We provide free-to-use cloud infrastructure
