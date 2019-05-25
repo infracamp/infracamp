@@ -25,6 +25,35 @@ og_description: Phore libraries are optimized for development performance, a ste
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What is kickstart.sh?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "kickstart.sh is a bash script reading information about the container to start from .kick.yml and executing docker run with the correct parameters."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What are kickstart flavor containers?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Flavor containers are intermediate containers. They provide preinstalled enviromnents but it is no application yet inside. Flavors are normally referred to in the from-section of .kick.yml and Dockerfile."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is Phore?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Phore is a set of PHP7.2+ libraries designed to support development of highly scalable microservices."
+    }
+  }]
+  }
+</script>
+
 # Phore Microservice Framework for PHP 7.2
 
 Why another framework? Popular PHP Frameworks are monoliths. You need months to
