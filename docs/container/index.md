@@ -5,6 +5,25 @@ description: Intermediate containers help speeding up build and deployment times
 og_description: A platform for microservices. Develop in your favorite language, platform, framework. Python, Node.Js, PHP, Jekyll on PC, Mac, Windows or ARM. We have intermediate containers ready to start right now.
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Infracamp.org",
+    "item": "https://infracamp.org/"
+  },
+  {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Docker container",
+      "item": "https://infracamp.org/container/"
+    }]
+}
+</script>
+
 # kickstart flavored containers <small>public available on hub.docker.com</small>
 
 <div class="row">

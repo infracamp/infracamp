@@ -14,6 +14,19 @@ og_description: Infracamp - We think microservice-containers are the future of I
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Infracamp.org",
+    "item": "https://infracamp.org/"
+  }]
+}
+</script>
+
 <div class="jumbotron">
   <h1 class="display-4">infracamp.org  <small> - open source expert network</small></h1>
   <p class="lead">We are a non profit open source community. We provide free-to-use cloud infrastructure
