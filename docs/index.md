@@ -23,7 +23,12 @@ og_description: Infracamp - We think microservice-containers are the future of I
     "position": 1,
     "name": "Infracamp.org",
     "item": "https://infracamp.org/"
-  }]
+  },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Home",
+        "item": "https://infracamp.org/"
+      }]
 }
 </script>
 
