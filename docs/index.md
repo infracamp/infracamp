@@ -5,6 +5,15 @@ description: Infracamp is an open source community to provide platform services 
 og_description: Infracamp - We think microservice-containers are the future of IoT and BigData development. Developers cooperate to deliver first class experience. Let us share our know-how across company boundaries and do even better together. 
 ---
 
+<script type="application/ld+json" id="json-ld-data">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://infracamp.org",
+  "logo": "https://infracamp.org/assets/infracamp.png"
+}
+</script>
+
 <div class="jumbotron">
   <h1 class="display-4">infracamp.org  <small> - open source expert network</small></h1>
   <p class="lead">We are a non profit open source community. We provide free-to-use cloud infrastructure
