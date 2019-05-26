@@ -61,12 +61,12 @@ og_description: Infracamp - We think microservice-containers are the future of I
   }
 </script>
 
-<div class="jumbotron">
-  <h1 class="display-4">infracamp.org  <small> - open source expert network</small></h1>
-  <p class="lead">We are a non profit open source community. We provide free-to-use cloud infrastructure
-  services, best practice containers and cloud infrastructure. For everybody. For free.</p>
-  <hr class="my-4">
-  <p>Learn cloud, build your own infrastructure, gain know how.</p>
+<div class="jumbotron pt-4 pb-4">
+  <h1 class="display-4 mt-2">infracamp.org  <small> - depositary society for open-source projects</small></h1>
+  <p class="lead">
+    Infracamp is a non-profit organization coordinating and maintaining open-source projects developed by enterprises.
+  </p>
+  <a href="/mission" class="btn btn-primary">Read more about us</a>
   <!-- a class="btn btn-primary btn-lg" href="/mission" role="button">Learn more</a-->
 </div>
 
