@@ -63,14 +63,14 @@ og_description: Infracamp - We think microservice-containers are the future of I
 
 <div class="jumbotron pt-4 pb-4">
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-10">
            <h1 class="display-4 mt-2">infracamp.org  <small> - depositary society for open-source projects</small></h1>
            <p class="lead">
              Infracamp is a non-profit organization coordinating and maintaining open-source projects developed by enterprises.
            </p>
-           <a href="/mission" class="btn btn-primary">Read more about us</a>
+           <a href="/mission" class="btn btn-primary">Read more...</a>
         </div>
-        <div class="col-md-2">
+        <div class="col-2">
             <img src="/assets/infracamp.svg" width="200" class="rounded-circle shadow-sm">
         </div>
     </div>

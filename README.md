@@ -9,3 +9,10 @@ Update submodules by running `kick update`.
 ## Images
 
 https://www.pexels.com/search/code/
+
+
+## Infracamp logo
+
+Free for non-commerical use from:
+
+http://www.iconarchive.com/show/flat-icons-by-flat-icons.com/Tent-icon.html
