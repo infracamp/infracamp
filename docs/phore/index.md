@@ -30,10 +30,15 @@ og_description: Phore libraries are optimized for development performance, a ste
 # Phore Microservice Framework for PHP 7.2
 
 Why another framework? Popular PHP Frameworks are monoliths. You need months to
-fully understand what happens behind the scenes.
+fully understand what happens behind the scenes. And they are build for thousdands of
+application-types, mostly for CMS and E-Commerce purpose. Although you only need a very
+small amount of functionality, you have to deal with all of it when it comes to security or debugging.
 
 We try to build loosely coupled packages that do no more than they should do.
 And should be easily and secure to handle by professionals and beginners.
+
+Most parts are written for large scale stateless clustered microservices demanded by
+big-data, infrastructural, IoT environments.
 
 See the [core concepts page](concepts) for more information.
 
