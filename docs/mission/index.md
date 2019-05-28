@@ -1,18 +1,29 @@
-# Mission
+# Mission <small>Improving development performance by know how transfer</small>
 
-[work in progress]
+Software-quality largely depends on programming skills and the underlaying infrastructure (frameworks).
+Infracamp hosts open-source frameworks and infrastructure services to improve development of excellent software.
 
-## Why should enterprises develop open-source software
 
-- Open-source prevent your developers from reinventing the wheel.
+[document work in progress]
 
-- Your personnel can use and engage in your projects in their spare time and after
-  leaving your company.
+## Why should enterprises engage in open-source framework development
+
+- Open-source prevent developers from reinventing the wheel.
   
 - It's better even for competing companies to have their developers work together.
+
+- Published Open-Source software is cleaner and better documented. Many dangerous quick-n-dirty solutions found
+  in private repositories can't be done in open-source environments at all. Secure open-source
+  measures will most probably have positive backlash to internal projects.
   
+- Effords in writing community grade documentation will improve internal documentation as well.
+
+- Lots of developers program as a hobby, too. Why not let them have and eventually improve the same infrastructure.
+
+- Developers might not want to stay their whole life in one company. Open-Source can help
+  to stay in touch and benefit from new experiences in exotic projects.
   
-## Why enterprises can't do open-source software on their own
+## Why enterprises can't do open-source frameworks on their own
 
 - It's not only about the license. You'll need development resources (github, giblab), build- and
   testing resources, marketing. Maintainers must be found to coordinate development, approval of
@@ -22,7 +33,7 @@
   In particular because it might be withdrawed with a single management decision if its owned
   and financed by a company.
   
-- No developer will publish great work if he/she won't take credit for it.
+- Developers won't attempt to publish great work if they don't take credit for it.
 
 
 
