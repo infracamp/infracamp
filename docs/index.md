@@ -86,7 +86,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
             <h5 class="card-title">automate everything</h5>
             <h6 class="card-subtitle mb-2 text-muted">continuous integration</h6>
             <p class="card-text">
-                 Zero configuration. Safe time. Deliver fast. Best pactice develop on linux, windows and MacOS.
+                 Zero configuration. Save time. Deliver fast. Best pactice develop on linux, windows and MacOS.
                  Its open-source and free.
             </p>
             <a href="/webservices/" class="card-link">See web services</a>
