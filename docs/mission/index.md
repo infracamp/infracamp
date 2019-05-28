@@ -43,7 +43,7 @@ can be done, it will be done faster and better by your competitors. The competit
 really have is the skillset of their personnel. These skills must be kept up to date.
 
 To keep developer skills up to date developers need feedback and discussion with other developers.
-Open-Source is a concept to motivate developers improving their skills and writing software
+Participating in Open-Source is the best way for developers to improve skills and write software
 that need not to hide from the community.
 
 **Why does an enterprise need a third-party organisation to maintain open-source projects?**
