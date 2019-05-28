@@ -1,7 +1,13 @@
 # Mission <small>Improving development performance by know how transfer</small>
 
-Software-quality largely depends on programming skills and the underlaying infrastructure (frameworks).
-Infracamp hosts open-source frameworks and infrastructure services to improve development of excellent software.
+Software-quality largely depends on programming skills combined with the underlaying infrastructure.
+This infrastructure is often mission-critical and should be safeguarded from single individual actions,
+bad judgement or commercial/political interest. 
+
+<div class="alert alert-info">
+Infracamp supports development of open-source frameworks and keeps them publicly available;
+unaffected by political interests of single companies or individuals.
+</div>
 
 
 [document work in progress]
