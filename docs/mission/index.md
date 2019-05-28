@@ -12,17 +12,19 @@
 - It's better even for competing companies to have their developers work together.
   
   
-## Why enterprises can't to open-source software on their own
+## Why enterprises can't do open-source software on their own
 
-- It's not only about the license. You'll need development resources (github, giblab), build and
-  testing resources, marketing, etc. These need owners to coordinate develompent, approval of
-  pull-requests and have full resource access.
+- It's not only about the license. You'll need development resources (github, giblab), build- and
+  testing resources, marketing. Maintainers must be found to coordinate development, approval of
+  pull-requests and for full resource access.
   
-- Competing enterprises won't allow development on projects their competitor established as long
-  as the copetitior gains all credits from it and has can withdraw the project with a single management
-  decision. 
+- Enterprises won't allow development on projects their competitors gain all credits for.
+  In particular because it might be withdrawed with a single management decision if its owned
+  and financed by a company.
   
 - No developer will publish great work if he/she won't take credit for it.
+
+
 
 ## What infracamp provides
 
@@ -34,14 +36,24 @@
 
 ## FAQ
 
+**Software is no competitive edge - skills are.**
+
+The difficulty in software is to master a task the first time. After you showed the world that it 
+can be done, it will be done faster and better by your competitors. The competitive advantage enterprises
+really have is the skillset of their personnel. These skills must be kept up to date.
+
+To keep developer skills up to date developers need feedback and discussion with other developers.
+Open-Source is a concept to motivate developers improving their skills and writing software
+that need not to hide from the community.
+
 **Why does an enterprise need a third-party organisation to maintain open-source projects?**
 
-The question is the reason you want to develop open-source software. If you want to benefit
-from other developers and enterprises to join your development approach, no enterprise can be
-owner of the project.
+Excellent software is developed by ambitious individuals, not by enterprises. Ambitious developers 
+invest brain and hard work into software, so they should take personal credit for their work in the
+developer community.
 
-Somebody must be owner of the repository, server resources etc. No community will build up
-around a project that might be just dropped by the owner.
+Enterprises exist to sell products. They can't take care for community concerns, discuss rules
+for cooperation and they won't promote products they can't sell.
 
 
 
