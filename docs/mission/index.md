@@ -38,7 +38,7 @@
 
 **Software is no competitive edge - skills are.**
 
-The difficulty in software is to master a task the first release. After you showed the world that it 
+The difficulty in software is to master a task the first time. After you showed the world that it 
 can be done, it will be done faster and better by your competitors. The competitive advantage enterprises
 really have is the skillset of their personnel. These skills must be kept up to date.
 
