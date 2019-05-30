@@ -3,15 +3,38 @@ layout: default
 title: Test e-Mail with free api
 ---
 
+# Inbound Mail Testservice :: IMT <small>test mail services</small>
+
+<div class="alert alert-success">
+This is a <b>free</b> service. <b>No registration is required </b>to use this service. <i>Service limits: 
+10 Requests per Minute. Mail size limit: 200kb</i>
+</div>
+
+<div class="alert alert-info">
+This service is open-source. Help improving this service. The source code is available on github.
+</div>
+
+Register a tempoary e-Mail address (e.g. `imt-28Xz5B3A@imt.ws.infracamp.org`) by calling `https://imt.ws.infracamp.org/v1/register`.
+Send a mail over your mailserver. Wait a few seconds for the message to arrive. Download the message by calling `https://imt.ws.infracamp.org/v1/load/<email>`.
+
+
 ## TL;DR;
 
-When to use this service:
-- Unittest outbound E-Mail (Online-Shops, etc)
-- Test outbound Mail servers
+A simple test-script for your outgoint mailservers look like:
 
-Short function:
-- You request a tempoary E-Mail Address (valid for 10 Minutes)
-- You can request all incoming mails easily using our HTTP REST API
+
+```bash
+#!/bin/bash
+
+mail_to=$(curl "https://imt.ws.infracamp.org/v1/aquire")
+
+sendmail -t $mail_to -s "testmail" -m "Message body"
+
+sleep 10
+
+mail=$(curl "https://imt.ws.infracamp.org/v1/get/$mail_to") || echo "Error: No Mail received!"
+
+```
 
 ## API
 
@@ -22,7 +45,7 @@ Register a temporary E-Mail Address (valid for 10 Minutes)
 
 **Request:**
 ```
-GET http://mailtest.infacamp.org/createTestAddress
+GET http://mailtest.infacamp.org/aquire
 ```
 
 Response:
@@ -51,6 +74,10 @@ GET: http://mailtest.infracamp.org/test-X73kk20jhBb@mailtest.infracamp.org
 ```
 
 
+## Related services
+
+- **[Inbound Mail Http Relay (IMHR)]()** - Send incoming emails to a http(s) webservice.
+- **[Timeout Notifier (TN)]()** - Send a message when a url was not called for a defined period of time. (System check)
 
 
 ## Contribute
