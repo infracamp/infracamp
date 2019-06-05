@@ -1,0 +1,83 @@
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="list-group" role="tablist">
+                <a href="#list-kickstart" class="list-group-item list-group-item-action active" data-toggle="list" role="tab">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1"><kbd>./kickstart.sh</kbd></h5>
+                    </div>
+                    <p class="mb-1">
+                        Bash script starting docker container defined in .kick.yml
+                    </p>
+                    <small>development, deploy</small>
+                </a>
+                <a href="#list-kickyml" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1"><kbd>.kick.yml</kbd></h5>
+                    </div>
+                    <p class="mb-1">
+                        The project build / run configuration. Controls running container.
+                    </p>
+                    <small class="text-muted">development, deploy, production</small>
+                </a>
+                <a href="#list-kickstartconfig" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1"><kbd>.kickstartconfig</kbd></h5>
+                    </div>
+                    <p class="mb-1">
+                        Optional configuration for docker run and container startup.
+                    </p>
+                    <small class="text-muted">development only</small>
+                </a>
+                <a href="#list-optional" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Optional files</h5>
+                    </div>
+                    <ul class="mb-1">
+                        <li>Manging secrets</li>
+                        <li>Build caching</li>
+                        <li>Starting background services</li>
+                    </ul>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-body">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-kickstart" role="tabpanel" aria-labelledby="list-home-list">
+                            {% capture myInclude %}
+                            {% include_relative _ref_kickstart.md %}
+                            {% endcapture %}
+                            {{ myInclude | markdownify }}
+                        </div>
+                        <div class="tab-pane fade" id="list-kickyml" role="tabpanel" aria-labelledby="list-profile-list">
+                            {% capture myInclude %}
+                            {% include_relative _ref_kickyml.md %}
+                            {% endcapture %}
+                            {{ myInclude | markdownify }}
+                        </div>
+                        <div class="tab-pane fade" id="list-kickstartconfig" role="tabpanel" aria-labelledby="list-messages-list">
+                            {% capture myInclude %}
+                            {% include_relative _ref_kickstartconfig.md %}
+                            {% endcapture %}
+                            {{ myInclude | markdownify }}
+                        </div>
+                        <div class="tab-pane fade" id="list-optional" role="tabpanel" aria-labelledby="list-messages-list">
+                            {% capture myInclude %}
+                            {% include_relative _ref_optional.md %}
+                            {% endcapture %}
+                            {{ myInclude | markdownify }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
