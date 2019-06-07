@@ -25,7 +25,7 @@ Open `http://localhost:4300` in your browser.
 
 What happend?
 
-- <kbd>kickstart.sh</kbd> evaluated the containers configuration file <kbd>.kick.yml</kbd>
+- <kbd>kickstart.sh</kbd> evaluated the container configuration file <kbd>.kick.yml</kbd>
   and runs the container `infracamp/kickstart-flavor-gaia` specified in the `from` section.
   The container is running in **development-mode**: debugger, and other developer stuff is enabled.
   
