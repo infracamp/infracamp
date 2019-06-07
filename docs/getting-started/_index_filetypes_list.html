@@ -3,18 +3,27 @@
 
         <div class="col-md-3">
             <div class="list-group" role="tablist">
-                <a href="#list-kickstart" class="list-group-item list-group-item-action active" data-toggle="list" role="tab">
+                <a href="#list-setup" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1"><kbd>./kickstart.sh</kbd></h5>
+                        <h5 class="mb-1">Workstation setup</h5>
                     </div>
                     <p class="mb-1">
-                        Bash script starting docker container defined in .kick.yml
+                        Install required software.
                     </p>
-                    <small>development, deploy</small>
+                    <small class="text-muted">Linux, MacOS, Windows,...</small>
                 </a>
-                <a href="#list-kickyml" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
+                <a href="#list-kickstart" class="list-group-item list-group-item-action active" data-toggle="list" role="tab">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1"><kbd>.kick.yml</kbd></h5>
+                        <h5 class="mb-1">Develop</h5>
+                    </div>
+                    <p class="mb-1">
+                        Container for development. Tools & best practise.
+                    </p>
+                    <small><b>SDKs:</b> php,node.js,python,c/c++,..</small>
+                </a>
+                <a href="#list-testnbuild" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Test & Build</h5>
                     </div>
                     <p class="mb-1">
                         The project build / run configuration. Controls running container.
@@ -23,7 +32,7 @@
                 </a>
                 <a href="#list-kickstartconfig" class="list-group-item list-group-item-action" data-toggle="list" role="tab">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1"><kbd>.kickstartconfig</kbd></h5>
+                        <h5 class="mb-1">Deploy & Monitor</h5>
                     </div>
                     <p class="mb-1">
                         Optional configuration for docker run and container startup.
@@ -45,18 +54,24 @@
         </div>
 
         <div class="col-md-9">
-            <div class="card">
-                <div class="card-body">
+
                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="list-kickstart" role="tabpanel" aria-labelledby="list-home-list">
+                        <div class="tab-pane fade show active markdown-body" id="list-kickstart" role="tabpanel" aria-labelledby="list-home-list">
                             {% capture myInclude %}
-                            {% include_relative _ref_kickstart.md %}
+                            {% include_relative _ref_develop.md %}
                             {% endcapture %}
                             {{ myInclude | markdownify }}
                         </div>
-                        <div class="tab-pane fade" id="list-kickyml" role="tabpanel" aria-labelledby="list-profile-list">
+                        <div class="tab-pane fade show active markdown-body" id="list-setup" role="tabpanel" aria-labelledby="list-home-list">
                             {% capture myInclude %}
-                            {% include_relative _ref_kickyml.md %}
+                            {% include_relative _ref_setup.md %}
+                            {% endcapture %}
+                            {{ myInclude | markdownify }}
+                        </div>
+
+                        <div class="tab-pane fade" id="list-testnbuild" role="tabpanel" aria-labelledby="list-profile-list">
+                            {% capture myInclude %}
+                            {% include_relative _ref_testnbuild.md %}
                             {% endcapture %}
                             {{ myInclude | markdownify }}
                         </div>
@@ -74,8 +89,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+
 
     </div>
 

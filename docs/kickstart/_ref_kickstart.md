@@ -1,4 +1,0 @@
-
-# kickstart.sh
-
-afd

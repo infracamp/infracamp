@@ -6,7 +6,7 @@
 </div>
 <div markdown="1" class="col-8">
 
-##  <b>&Oslash;-conf starter</b> for agile software development
+##  <b>&Oslash;-conf sdk</b> for agile software development
 
 #### <kbd>git clone</kbd> and <kbd>./kickstart.sh</kbd>
 

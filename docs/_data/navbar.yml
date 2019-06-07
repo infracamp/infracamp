@@ -13,7 +13,7 @@ main:
       - name: "Infracamp Wiki"
         href: "/projects/infracamp.wiki"
       - name: "Kickstart"
-        href: "/kickstart"
+        href: "/projects/kickstart"
       - name: "Kickguest VirtualBox"
         href: "/projects/kickguest-virtualbox"
       - name: "Phore Microservice Framework"
