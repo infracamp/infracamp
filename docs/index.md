@@ -64,7 +64,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="jumbotron pt-4 pb-4">
     <div class="row">
         <div class="col-10">
-           <h1 class="display-4 mt-2">infracamp.org  <small> - depositary society for open-source frameworks</small></h1>
+           <h1 class="display-4 mt-2">infracamp.org  <small> - incubator for open-source frameworks</small></h1>
            <p class="lead">
              Infracamp is a non-profit organization coordinating and maintaining open-source frameworks
              developed by enterprises. We focus on <i>business automation</i>, <i>cloud computing</i>, <i>microservices</i>.
