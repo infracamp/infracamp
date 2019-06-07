@@ -1,15 +1,16 @@
 
 # Copy'n'Paste setup
 
-Setting up a new workstation is no big deal. You don't need dependent sdks, libraries and tools.
+Setting up a new workstation is easy. The only software required (docker, curl, git) is part of 
+most linux distributions.
 
-The only required software is part of featured linux distributions.
 
+## Setup your workstation <small>on Debain/Ubuntu, [klick here for Windows / MacOS](setup/)</small>
 
-## Setup your workstation <small>on Debain/Ubuntu, [see here for other platforms](setup/)</small>
+Logged in with your regular user account (not root), open a terminal and execute:
 
 <pre>
-<code data-toggle="tooltip" data-placement="left" 
+<code data-toggle="tooltip" data-placement="right" 
 title="Install required packages"
 >sudo apt-get update && sudo apt-get install -y docker.io curl git ssh</code>
 <code data-toggle="tooltip" data-placement="left" 
@@ -25,19 +26,19 @@ title="Set your email address for git commit messages"
 title="We suggest this flat directory as root for all of your projects"
 >mkdir -p $HOME/Projects</code>
 <code data-toggle="tooltip" data-placement="left" 
-title="Create a ssh key to access git repositories. Select a good password."
+title="Create a ssh key to access git repositories. Select a good password. You'll have to type it whenever you push/pull."
 >ssh-keygen -t ed25519 && cat $HOME/.ssh/id_ed25519.pub</code>
 </pre>
 
-The last command will output your *public ssh key*:
+The last command will print your *public ssh key*:
 
 ```
 ssh-ed25519 AAA..............some..more..chars...........J3jAPTge jondoe@example
 ```
 
-Add this key to your favorite development platform:
+Copy-n-paste the whole line and add it to your favorite development platform:
 - [github.com](https://github.com): <kbd>Personal settings</kbd> > <kbd>SSH and GPG Keys</kbd> > <kbd>New SSH key</kbd>
 - [gitlab.com](https://gitlab.com): <kbd>User Settings</kbd> > <kbd>SSH Keys</kbd>
 
-Finally install your favorite IDE. And that's it.
+Finally install your favorite IDE. *Logout and login again* <small>(to have changed user permissions applied)</small>. That's it.
 

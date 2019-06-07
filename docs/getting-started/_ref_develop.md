@@ -9,7 +9,7 @@ No more buggy project setup documentation. <kbd>git clone</kbd> the project and 
 Everything else is done 
 
 
-## Clone and start your first project
+## Clone and start our example project
 
 Change to your Projects-directory <kbd>cd ~/Projects</kbd> and clone infracamp's demo project: 
 <kbd>git clone https://github.com/infracamp/kickstart-demo.git</kbd>. Change to the demo project directory
@@ -36,3 +36,6 @@ What happend?
   commands to install required stuff and setup the container. 
   
 - To exit the container just type <kbd>exit</kbd>.
+
+## Start your own project
+

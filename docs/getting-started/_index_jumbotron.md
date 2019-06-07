@@ -18,7 +18,7 @@
 
 ##### - Supports **Linux**, **MacOS** and **Windows** <small>*(Linux shell)*</small>
 
-##### - Featured platform support: **docker**, **github**, **gitlab**, **dockerhub**, ...
+##### - IoT ready cross-platform builds for x86, arm32v7, arm64v8
 
 
 </div>
