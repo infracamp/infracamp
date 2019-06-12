@@ -16,3 +16,8 @@ https://www.pexels.com/search/code/
 Free for non-commerical use from:
 
 http://www.iconarchive.com/show/flat-icons-by-flat-icons.com/Tent-icon.html
+
+
+## SEO Guidlines
+
+- Seo tool: [seobility.net](https://seobility.net)
