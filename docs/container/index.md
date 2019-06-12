@@ -34,18 +34,12 @@ download images specified in `from:`-sections of Dockerfiles only once. It is co
 services using 'intermediate-containers'. Kickstart flavors are publicly maintained *intermediates on steroids* for various
 platforms, languages and frameworks.
 
-See [getting-started guide](/getting-started) on how to start your projects using these base-containers.
+See the [getting-started guide](/getting-started) on how to start your projects using these base-containers.
 
 </div>
 <div class="col-5" style="text-align: center" markdown="1">
 
-**One platform for all languages and architectures**
-
-**Colaborate: Shorten training period**
-
-**Speed up build and deployment**
-
-**Is something missing? Fork, modify, run.**
+<img src="logo-docker.png" alt="docker" style="height:200px">
 
 </div>
 </div>
