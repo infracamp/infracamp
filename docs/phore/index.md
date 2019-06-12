@@ -40,7 +40,7 @@ And should be easily and secure to handle by professionals and beginners.
 Most parts are written for large scale stateless clustered microservices demanded by
 big-data, infrastructural, IoT environments.
 
-See the [core concepts page](concepts) for more information.
+See the [core concepts page](concepts/) for more information.
 
 ## General Usage / Installation
 
