@@ -1,6 +1,8 @@
 ---
 # this ensures Jekyll reads the file to be transformed into CSS later
 # only Main files contain this front matter, not partials.
+
+# Partials are loaded from _scss directory
 ---
 
 @import "bootstrap-4.3.1";
