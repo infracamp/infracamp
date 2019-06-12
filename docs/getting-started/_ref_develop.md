@@ -19,7 +19,7 @@ After the container was downloaded and startet, you'll see the bash prompt insid
 can use `git`, `ssh`, `bash history` like you do in your local shell. The project-directory is mounted
 to `/opt` inside the container:
 
-![](terminal-kickstart-demo.png)
+![kickstart.sh starting in terminal](terminal-kickstart-demo.png)
 
 Open `http://localhost:4300` in your browser. 
 

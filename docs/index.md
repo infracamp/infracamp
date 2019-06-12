@@ -69,8 +69,8 @@ og_description: Infracamp - We think microservice-containers are the future of I
              Infracamp is a non-profit organization coordinating and maintaining open-source frameworks
              developed by enterprises. We focus on <i>business automation</i>, <i>cloud computing</i>, <i>microservices</i>.
            </p>
-           <a href="/mission" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
-            <a href="/getting-started" class="btn btn-danger">See it in action, now!</a>
+           <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
+            <a href="/getting-started/" class="btn btn-danger">See it in action, now!</a>
         </div>
         <div class="col-2">
             <img src="/assets/infracamp.svg" width="200" class="rounded-circle shadow-sm">
@@ -91,7 +91,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
                  Zero configuration. Save time. Deliver fast. Best pactice develop on linux, windows and MacOS.
                  Its open-source and free.
             </p>
-            <a href="/webservices/" class="card-link">See web services</a>
+         .com logo   <a href="/webservices/" class="card-link">See web services</a>
             
             <h6 class="card-subtitle mb-2 text-muted">platform agnostic tooling</h6>
             <p class="card-text">
@@ -145,7 +145,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="row">
     <div class="container">
     <h2>News</h2>
-    <p>Discussion: <a href="mission/user-stories">Product development using User Stories</a></p>
+    <p>Discussion: <a href="mission/user-stories/">Product development using User Stories</a></p>
     </div>
 </div>
 

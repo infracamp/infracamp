@@ -1,5 +1,6 @@
 ---
-title: Our Mission: Enterprise open source
+title: "Our Mission: Enterprise open source"
+description: "Open Source must be free of political interest of companies."
 ---
 
 # Mission <small>better software by sharing know-how</small>

@@ -1,13 +1,13 @@
 ---
-title: kickstart.sh - zero-conf sdk for agile software development
+title: "kickstart.sh: zero-conf sdk for agile software development"
 layout: default-fullsize
+description: "See zero-conf container development in action for php, pyhton, node.js, c++. Setup guide for github, gitlab, gitlab-ci continuous integrated microservice projects"
+og_description: "How to setup gitlab, github and docker-hub and your development environment"
 ---
-{% include_relative _index_jumbotron.md %}
+{% include_relative _index_jumbotron.html %}
 {% include_relative _index_installer.html %}
 
-{% include_relative _index_kick_container.html %}
-
-
+{% include_relative _index_platforms.html %}
 
 
 {% include_relative _index_introduction.html %}
