@@ -1,5 +1,6 @@
 ---
 title: "Our Mission: Enterprise open source"
+layout: scrollspy
 description: "Open Source must be free of political interest of companies."
 ---
 
@@ -23,7 +24,7 @@ for individuals to maintain.
 
 [document work in progress]
 
-## Why should enterprises engage in open-source framework development
+## Why enterprises engage in open-source framework development
 
 - Open-source prevent developers from reinventing the wheel.
   

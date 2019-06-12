@@ -20,10 +20,17 @@
 
 <script language="javascript">
     $("h2").each(function (elem) {
-        var key = new String($(this).text());
-        key = key.replace(/ /g, "");
+        var title = $(this).attr("title");
+        if (typeof title ==  "undefined")
+            title = $("small", this).text();
+        if (title == "")
+            title = $(this).text();
+
+        var key = new String(title);
+        key = key.replace(/[ \/]/g, "");
         $(this).prev().append("<a id='" + key +"'></a>");
-        $("#scroll-spy").append('<a class="list-group-item list-group-item-action" href="#' + key + '">' + $(this).text() + "</a>");
+
+        $("#scroll-spy").append('<a class="list-group-item list-group-item-action" href="#' + key + '">' + title + "</a>");
     })
     $('body').scrollspy({ target: '#scroll-spy' })
 </script>

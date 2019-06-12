@@ -1,5 +1,5 @@
 ---
-title: Phore Microservice Framework - Overview
+title: "Phore Framework: Package Overview"
 layout: scrollspy
 
 description: Phore is a loosely coupled modular framework for PHP7.2+ cloud-based microservice applications. Librarys have few dependencies and can installed using composer.
@@ -27,7 +27,7 @@ og_description: Phore libraries are optimized for development performance, a ste
 
 
 
-# Phore Microservice Framework for PHP 7.2
+# Phore Framework: Package Overview
 
 Why another framework? Popular PHP Frameworks are monoliths. You need months to
 fully understand what happens behind the scenes. And they are build for thousdands of
@@ -42,16 +42,16 @@ big-data, infrastructural, IoT environments.
 
 See the [core concepts page](concepts) for more information.
 
-## General Usage
+## General Usage / Installation
 
 All packages are build to be installed using [composer](http://getcomposer.org) and
-work inside Docker/-Containers.
+work inside Docker-Containers.
 
 ```bash
-composer require phore/phore-core
+composer require phore/core
 ```
 
-## HTTP Client <small>phore/http-client</small>
+## Send http requests the microservice way <small>phore/http-client</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-http-client)
 
@@ -93,7 +93,7 @@ Other features:
 
 
 
-## Sending Mails <small>phore/mail</small>
+## Sending mail with templates <small>phore/mail</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-mail)
 
@@ -112,7 +112,7 @@ $mailer->send();
 - [Sending multipath / html mail](https://github.com/phore/phore-mail/blob/master/docs/simple-demo.php)
 
 
-## HTML Elements <small>phore/html</small>
+## Fluent HTML templating <small>phore/html</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-html)
 
@@ -153,7 +153,7 @@ $p["div"] = [
 - Altering documents
 
 
-## Execute external programs <small>phore/system</small>
+## Execute system commands <small>phore/system</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-html)
 
@@ -182,7 +182,7 @@ try {
 - Executing parallel commands
 
 
-## Manage git/svn - repositories <small>phore/vcs</small>
+## Manage git repositories <small>phore/vcs</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-vcs)
 
@@ -198,7 +198,7 @@ $repository->commit("my commit message here");
 $repository->push();
 ```
 
-## Micro-App Framework <small>phore/micro-app</small>
+## Microservice application <small>phore/micro-app</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-micro-app)
 
@@ -215,7 +215,7 @@ $repository->push();
 - Events
 
 
-## Core library <small>phore/core</small>
+## Core functions <small>phore/core</small>
 
 [![Project page](https://img.shields.io/badge/info-readme-blue.svg)](https://github.com/phore/phore-core)
 
