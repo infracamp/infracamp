@@ -18,7 +18,9 @@ defaults:
       layout: "default"
       title: developer camp
 
-
+sass:
+  style: compressed
+  sass_dir: assets/css
 
 plugins:
 - jekyll-optional-front-matter
