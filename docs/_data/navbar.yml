@@ -11,13 +11,17 @@ main:
   - name: "Projects"
     childreen:
       - name: "Infracamp Wiki"
-        href: "/projects/infracamp.wiki"
+        href: "/projects/infracamp.wiki/"
+
       - name: "Kickstart"
-        href: "/projects/kickstart"
+        href: "/projects/kickstart/"
+
       - name: "Kickguest VirtualBox"
-        href: "/projects/kickguest-virtualbox"
+        href: "/projects/kickguest-virtualbox/"
+
       - name: "Phore Microservice Framework"
-        href: "/phore"
+        href: "/phore/"
+
   - name: "Container"
     href: "/container/"
 
