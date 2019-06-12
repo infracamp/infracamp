@@ -23,7 +23,7 @@ to `/opt` inside the container:
 
 Open `http://localhost:4300` in your browser. 
 
-What happend?
+What happened?
 
 - <kbd>kickstart.sh</kbd> evaluated the container configuration file <kbd>.kick.yml</kbd>
   and runs the container `infracamp/kickstart-flavor-gaia` specified in the `from` section.

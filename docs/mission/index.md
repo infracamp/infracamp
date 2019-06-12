@@ -1,3 +1,7 @@
+---
+title: Our Mission: Enterprise open source
+---
+
 # Mission <small>better software by sharing know-how</small>
 
 Software-quality largely depends on programming skills combined with the underlaying infrastructure/frameworks.
@@ -28,7 +32,7 @@ for individuals to maintain.
   in private repositories can't be done in open-source environments at all. Secure open-source
   measures will most probably have positive backlash to internal projects.
   
-- Effords in writing community grade documentation will improve internal documentation as well.
+- Efforts in writing community grade documentation will improve internal documentation as well.
 
 - Lots of developers program as a hobby, too. Why not let them have and eventually improve the same infrastructure.
 

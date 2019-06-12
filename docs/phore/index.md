@@ -1,5 +1,5 @@
 ---
-title: Phore Microservice Framework for PHP >7.2
+title: Phore Microservice Framework - Overview
 layout: scrollspy
 
 description: Phore is a loosely coupled modular framework for PHP7.2+ cloud-based microservice applications. Librarys have few dependencies and can installed using composer.

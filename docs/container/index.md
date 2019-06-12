@@ -30,7 +30,7 @@ og_description: A platform for microservices. Develop in your favorite language,
 <div class="col-7" markdown="1">
 
 Speed up builds and deployments with intermediate-containers. Dockers overlay-fs will
-download images specified in `from:`-sections of Dockerfiles only once. It is common practice to install software used accross multiple
+download images specified in `from:`-sections of Dockerfiles only once. It is common practice to install software used across multiple
 services using 'intermediate-containers'. Kickstart flavors are publicly maintained *intermediates on steroids* for various
 platforms, languages and frameworks.
 

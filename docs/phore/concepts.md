@@ -1,5 +1,5 @@
 ---
-title: Phore Microservice Framework - core concepts and design features
+title: Phore Framework - core concepts and design features
 layout: scrollspy
 ---
 
