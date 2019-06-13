@@ -10,9 +10,6 @@ main:
     href: "/getting-started/"
   - name: "Projects"
     childreen:
-      - name: "Infracamp Wiki"
-        href: "/projects/infracamp.wiki/"
-
       - name: "Kickstart"
         href: "/projects/kickstart/"
 
