@@ -5,7 +5,9 @@ from: "infracamp/kickstart-flavor-jekyll:testing"
 
 command:
   build:
-  - "jekyll build -s /opt/docs -d /var/www/html"
+    - "sudo chmod 777 /var/www/html"
+    - "git submodule update --init --remote"
+    - "jekyll build -s /opt/docs -d /var/www/html"
 
   update:
 
