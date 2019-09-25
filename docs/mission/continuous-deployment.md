@@ -35,11 +35,18 @@ overall system availability.
 
 - Red flag service: Central service with direct impact on security (dealing with
   user credentials, access to sensitive data, etc.)
+  - Minimal codebase
+  - Protected master branch (pull request)
+  - extended static metrics, code coverage
+  - manual testing checklist
   
 - Yellow flag service: Central service with direct impact on availability of the
   whole service.
   
 - Blue flag service: Robust against outage of other Blue flag services. 
+
+To mitigate considerations for red and yellow flag services, we want to use
+collaboration tooling like git.
 
 
 ## Deploy multiple times per day
@@ -61,4 +68,6 @@ Security considerations:
 - [Martin Fowler - Continuous Delivery](https://www.youtube.com/watch?v=aoMfbgF2D_4)
 
 - [10 companies killing devops](https://techbeacon.com/devops/10-companies-killing-it-devops)
+
+- [How to get to Continuous Deployment](https://de.atlassian.com/continuous-delivery/continuous-deployment)
 
