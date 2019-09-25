@@ -4,6 +4,8 @@ Massive Scale SCRUM
 
 ## Ziele
 
+- Paralleles Arbeiten
+- Skalierbarkeit
 - Wissentransfer
 - Abwechslung
 - Kontinuierliches Refactoring
