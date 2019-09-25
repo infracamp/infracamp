@@ -2,7 +2,6 @@
 
 Massive Scale SCRUM
 
-
 ## Ziele
 
 - Wissentransfer
@@ -12,8 +11,6 @@ Massive Scale SCRUM
 - Gemeinsames unterstützen und an einem Strang ziehen
 - Objektive Bewertung der Velocity
 
-
-
 ## Methode
 
 Es existieren keine Teams und keine Abteilungen mehr. Die gesamte
@@ -22,9 +19,11 @@ Firma (30 Personen) trifft sich zur Sprintplanung.
 Teams finden sich dynamisch für einen Sprint zusammen und bearbeiten 
 diese in Teams mit mindestens zwei Personen.
 
-Gedränge: In der Sprint Planung müssen sich Teams finden und die User-Stories
-akzeptieren. User-Story Bazar - Teams handeln und tauschen User Stories, die 
-für sie am besten passen.
+Gedränge: In der Sprint Planung bewerben sich mögliche Teams auf die User-Stories. 
+User-Story Bazar - Teams handeln und tauschen User Stories, die für sie am besten passen.
+POs entscheiden, wer den Zuschlag bekommt.
+
+[Wie verfahren wir mit Leuten, die sich hier nicht einbringen können?]
 
 ## Kanban board
 
@@ -62,6 +61,9 @@ Ein DevOps Team besteht aus:
 
 und wird betreut durch mindestens einen Architect / Senior.
 
+Die Teams sollen routieren. D.h. in zwei aufeinanderfolgenden Sprints ist keiner der
+davor festgelegten Team-Mitglieder mehr an Board.
+
 Jedes Team führt ein eigenes Scrum-Board mit Tasks. Die Tasks sollten soll spezifiziert sein,
 dass bei Ausfall eines Team-Mitglieds, die anderen seine Aufgabe zumindest vorübergehend 
 übernehmen können. Die Teams übernehmen 
@@ -82,6 +84,9 @@ Entwickler ist jeder, der im Team ist.
 Der Architect/Senior ist, je bei Bedarf, bei Vorbereitung, Planung und bei Rückfragen des Teams präsent. Seine
 Aufgabe ist es, die technische Sicht auf die Story zu vertreten und das Team bei der
 Dürchführung zu unterstützen. Seine Aufgabe ist Fragen zu stellen. 
+
+Der Architect beteut Services mittelfristig. Er sorgt für die Konsistenz der Entwicklung und
+spricht sich mit anderen Architects hinsichtlich Weiterentwicklung ab.
 
 Durch Pair-Programming vermittelt er seine Erfahrung an das Team und sammelt Verbesserungen
 für das Framework ein und vermittelt gleichzeitig sein Know How an die nächste Generation.
