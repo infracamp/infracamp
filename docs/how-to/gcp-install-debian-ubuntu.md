@@ -157,9 +157,11 @@ docker stack deploy rudl -c rudl-startup.yml
 
 ## Conclusion
 
-It's really easy to autodeploy docker swarm clusters to google cloud platform.
+It's really easy to autodeploy docker swarm cluster to google cloud platform.
 
 Instead of updating nodes, you can spin up a new cluster. Deploy the services and
 switch over DNS names without the risk of downtime due to updates.
 
+## About
 
+Author: [Matthias Leuffen](https://leuffen.de) 2019/10
