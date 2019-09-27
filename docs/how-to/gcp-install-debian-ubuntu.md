@@ -9,7 +9,7 @@ How to use `docker-machine` to provision and configure docker swarm cluster on g
 article is aimed to people who want to set up and understand their own deployments.
 
 Prerequisites:
-- Linux or Windows [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- Linux, MacOS, Windows [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - Google Cloud Platform Account
 - Tested with Ubuntu 18.04 LTS
 
