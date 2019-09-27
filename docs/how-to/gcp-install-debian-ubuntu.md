@@ -148,10 +148,6 @@ pwgen 64 -s -1 | docker secret create rudl_cf_secret -
 echo "Adding ssh key.."
 cat secrets/rudl_principal_ssh_key | docker secret create rudl_principal_ssh_key -
 
-#echo "Creating cloudfront network..."
-#docker network create --driver overlay --attachable rudl-cf-net
-
-
 docker stack deploy rudl -c rudl-startup.yml
 ```
 
