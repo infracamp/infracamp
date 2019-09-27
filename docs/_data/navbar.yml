@@ -18,11 +18,11 @@ main:
 
       - name: "Phore Microservice Framework"
         href: "/phore/"
-
-  - name: "Container"
-    href: "/container/"
   - name: "How-To"
     href: "/how-to/"
+  - name: "Container"
+    href: "/container/"
+
 
 
 
