@@ -21,6 +21,9 @@ main:
 
   - name: "Container"
     href: "/container/"
+  - name: "How-To"
+    href: "/how-to/"
+
 
 
 right:

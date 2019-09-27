@@ -145,6 +145,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="row">
     <div class="container">
     <h2>News</h2>
+    <p><a href="perfect-setup/gcp-install-debian-ubuntu/">Install gcloud and docker-machine on debian/ubuntu</a></p>
     <p>Discussion: <a href="mission/user-stories/">Product development using User Stories</a></p>
     </div>
 </div>
