@@ -5,16 +5,18 @@ layout: scrollspy
 
 # Install gcloud and docker-machine on debian / ubuntu
 
-How to use `docker-machine` to provision and configure docker swarm cluster on google cloud platform.
+How to use `docker-machine` to provision and configure docker swarm cluster on google cloud platform. This
+article is aimed to people who want to set up and understand their own deployments.
 
 Prerequisites:
-- Linux or Windows WSL (Linux Bash)
+- Linux or Windows [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - Google Cloud Platform Account
+- Tested with Ubuntu 18.04 LTS
 
 > Infracamp provides the the docker image `infracamp/kickstart-flavor-sdi` with everyting
 > installed to log in to gcloud, spin up machines with docker-machine.
 >
-> If you want do do it your own, follow this document.
+> If you want to learn how to deploy a rudl cluster, see documentation here.
 
 ## Manual install gcloud and docker-machine
 
