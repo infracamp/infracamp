@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: See env
-      run: echo muh >> test.txt
+      run: echo
     - name: See env
       run: git add .
     - name: See env
@@ -21,4 +21,4 @@ jobs:
     - name: See env
       run: git commit -m "autoload"
     - name: See env
-      run: git push
+      run: git push origin HEAD:master
