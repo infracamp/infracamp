@@ -10,5 +10,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: See env
-      run: env
+      run:
+        - env
+        - git add .
+        - git commit -m "autoload"
+        - git push
  
