@@ -3,7 +3,7 @@ set -e -x
 
 mkdir -p ~/.ssh
 echo $SSH_PRIV_KEY > ~/.ssh/id_rsa
-
+chmod 700 ~/.ssh/id_rsa
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
