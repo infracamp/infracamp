@@ -1,32 +1,15 @@
 #!/bin/sh
 set -e
 
-INPUT_BRANCH=${INPUT_BRANCH:-master}
-INPUT_FORCE=${INPUT_FORCE:-false}
-INPUT_DIRECTORY=${INPUT_DIRECTORY:-'.'}
-_FORCE_OPTION=''
+mkdir -p ~/.ssh
+echo $SSH_PRIV_KEY > ~/.ssh/id_rsa
 
-echo "Push to branch $INPUT_BRANCH";
-[ -z "${INPUT_GITHUB_TOKEN}" ] && {
-    echo 'Missing input "github_token: ${{ secrets.GITHUB_TOKEN }}".';
-    exit 1;
-};
-
-if ${INPUT_FORCE}; then
-    _FORCE_OPTION='--force'
-fi
-
-cd ${INPUT_DIRECTORY}
-
-echo "wurst" > wurst.txt
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git clone git@github.com:infracamp/infracamp.git
+cd infracamp
+echo "wurst" > wurst.txt
 git add .
 git commit -m "autobuild"
-
-# Ensure that the remote of the git repository of the current directory still is the repository where the github action is executed
-git remote add origin https://github.com/${GITHUB_REPOSITORY} || git remote set-url origin https://github.com/${GITHUB_REPOSITORY} || true
-
-header=$(echo -n "infracamp:${INPUT_GITHUB_TOKEN}" | base64)
-git -c http.extraheader="AUTHORIZATION: basic $header" push origin HEAD:${INPUT_BRANCH} --follow-tags $_FORCE_OPTION;
+git push
