@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: See env
-      run: echo
+      run: echo wurst > test.txt
     - name: See env
       run: git add .
     - name: See env
