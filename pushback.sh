@@ -1,6 +1,7 @@
 #!/bin/sh
-set -e
+set -e -x
 
+env
 mkdir -p ~/.ssh
 echo $SSH_PRIV_KEY > ~/.ssh/id_rsa
 
