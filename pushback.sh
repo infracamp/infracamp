@@ -14,7 +14,7 @@ cd infracamp
 ## changes to repository
 git submodule update --remote
 
-curl -o repos/redis.md https://raw.githubusercontent.com/infracamp/redis/master/README.md
+curl -o docs/repos/redis.md https://raw.githubusercontent.com/infracamp/redis/master/README.md
 
 
 
