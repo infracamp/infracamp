@@ -10,8 +10,12 @@ git config --global user.name "CI Builder"
 GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" git clone git@github.com:infracamp/infracamp.git
 cd infracamp
 echo "wurst2" > wurst.txt
+
+
+
+
 git add .
-git commit -m "[skipci] autobuild"
+git commit -m "[skipci] autobuild" || true
 
 if [ "$?" != "0" ]
 then
