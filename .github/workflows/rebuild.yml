@@ -10,6 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: See env
+      run: echo muh >> test.txt
+    - name: See env
       run: git add .
     - name: See env
       run: git config --global user.email "you@example.com"
