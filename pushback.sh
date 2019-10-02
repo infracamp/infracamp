@@ -7,9 +7,9 @@ echo $SSH_PRIV_KEY > ~/.ssh/id_rsa
 
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-git clone git@github.com:infracamp/infracamp.git
+GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" git clone git@github.com:infracamp/infracamp.git
 cd infracamp
 echo "wurst" > wurst.txt
 git add .
 git commit -m "autobuild"
-git push
+GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa" git push
