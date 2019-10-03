@@ -18,3 +18,9 @@
       href: /repos/kickstart-flavor-py3
     - name: <b>flavor-jekyll</b>
       href: /repos/kickstart-flavor-jekyll
+- name: How-Tos
+  childreen:
+    - name: GPC Cloud Provision
+      href: /repos/how-to/gcp-install-debian-ubuntu
+    - name: User Stories
+      href: /repos/how-to/user-stories

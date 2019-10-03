@@ -1,6 +1,5 @@
 ---
 title: Install and use gcloud and docker-machine on ubuntu 18.04
-layout: scrollspy
 ---
 
 # Install gcloud and docker-machine on debian / ubuntu
