@@ -1,0 +1,20 @@
+- name: Tools
+  childreen:
+    - name: kickstart
+      href: /repos/kickstart
+- name: Conatiners
+  childreen:
+    - name: <b>redis</b>
+      href: /repos/redis
+- name: Kickstart Flavors
+  childreen:
+    - name: <b>flavor-base</b>
+      href: /repos/kickstart-flavor-base
+    - name: <b>flavor-gaia</b> (PHP7.2+)
+      href: /repos/kickstart-flavor-gaia
+    - name: <b>flavor-erebos</b> (NodeJS)
+      href: /repos/kickstart-flavor-erebos
+    - name: <b>flavor-py3</b> (Python3)
+      href: /repos/kickstart-flavor-py3
+    - name: <b>flavor-jekyll</b>
+      href: /repos/kickstart-flavor-jekyll

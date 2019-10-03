@@ -13,6 +13,10 @@ defaults:
     values:
       layout: "wiki-default"
   - scope:
+      path: "repos"
+    values:
+      layout: "repos-default"
+  - scope:
       path: ""
     values:
       layout: "default"

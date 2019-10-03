@@ -9,17 +9,8 @@ main:
   - name: "Getting started"
     href: "/getting-started/"
   - name: "Projects"
-    childreen:
-      - name: "Kickstart"
-        href: "/projects/kickstart/"
+    href: /repos/
 
-      - name: "Kickguest VirtualBox"
-        href: "/projects/kickguest-virtualbox/"
-
-      - name: "Phore Microservice Framework"
-        href: "/phore/"
-  - name: "How-To"
-    href: "/how-to/"
   - name: "Container"
     href: "/container/"
 
