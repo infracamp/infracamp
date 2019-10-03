@@ -14,7 +14,7 @@ cd infracamp
 ## changes to repository
 git submodule update --remote
 
-./
+./sync_repos.sh
 
 git add .
 git commit -m "[skipci] autobuild" || true
