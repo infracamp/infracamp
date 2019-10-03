@@ -24,3 +24,9 @@
       href: /repos/how-to/gcp-install-debian-ubuntu
     - name: User Stories
       href: /repos/how-to/user-stories
+- name: Phore Framework
+  childreen:
+    - name: Concepts
+      href: /repos/phore/concepts
+    - name: Components
+      href: /repos/phore

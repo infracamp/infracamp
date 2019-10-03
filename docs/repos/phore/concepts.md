@@ -1,6 +1,5 @@
 ---
 title: Phore Framework - core concepts and design features
-layout: scrollspy
 ---
 
 # Core Concepts for phore framework components

@@ -1,6 +1,5 @@
 ---
 title: "Phore Framework: Package Overview"
-layout: scrollspy
 
 description: Phore is a loosely coupled modular framework for PHP7.2+ cloud-based microservice applications. Librarys have few dependencies and can installed using composer.
 og_description: Phore libraries are optimized for development performance, a steep learning-curve and security in highly scalable cluster configurations for IoT and BigData setups.
