@@ -33,9 +33,8 @@ Feature driven development is based on an **internal** (marketing/selling) persp
 developing features that fit someones needs, feature driven development concentrates on features 
 which can be presented (marketing / sales perspective) and may raise needs.
 
-Most companies have to balance between customer- and feature-driven development. On the one hands
-they need displays to get quotes. But afterwards it needs real customer satisfaction by customer
-centric features to bind and keep the relationship.
+Most companies have to balance between customer- and feature-driven development. On the one hand
+they need displays to get quotes. But afterwards it needs real customer satisfaction to bind and keep the relationship.
 
 Feature-driven features look great but (by definition) won't provide real assistance to the
 day by day work of the customer. They
@@ -113,7 +112,14 @@ Describe what you as stakeholder would expect to meet your needs.
 
 What has to be done before starting this task.
 
+## Mock Ups?
 
+Feature driven development will work well for consumers by providing kind of lifestyle. 
+And when it comes to business, feature driven development is highly effective for getting
+new quotes.
 
+But business value will only apply on customer centric development approach. 
+
+Should we do mock-ups instead of wasting time in feature-driven developments? 
 
 <small>Matthias Leuffen</small>
