@@ -5,7 +5,7 @@ layout: scrollspy
 
 # Agile product development 101: User Stories
 
-Developing IT products is a exciting task. Technology is complex. And product design 
+Developing IT products is an exciting task. Technology is complex. And product design 
 is about to understand your customers and anticipate their needs exactly.
 
 Along the [KISS Principle](https://en.wikipedia.org/wiki/KISS_principle) we want to develop
