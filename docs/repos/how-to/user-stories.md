@@ -9,7 +9,7 @@ Developing IT products is a exciting task. Technology is complex. And product de
 is about to understand your customers and anticipate their needs exactly.
 
 Along the [KISS Principle](https://en.wikipedia.org/wiki/KISS_principle) we want to develop
-ony features, we or our clients really need. Why do we need to focus on KISS?
+only features, we or our clients really need. Why do we need to focus on KISS?
 
 - The customer wants an easy to use product.
 
@@ -30,7 +30,7 @@ ony features, we or our clients really need. Why do we need to focus on KISS?
 "The customer needs `a feature`": This quote reveals you are doing feature driven development.
 
 Feature driven development is based on an **internal** (marketing/selling) perspective. Instead of
-developing features that fit someones needs, feature driven development concentrates on features 
+developing features that fit customer needs, feature driven development concentrates on features 
 which can be presented (marketing / sales perspective) and may raise needs.
 
 Most companies have to balance between customer- and feature-driven development. On the one hand
@@ -61,6 +61,8 @@ It is a featured-driven feature and should be treated as marketing feature
 
 It is a customer-driven feature which stronly contributes to the customers
 success stories.
+
+So let's define what the customer needs are...
 
 ## The User Story 
 
