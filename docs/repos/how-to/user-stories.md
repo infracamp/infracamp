@@ -124,4 +124,4 @@ But business value will only apply on customer centric development approach.
 
 Should we do mock-ups instead of wasting time in feature-driven developments? 
 
-<small>Matthias Leuffen</small>
+<small>ml</small>
