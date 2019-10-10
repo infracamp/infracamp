@@ -1,6 +1,5 @@
 ---
 title: "User Stories: Agile Product Develpment 101"
-layout: scrollspy
 ---
 
 # Agile product development 101: User Stories
