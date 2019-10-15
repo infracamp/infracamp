@@ -17,7 +17,7 @@ defaults:
     values:
       layout: "wiki-default"
   - scope:
-      path: "repos"
+      path: "project"
     values:
       layout: "repos-default"
   - scope:

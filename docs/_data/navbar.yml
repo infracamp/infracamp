@@ -9,11 +9,7 @@ main:
   - name: "Getting started"
     href: "/getting-started/"
   - name: "Projects"
-    href: /repos/
-
-  - name: "Container"
-    href: "/container/"
-
+    href: /project/
 
 
 

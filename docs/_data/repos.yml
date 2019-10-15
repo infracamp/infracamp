@@ -1,32 +1,27 @@
 - name: Tools
   childreen:
     - name: kickstart
-      href: /repos/kickstart
+      href: /project/kickstart
 - name: Conatiners
   childreen:
     - name: <b>redis</b>
-      href: /repos/redis
+      href: /project/redis
 - name: Kickstart Flavors
   childreen:
     - name: <b>flavor-base</b>
-      href: /repos/kickstart-flavor-base
+      href: /project/kickstart-flavor-base
     - name: <b>flavor-gaia</b> (PHP7.2+)
-      href: /repos/kickstart-flavor-gaia
+      href: /project/kickstart-flavor-gaia
     - name: <b>flavor-erebos</b> (NodeJS)
-      href: /repos/kickstart-flavor-erebos
+      href: /project/kickstart-flavor-erebos
     - name: <b>flavor-py3</b> (Python3)
-      href: /repos/kickstart-flavor-py3
+      href: /project/kickstart-flavor-py3
     - name: <b>flavor-jekyll</b>
-      href: /repos/kickstart-flavor-jekyll
-- name: How-Tos
-  childreen:
-    - name: GPC Cloud Provision
-      href: /repos/how-to/gcp-install-debian-ubuntu
-    - name: User Stories
-      href: /repos/how-to/user-stories
+      href: /project/kickstart-flavor-jekyll
+
 - name: Phore Framework
   childreen:
     - name: Concepts
-      href: /repos/phore/concepts
+      href: /project/phore/concepts
     - name: Components
-      href: /repos/phore
+      href: /project/phore

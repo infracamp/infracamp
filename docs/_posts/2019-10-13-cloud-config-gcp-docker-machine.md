@@ -10,6 +10,21 @@ docker swarm with manager, worker and storage nodes and deploying a cloudfront. 
 executing one shell script. So we can spin up new clusters daily instead of updating
 existing ones.
 
+> docker-machine is marked obsolete in docker documentation but it's still in maintenance.
+> terraform scripts might be a better way for more customized configurations. But when
+> it comes to stateless (atomic) clustering, docker-machine is the fastest and most reliable script
+> to go; without persistence needed.
+
+Automated Tasks:
+- Login to you gcloud account / Set a google service token for automated deployment
+- Block access to cluster. Allow exclusively your IP
+- Spin up a manager node and extract `join-token`
+- Spin up multiple workers in parallel using `join-token`
+- Deploy `rudl-cloudfront` and `rudl-principal`
+- Start stack defined in git repository
+- Unblock ports in firewall
+- (Todo: Switch DNS Records to the new cluster)
+
 Prerequisites:
 - Linux, MacOS, Windows [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 - Google Cloud Platform Account
