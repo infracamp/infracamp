@@ -144,10 +144,14 @@ og_description: Infracamp - We think microservice-containers are the future of I
 
 <div class="row">
     <div class="container">
-    <h2>News</h2>
-    <p><a href="repos/how-to/gcp-install-debian-ubuntu/">Install gcloud and docker-machine on debian/ubuntu</a></p>
-    <p>Discussion: <a href="repos/how-to/user-stories/">Product development using User Stories</a></p>
-    </div>
+    <h2>Recent Posts</h2>
+      {% for post in site.posts %}
+          <h4 style="margin-bottom: -8px"><a href="{{ post.url }}">{{ post.title }}</a>
+          {% for tag in post.tags %}
+          <span class="h6 badge badge-primary">{{ tag }}</span>
+          {% endfor %} </h4>
+          {{ post.excerpt }}        
+      {% endfor %}
 </div>
 
 

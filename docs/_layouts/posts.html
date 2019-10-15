@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+{% include layout/head.html %}
+<body>
+{% include layout/navbar.html %}
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-3 bg-light" role="alert">
+            <div style="margin: 30px;"></div>
+
+            {% for post in site.posts %}
+            <p><a href="{{ post.url }}">
+                {{ post.title }}</a>
+            </p>
+            {% endfor %}
+
+
+
+        </div>
+        <div class="col-9">
+            <div style="margin: 30px;"></div>
+            <div class=" markdown-body">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container container-fluid">
+
+
+</div>
+{% include layout/footer.html %}
+{% include layout/script.html %}
+</body>
+</html>

@@ -1,0 +1,3 @@
+This the draft folder for _posts
+
+Files in this folder are only visible when run in development mode (--drafts parameter isset)

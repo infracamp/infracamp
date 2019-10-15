@@ -17,5 +17,5 @@ command:
   dev:
     - "git submodule update --init --remote"
     - "./sync_repos.sh"
-    - "D:jekyll build -s /opt/docs -d /var/www/html --watch --force_polling"
+    - "D:jekyll build -s /opt/docs -d /var/www/html --watch --force_polling --drafts"
 

@@ -9,6 +9,10 @@ permalink: pretty
 
 defaults:
   - scope:
+      path: "_posts"
+    values:
+      layout: "posts"
+  - scope:
       path: "projects/infracamp.wiki"
     values:
       layout: "wiki-default"

@@ -1,0 +1,7 @@
+Files in this folder must have the format:
+
+YYYY-mm-dd-title-of-post.md
+
+where YYYY-mm-dd should not be in the future to be displayed.
+
+Drafts should be added to the _drafts folder
