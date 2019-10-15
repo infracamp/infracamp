@@ -1,40 +1,13 @@
 ---
 title: "Phore Framework: Package Overview"
 
-description: Phore is a loosely coupled modular framework for PHP7.2+ cloud-based microservice applications. Librarys have few dependencies and can installed using composer.
-og_description: Phore libraries are optimized for development performance, a steep learning-curve and security in highly scalable cluster configurations for IoT and BigData setups.
+description: |
+    Why another framework? Popular PHP Frameworks are monoliths. You need months to
+    fully understand what happens behind the scenes. And they are build for thousdands of
+    application-types, mostly for CMS and E-Commerce purpose. Although you only need a very
+    small amount of functionality, you have to deal with all of it when it comes to security or debugging. 
+    We build loosely coupled packages that do no more than they should do.
 ---
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Infracamp.org",
-    "item": "https://infracamp.org/"
-  },
-  {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Phore Framework",
-      "item": "https://infracamp.org/phore/"
-    }]
-}
-</script>
-
-
-
-# Phore Framework: Package Overview
-
-Why another framework? Popular PHP Frameworks are monoliths. You need months to
-fully understand what happens behind the scenes. And they are build for thousdands of
-application-types, mostly for CMS and E-Commerce purpose. Although you only need a very
-small amount of functionality, you have to deal with all of it when it comes to security or debugging.
-
-We try to build loosely coupled packages that do no more than they should do.
-And should be easily and secure to handle by professionals and beginners.
 
 Most parts are written for large scale stateless clustered microservices demanded by
 big-data, infrastructural, IoT environments.

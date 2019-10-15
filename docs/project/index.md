@@ -1,29 +1,11 @@
 ---
-title: List of flavored containers
-description: Intermediate containers help speeding up build and deployment times. Kickstart flavors are intermediate containers on steroids.
-og_description: A platform for microservices. Develop in your favorite language, platform, framework. Python, Node.Js, PHP, Jekyll on PC, Mac, Windows or ARM. We have intermediate containers ready to start right now.
+title: Kickstart prebuild Containers
+description: |
+    Intermediate containers help speeding up build and deployment times. Infracamp provides containers
+    for PHP, NodeJs, C++, Jekyll, Python. They are available on dockerhub and build daily, weekly and
+    with long time support.
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-    "@type": "ListItem",
-    "position": 1,
-    "name": "Infracamp.org",
-    "item": "https://infracamp.org/"
-  },
-  {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Docker container",
-      "item": "https://infracamp.org/container/"
-    }]
-}
-</script>
-
-# kickstart flavored containers <small>public available on hub.docker.com</small>
 
 <div class="row">
 <div class="col-7" markdown="1">
