@@ -2,13 +2,15 @@
 title: Automated Swarm Provisioning on GCP
 layout: posts
 tags: [docker, cloud, automation, IaC] 
+description: |
+    Using `docker-machine`, we can provision a multi-node docker-swarm cluster on gpc within
+    few seconds. This article covers spinning up a stateless
+    docker swarm with manager, worker and storage nodes and deploying a cloudfront. Just by
+    executing one shell script. So we can spin up new clusters daily instead of updating
+    existing ones.
 ---
 
-Using `docker-machine`, we can provision a multi-node docker-swarm cluster on gpc within
-few seconds. This article covers spinning up a stateless
-docker swarm with manager, worker and storage nodes and deploying a cloudfront. Just by
-executing one shell script. So we can spin up new clusters daily instead of updating
-existing ones.
+
 
 > docker-machine is marked obsolete in docker documentation but it's still in maintenance.
 > terraform scripts might be a better way for more customized configurations. But when

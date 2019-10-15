@@ -2,13 +2,11 @@
 title: "User Stories: Agile Product Development 101"
 layout: posts
 tags: [agile] 
-excerpt_separator: <!--more-->
+description: |
+  Developing IT products is an exciting task. Technology is complex. And product design 
+  is about to understand your customers and anticipate their needs exactly.
 ---
 
-Developing IT products is an exciting task. Technology is complex. And product design 
-is about to understand your customers and anticipate their needs exactly.
-
-<!--more-->
 Along the [KISS Principle](https://en.wikipedia.org/wiki/KISS_principle) we want to develop
 only features, we or our clients really need. Why do we need to focus on KISS?
 

@@ -1,14 +1,13 @@
 ---
-title: "Our Mission: Enterprise open source"
+title: "Better Software by sharing Know How"
 layout: scrollspy
-description: "Open Source must be free of political interest of companies."
+description: |
+    Software-quality largely depends on programming skills combined with the underlaying infrastructure/frameworks.
+    This infrastructure is often mission-critical and should be safeguarded from single individual actions,
+    bad judgement or commercial/political interest. 
 ---
 
-# Mission <small>better software by sharing know-how</small>
 
-Software-quality largely depends on programming skills combined with the underlaying infrastructure/frameworks.
-This infrastructure is often mission-critical and should be safeguarded from single individual actions,
-bad judgement or commercial/political interest. 
 
 <div class="alert alert-info">
 Infracamp supports development of open-source frameworks and keeps them publicly available;
