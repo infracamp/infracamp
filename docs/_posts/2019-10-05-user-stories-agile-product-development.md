@@ -1,5 +1,5 @@
 ---
-title: "User Stories: Agile Product Develpment 101"
+title: "User Stories: Agile Product Development 101"
 layout: posts
 tags: [agile] 
 excerpt_separator: <!--more-->
