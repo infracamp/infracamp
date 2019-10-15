@@ -27,6 +27,11 @@
                 {% endfor %}
             </ul>
 
+            <form action="https://google.com/search" method="get" class="pr-3" target="_blank">
+                <input type="hidden" name="sitesearch" value="infracamp.org">
+                <input type="text" name="q" autofocus placeholder="search infracamp.org">
+                <input type="submit" name="s" style="display: none">
+            </form>
             {% for nav in site.data.navbar.right %}
             <a class="navbar-brand fa-2x align-middle" href="{{ nav.href }}">
                 <i class="{{ nav.icon }}"></i>
