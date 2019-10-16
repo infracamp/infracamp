@@ -150,7 +150,8 @@ og_description: Infracamp - We think microservice-containers are the future of I
           {% for tag in post.tags %}
           <span class="h6 badge badge-primary">{{ tag }}</span>
           {% endfor %} </h4>
-          {{ post.description }}        
+          {{ post.description }}  
+          <small>({{post.date | date_to_string}})</small>      
       {% endfor %}
 </div>
 

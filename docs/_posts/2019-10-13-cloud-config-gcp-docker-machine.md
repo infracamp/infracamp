@@ -1,6 +1,7 @@
 ---
 title: Automated Swarm Provisioning on GCP
 layout: posts
+author: Matthias Leuffen
 tags: [docker, cloud, automation, IaC] 
 description: |
     Using `docker-machine`, we can provision a multi-node docker-swarm cluster on gpc within
@@ -177,6 +178,4 @@ It's really easy to script automated docker swarm cluster deployments on google 
 Instead of updating nodes, you can spin up a new cluster. Deploy the services and
 switch over DNS names without the risk of downtime due to updates.
 
-## About
 
-Author: [Matthias Leuffen](https://leuffen.de) 2019/10

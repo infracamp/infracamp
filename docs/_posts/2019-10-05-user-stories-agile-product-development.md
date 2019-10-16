@@ -2,6 +2,7 @@
 title: "User Stories: Agile Product Development 101"
 layout: posts
 tags: [agile] 
+author: Matthias Leuffen
 description: |
   Developing IT products is an exciting task. Technology is complex. And product design 
   is about to understand your customers and anticipate their needs exactly.
