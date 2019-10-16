@@ -114,7 +114,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
            <p class="card-text">Seamless integrated to gitlab, github, dockerhub.</p>
 
            <a href="/getting-started/" class="card-link">Getting started</a>
-           <a href="/container/" class="card-link">Containers</a>
+           <a href="/project/" class="card-link">Containers</a>
          </div>
        </div>
    </div>
@@ -126,7 +126,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
                 <h5 class="card-title">our frameworks</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Phore</h6>
                 <p class="card-text">PHP 7.2 modular microservice framework with small footprint, developed to educate and develop faster</p>
-                <a href="/phore" class="card-link">See documentation</a>
+                <a href="/project/phore" class="card-link">See documentation</a>
             
                 <h6 class="card-subtitle mb-2 text-muted">comp-js</h6>
                 <p class="card-text">javascript library build on the new custom webcomponents</p>
