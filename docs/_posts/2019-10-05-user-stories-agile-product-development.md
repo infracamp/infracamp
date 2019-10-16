@@ -1,5 +1,5 @@
 ---
-title: "User Stories: Agile Product Development 101"
+title: "User Stories: Getting Agile Started"
 layout: posts
 tags: [agile] 
 author: Matthias Leuffen
