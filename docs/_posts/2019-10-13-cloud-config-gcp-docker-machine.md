@@ -1,8 +1,8 @@
 ---
 title: Automated Swarm Provisioning on GCP
-layout: posts
+layout: scrollspy
 author: Matthias Leuffen
-tags: [docker, cloud, automation, IaC] 
+tags: [docker, cloud, IaS, IaC, DevSecOps] 
 description: |
     Using `docker-machine`, we can provision a multi-node docker-swarm cluster on gpc within
     few seconds. This article covers spinning up a stateless

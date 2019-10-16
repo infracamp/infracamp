@@ -1,6 +1,6 @@
 ---
 title: "User Stories: Getting Agile Started"
-layout: posts
+layout: scrollspy
 tags: [agile] 
 author: Matthias Leuffen
 description: |
