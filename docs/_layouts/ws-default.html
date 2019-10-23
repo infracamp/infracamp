@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+{% include layout/head.html %}
+<body>
+{% include layout/navbar.html %}
+
+
+<div class="container">
+    <div class="row">
+
+        <div class="col-3 bg-light" role="alert">
+            <div style="margin: 30px;"></div>
+            {% for nav in site.data.webservices %}
+                <h5 class="mt-4 ml-1">{{nav.name}}</h5>
+                {% if nav.childreen %}
+                <ul class="list-group">
+                    {% for subnav in nav.childreen %}
+                    <a class="" href="{{ subnav.href }}">
+                        <li class="list-group-item">
+                            {{ subnav.name }}
+                        </li>
+                    </a>
+                    {% endfor %}
+                {% else %}
+                <li class="h3">
+                    <a class="" href="{{ nav.href }}"><i class="{{ nav.icon }}"></i>{{ nav.name }}</a>
+                </li>
+                {% endif %}</ul>
+            {% endfor %}
+
+        </div>
+        <div class="col-9">
+            <div style="margin: 30px;"></div>
+            <div class=" markdown-body">
+                <h1>{{page.title}}</h1>
+                <p>{{page.description}}</p>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container container-fluid">
+
+
+</div>
+{% include layout/footer.html %}
+{% include layout/script.html %}
+</body>
+</html>

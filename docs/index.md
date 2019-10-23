@@ -35,14 +35,14 @@ og_description: Infracamp - We think microservice-containers are the future of I
                  Zero configuration. Save time. Deliver fast. Best pactice develop on linux, windows and MacOS.
                  Its open-source and free.
             </p>
-         .com logo   <a href="/webservices/" class="card-link">See web services</a>
+            <a href="/getting started/" class="card-link">See kickstart</a>
             
-            <h6 class="card-subtitle mb-2 text-muted">platform agnostic tooling</h6>
+            <h6 class="card-subtitle mb-2 text-muted">cloud native webservices</h6>
             <p class="card-text">
-                Deploy on GCS, AWS, Azure, BareMetal and HVM (libvirt). 
-                Verified concepts for scaleing and high-availibility.
+                Free webservices for testing, service discovery and more. No token, no
+                registration. 
             </p>
-            <a href="/webservices/" class="card-link">See web services</a>
+            <a href="/ws/" class="card-link">Our free web services</a>
             <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
           </div>
         </div>

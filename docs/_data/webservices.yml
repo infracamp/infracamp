@@ -1,0 +1,6 @@
+- name: Webservices
+  childreen:
+    - name: mailcheck
+      href: /ws/mailcheck
+    - name: freestore
+      href: /ws/freestore

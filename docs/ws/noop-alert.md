@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: ws-default
 title: Noop-Alert - Send mail if nothing happens for a desired time
 ---
 

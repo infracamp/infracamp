@@ -1,4 +1,6 @@
-# Rudl Cloud Manager
+# Rudl: A GitDev Docker Swarm Manager
+
+
 
 ## First steps
 

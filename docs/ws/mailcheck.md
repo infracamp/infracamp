@@ -1,9 +1,13 @@
 ---
-layout: default
-title: Test e-Mail with free api
+layout: ws-default
+title: Mailtest - Free test endpoint for outbound mails
+description: |
+    Free testing webservice for outbound e-mails. Retrieve a tempoary e-mail address, send mail to 
+    it and retrieve the contents of it
+    with a simple REST Api call. E-Mail Unit-Test endpoint for outbound mail servers or
+    mail sending applications.
 ---
 
-# Inbound Mail Testservice :: IMT <small>test mail services</small>
 
 <div class="alert alert-success">
 This is a <b>free</b> service. <b>No registration is required </b>to use this service. <i>Service limits: 
@@ -26,7 +30,7 @@ A simple test-script for your outgoint mailservers look like:
 ```bash
 #!/bin/bash
 
-mail_to=$(curl "https://imt.ws.infracamp.org/v1/aquire")
+mail_to=$(curl "https://imt.ws.infracamp.org/v1/acquire")
 
 sendmail -t $mail_to -s "testmail" -m "Message body"
 
