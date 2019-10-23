@@ -9,7 +9,7 @@ description: |
 
 <div class="alert alert-success">
 This is a <b>free</b> service. <b>No registration is required </b>to use this service. <i>Service limits: 
-60 Reads per Minute; 10 Sets per minute. Maximal storage ttl: 6 Months</i>
+60 Reads per Minute; 10 Sets per minute per IP. Maximal storage ttl: 6 Months</i>
 </div>
 
 <div class="alert alert-info">

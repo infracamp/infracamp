@@ -11,7 +11,7 @@ description: |
 
 <div class="alert alert-success">
 This is a <b>free</b> service. <b>No registration is required </b>to use this service. <i>Service limits: 
-10 Requests per Minute. Mail size limit: 200kb</i>
+10 Requests per Minute per IP. Mail size limit: 200kb</i>
 </div>
 
 <div class="alert alert-info">
