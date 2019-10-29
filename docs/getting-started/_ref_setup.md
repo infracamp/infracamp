@@ -21,7 +21,7 @@ title="Set your user name for git commit messages"
 >git config --global user.name "John Doe"</code>
 <code data-toggle="tooltip" data-placement="left" 
 title="Set your email address for git commit messages"
->git config --global user.name "johndoe@example.com"</code>
+>git config --global user.email "johndoe@example.com"</code>
 <code data-toggle="tooltip" data-placement="left" 
 title="We suggest this flat directory as root for all of your projects"
 >mkdir -p $HOME/Projects</code>
