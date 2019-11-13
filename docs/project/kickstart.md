@@ -1,49 +1,46 @@
-# kickstart - Autoprovisioning Microservice Container (Linux, Windows10, MacOS)
+---
+title: Kickstart project startup script
+description: |
+    kickstart.sh is a bash script meant to be placed into the root directory of each of your projects. It 
+    will provide a unified access and startup point for microservice oriented development environment.
+    Kickstart includes notification about updates and automated update procedure.
+    With kickstart there will be no need for project-specific startup-scripts or checkout and setup
+    instructions. Just clone a repository and run kickstart.sh.
+---
 
-A bash script to start and manage your develompment containers.
+## TL;DR
 
-## Quick Start
+Download the `kickstart.sh` and install it by executing the curl command provided blow and place and 
+commit it within your project directory. To start-up a project you then just clone the repository and
+execute `./kickstart.sh` inside the projects root directory.
 
-Run the container defined in `.kick.yml`:
-```
-./kickstart.sh
-```
+On your local workstation, `kickstart.sh` will:
+- Start up the container setting env `DEV_MODE=1` and giving you an **interactive shell** as `user` inside the container.
+- Mount the **project directory** to `/opt` inside the container
+- Check for other running instances of the project
+- Mount your **ssh-key** securely into the container, so you can use git within your container
+- Mount the **bash history** into the container
+- Mount **cache directories** for **apt, npm, composer, pip** into the container
+- Evaluate global `$HOME/.kickcstartonfig` file for additional mounts/ports/settings
+- Securely provide developer's **secrets** to the container
+- Set **environment variables** according to `.env`-file
+- Detect and provide the **hosts's IP address** to the container (for running debuggers, etc) as `DOCKER_HOST_IP`
+- Start **additional services** from `.kick-stack.yml` in composer format
+- Setup interactive shell (colors, screen-size)
+- **Run commands** defined in `.kick.yml`-file in the project folder (if using kickstart-flavor-containers)
+- Inform you about **updates** of `kickstart.sh` and provide auto-download updates by calling `./kickstart.sh --upgrade`
+- Provide access to **skeleton projects** that can be defined in a central git repository
 
-Run a command defined in `.kick.yml`-`command:` section:
-```
-./kickstart.sh :[command]
-```
+On CI/CD pipeline `kickstart.sh` will:
+- **Auto-detect** `gitlab-ci`, `github-actions`, `jenkins` build environment and determine `TAG` and `BRANCH`
+- Set permissions according to the build environment
+- **Build the container** running `docker build` and tagging with the correct tags
+- Logging into the **registry** accoring to the build environment
+- **Pushing** to a registry defined inside the build environment
 
-List available skeletons:
-```
-./kickstart.sh skel list
-```
-
-Install skeleton:
-```
-./kickstart.sh skel install <name>
-```
-
-Upgrade to newest kickstart version:
-```
-./kickstart.sh upgrade
-```
-
-Run a ci-build (build and push using gitlab-ci-runner):
-```
-./kickstart.sh ci-build
-```
-
-
-
-
-
-## Documents index
-
-- [InfraCamp Homepage](http://infracamp.org)
-- [**Setting up your environment**](doc/setup/installing-ubuntu-debian-mac.md)
-- [Bash Scripting 101](doc/bash_scripting101.md)
-- [.kick.yml reference](doc/kick.yml.md)
+On Deploy-stage:
+- Autodetect docker-swarm, kubernetes by environment inside build environment
+- HTTP-PUSH to hooks urls
 
 ## Project setup: Kickstart
 
@@ -82,7 +79,14 @@ version: 1
 from: "infracamp/kickstart-flavor-gaia"
 ```
 
+## Secrets
 
+You can provide secrets that will be mounted to `/run/secrets/<secret_name>` (the same way
+they will be mounted on kubernetes oder docker swarm).
+
+Just create a `$HOME/.kickstart/secrets/<project-name>/<secret_name>`. kickstart will detect these
+secrets and mount them into the container. So you can keep developer credentials outside of the
+repositories.
 
 ## Available Flavors
 

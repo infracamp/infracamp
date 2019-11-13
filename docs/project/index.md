@@ -25,6 +25,10 @@ See the [getting-started guide](/getting-started) on how to start your projects 
 </div>
 </div>
 
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Finfracamp%2Fkickstart-flavor-base%2Fbadge&style=flat)](https://github.com/infracamp/kickstart-flavor-base/actions)
+[![Latest Stable Version](https://img.shields.io/github/release/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base/releases)
+[![Docker Pulls](https://img.shields.io/docker/pulls/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base)
+[![Docker Build status](https://img.shields.io/docker/cloud/build/infracamp/kickstart-flavor-base.svg)](https://cloud.docker.com/repository/docker/infracamp/kickstart-flavor-base/builds)
 
 
 | Name                                  | Synopsis                  | Documentation                                    |
@@ -36,6 +40,7 @@ See the [getting-started guide](/getting-started) on how to start your projects 
 | **`infracamp/kickstart-flavor-py3`**      | Python3, pip              | [GitHub](https://github.com/infracamp/kickstart-flavor-py3) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/) |
 | **`infracamp/kickstart-flavor-erebos`**   | nodejs, angular           | [GitHub](https://github.com/infracamp/kickstart-flavor-erebos) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-erebos/) |
 | **`infracamp/kickstart-flavor-datalytics`** [alpha!]  | R,Python3,RStudio,Jupyter | [GitHub](https://github.com/infracamp/kickstart-flavor-datalytics) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-datalytics/) |
+| **`infracamp/kickstart-flavor-sdi`**      | gcloud,azure,aws | [GitHub](https://github.com/infracamp/kickstart-flavor-sdi) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-sdi/) |
 
 | *Platform: **arm32v7** (e.g. Raspberry Pi)*  <small>[Best practise arm32](arm32-tipps)  </small>    |
 | **`infracamp/kickstart-flavor-arm32v7-base`**     | Base image (Ubuntu 18.04) | [GitHub](https://github.com/infracamp/kickstart-flavor-arm32v7-base) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-arm32v7-base/) |
@@ -52,7 +57,7 @@ are based on our flavored containers.
 | Name                                  | Synopsis                  | Documentation                                    |
 |---------------------------------------|---------------------------|--------------------------------------------------|
 | `infracamp/viper-smtpd`               | SMTPd Server              | [GitHub](https://github.com/infracamp/viper-smtpd) - [DockerHub](https://hub.docker.com/r/infracamp/viper-smtpd/) |
-
+| `infracamp/redis`                     | Redis Server              | [GitHub](https://github.com/infracamp/redis) - [DockerHub](https://hub.docker.com/r/infracamp/redis/) |
 
 ## Rudl cloud management tools
 

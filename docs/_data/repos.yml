@@ -1,23 +1,9 @@
-- name: Tools
+- name: Kickstart
   childreen:
-    - name: kickstart
+    - name: Flavors
+      href: /project
+    - name: Kickstart
       href: /project/kickstart
-- name: Containers
-  childreen:
-    - name: <b>redis</b>
-      href: /project/redis
-- name: Kickstart Flavors
-  childreen:
-    - name: <b>flavor-base</b>
-      href: /project/kickstart-flavor-base
-    - name: <b>flavor-gaia</b> (PHP7.2+)
-      href: /project/kickstart-flavor-gaia
-    - name: <b>flavor-erebos</b> (NodeJS)
-      href: /project/kickstart-flavor-erebos
-    - name: <b>flavor-py3</b> (Python3)
-      href: /project/kickstart-flavor-py3
-    - name: <b>flavor-jekyll</b>
-      href: /project/kickstart-flavor-jekyll
 
 - name: Phore Framework
   childreen:
