@@ -18,17 +18,19 @@ On your local workstation, `kickstart.sh` will:
 - Start up the container setting env `DEV_MODE=1` and giving you an **interactive shell** as `user` inside the container.
 - Mount the **project directory** to `/opt` inside the container so every user has the same absolute path.
 - Expose **ports 80,4000,4100,4200** on localhost so you can access the service with any browser at `http://localhost`
+  (configured by project in `.kickstartconfig` or global in `$HOME/.kickstartconfig`)
+- **Detect operating system** and container service (OSx, Linux, WSL2)
 - Set the **uid** of user `user` inside the container to your uid so there will no permission problems
-- Check for other running instances of the project
-- Mount your **ssh-key** securely into the container, so you can use git within your container
+- Check for other running instances of the project (Choose between: Kill, Shell or Ignore)
+- Securely mount your **ssh-key** into the container, so you can use git within your container
 - Mount the **bash history** into the container
 - Mount **cache directories** for **apt, npm, composer, pip** into the container
 - Evaluate global `$HOME/.kickcstartonfig` file for additional mounts/ports/settings
-- Securely provide developer's **secrets** to the container
+- Securely provide developer's **secrets** from `$HOME/.kickstart/secrets/<project>/<secret_name>`to the container
 - Set **environment variables** according to `.env`-file
-- Detect and provide the **hosts's IP address** to the container (for running debuggers, etc) as `DOCKER_HOST_IP`
+- Detect and provide the **hosts's IP address** to the container (for running debuggers, etc) as env `DOCKER_HOST_IP`
 - Start **additional services** from `.kick-stack.yml` in composer format
-- Setup interactive shell (colors, screen-size)
+- Setup interactive shell (colors, screen-size, adjustments for osX, non-interactive shells)
 - **Run commands** defined in `.kick.yml`-file in the project folder (if using kickstart-flavor-containers)
 - Inform you about **updates** of `kickstart.sh` and provide auto-download updates by calling `./kickstart.sh --upgrade`
 - Provide access to **skeleton projects** that can be defined in a central git repository
