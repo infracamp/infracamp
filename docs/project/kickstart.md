@@ -15,12 +15,12 @@ commit it within your project directory. To start-up a project you then just clo
 execute `./kickstart.sh` inside the projects root directory.
 
 On your local workstation, `kickstart.sh` will:
-- Start up the container setting env `DEV_MODE=1` and giving you an **interactive shell** as `user` inside the container.
+- Start up the container setting env `DEV_MODE=1` and giving you an **interactive shell** as user `user` inside the container.
 - Mount the **project directory** to `/opt` inside the container so every user has the same absolute path.
 - Expose **ports 80,4000,4100,4200** on localhost so you can access the service with any browser at `http://localhost`
   (configured by project in `.kickstartconfig` or global in `$HOME/.kickstartconfig`)
 - **Detect operating system** and container service (OSx, Linux, WSL2)
-- Set the **uid** of user `user` inside the container to your uid so there will no permission problems
+- Set the **uid** of user `user` inside the container according to your actual uid so there will no permission problems
 - Check for other running instances of the project (Choose between: Kill, Shell or Ignore)
 - Securely mount your **ssh-key** into the container, so you can use git within your container
 - Mount the **bash history** into the container
@@ -34,6 +34,10 @@ On your local workstation, `kickstart.sh` will:
 - **Run commands** defined in `.kick.yml`-file in the project folder (if using kickstart-flavor-containers)
 - Inform you about **updates** of `kickstart.sh` and provide auto-download updates by calling `./kickstart.sh --upgrade`
 - Provide access to **skeleton projects** that can be defined in a central git repository
+
+On testing stage `kickstart.sh` will:
+- Execute the tests the same way they will be executed in CI/CD environment. So you can debug 
+  on localhost instead of pushing over any over again.
 
 On CI/CD pipeline `kickstart.sh` will:
 - Ensure no ssh-keys or secrets are copied inside the container.

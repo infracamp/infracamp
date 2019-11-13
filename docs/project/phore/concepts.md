@@ -1,7 +1,7 @@
 ---
 title: Phore Framework - core concepts, design goals
 description: |
-    Building a modularized php framework for microservice development. The
+    Building a modularized php library for microservice development. The
     key features are: Loosely coupled elements, strong testing, flat responsibility,
     strong orientation on PSR
 ---

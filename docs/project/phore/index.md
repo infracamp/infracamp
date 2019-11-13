@@ -1,8 +1,8 @@
 ---
-title: "Phore Framework: Package Overview"
+title: "Phore Library: Package Overview"
 
 description: |
-    Why another framework? Popular PHP Frameworks are monoliths. You need months to
+    Why another library? Popular PHP Frameworks are monoliths. You need months to
     fully understand what happens behind the scenes. And they are build for thousdands of
     application-types, mostly for CMS and E-Commerce purpose. Although you only need a very
     small amount of functionality, you have to deal with all of it when it comes to security or debugging. 

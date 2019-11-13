@@ -5,7 +5,7 @@
     - name: Kickstart
       href: /project/kickstart
 
-- name: Phore Framework
+- name: Phore Library
   childreen:
     - name: Concepts
       href: /project/phore/concepts
