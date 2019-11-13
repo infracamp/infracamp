@@ -8,7 +8,7 @@ description: |
     instructions. Just clone a repository and run kickstart.sh.
 ---
 
-## TL;DR
+## TL;DR;
 
 Download the `kickstart.sh` and install it by executing the curl command provided blow and place and 
 commit it within your project directory. To start-up a project you then just clone the repository and
@@ -33,7 +33,8 @@ On your local workstation, `kickstart.sh` will:
 - Setup interactive shell (colors, screen-size, adjustments for osX, non-interactive shells)
 - **Run commands** defined in `.kick.yml`-file in the project folder (if using kickstart-flavor-containers)
 - Inform you about **updates** of `kickstart.sh` and provide auto-download updates by calling `./kickstart.sh --upgrade`
-- Provide access to **skeleton projects** that can be defined in a central git repository
+- Provide access to **skeleton projects** that can be defined in a central git repository (configurable)
+- Provide your own repositories for updates on kickstart.sh (configured in $HOME/.kickstartconfig)
 
 On testing stage `kickstart.sh` will:
 - Execute the tests the same way they will be executed in CI/CD environment. So you can debug 
