@@ -18,7 +18,7 @@ On your local workstation, `kickstart.sh` will:
 - Start up the container setting env `DEV_MODE=1` and giving you an **interactive shell** as `user` inside the container.
 - Mount the **project directory** to `/opt` inside the container
 - Expose **ports 80,4000,4100,4200** on localhost so you can access the service with any browser at `http://localhost`
-- Set the uid of user `user` inside the container to your uid so there will no permission problems
+- Set the **uid** of user `user` inside the container to your uid so there will no permission problems
 - Check for other running instances of the project
 - Mount your **ssh-key** securely into the container, so you can use git within your container
 - Mount the **bash history** into the container
@@ -34,6 +34,7 @@ On your local workstation, `kickstart.sh` will:
 - Provide access to **skeleton projects** that can be defined in a central git repository
 
 On CI/CD pipeline `kickstart.sh` will:
+- Ensure no ssh-keys or secrets are copied inside the container.
 - **Auto-detect** `gitlab-ci`, `github-actions`, `jenkins` build environment and determine `TAG` and `BRANCH`
 - Set permissions according to the build environment
 - **Build the container** running `docker build` and tagging with the correct tags
