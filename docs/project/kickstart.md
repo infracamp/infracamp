@@ -30,6 +30,8 @@ On your local workstation, `kickstart.sh` will:
 - **Run commands** defined in `.kick.yml`-file in the project folder (if using kickstart-flavor-containers)
 - Inform you about **updates** of `kickstart.sh` and provide auto-download updates by calling `./kickstart.sh --upgrade`
 - Provide access to **skeleton projects** that can be defined in a central git repository
+- By default, kickstart will reserve **ports 80,4000,4100,4200** on localhost so you can access the service with
+  any browser at `http://localhost`
 
 On CI/CD pipeline `kickstart.sh` will:
 - **Auto-detect** `gitlab-ci`, `github-actions`, `jenkins` build environment and determine `TAG` and `BRANCH`
