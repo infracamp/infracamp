@@ -16,7 +16,7 @@ execute `./kickstart.sh` inside the projects root directory.
 
 On your local workstation, `kickstart.sh` will:
 - Start up the container setting env `DEV_MODE=1` and giving you an **interactive shell** as `user` inside the container.
-- Mount the **project directory** to `/opt` inside the container
+- Mount the **project directory** to `/opt` inside the container so every user has the same absolute path.
 - Expose **ports 80,4000,4100,4200** on localhost so you can access the service with any browser at `http://localhost`
 - Set the **uid** of user `user` inside the container to your uid so there will no permission problems
 - Check for other running instances of the project
