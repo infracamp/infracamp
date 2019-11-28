@@ -1,7 +1,7 @@
 ---
 title: "PHP 4.7 Released! kickstart-flavor-gaia:7.4-experimental is ready for testing"
 layout: scrollspy
-tags: [agile] 
+tags: [new, php, 7.4] 
 author: Matthias Leuffen
 description: |
   Today PHP7.4 was released. And we are proud to present the the freshly build 
