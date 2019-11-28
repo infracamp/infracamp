@@ -1,5 +1,5 @@
 ---
-title: "PHP 4.7 Released! kickstart-flavor-gaia:7.4-experimental is ready for testing"
+title: "PHP 7.4 Released! kickstart-flavor-gaia:7.4-experimental is ready for testing"
 layout: scrollspy
 tags: [new, php, 7.4] 
 author: Matthias Leuffen
