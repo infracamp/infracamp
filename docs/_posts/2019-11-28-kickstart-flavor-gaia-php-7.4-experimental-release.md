@@ -11,7 +11,7 @@ description: |
 
 ## Installation
 
-The image is availabe via [Dockerhub](https://hub.docker.com/r/infracamp/kickstart-flavor-gaia). It will
+The image is available on [Dockerhub](https://hub.docker.com/r/infracamp/kickstart-flavor-gaia). It will
 stay side by side to the official ubuntu 18.04 packages until Ubuntu 20.04 is released on April 23, 2020.
 
 ```
