@@ -32,6 +32,7 @@ Documentation is available in the source repository [kickstart-flavor-gaia](http
 - Opcache Preloading
 - Several Deprecations
 - Extensions Removed from the Core
+
 [See php release page for more information](https://www.php.net/archive/2019.php#2019-11-28-1)
 
 
