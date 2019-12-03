@@ -13,7 +13,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
                <i>What's the best programming language? The one framework to use now and in eternity? </i>
            </p>
            <p class="lead">
-               Use the power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Allow experiments. Make migrations easy. 
+               The real power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Allow experiments. Make migrations easy. 
                Hire the best regardless of their background: That's agnostic development!
            </p>
             <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
