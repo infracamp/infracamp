@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Open Source Incubator
+title: Tools for Agnostic Development in Interdisciplinary Teams
 description: Infracamp is an open source community to provide platform services for webdevelopers across multiple companies and private projects. All services are free and will always be free.
 og_description: Infracamp - We think microservice-containers are the future of IoT and BigData development. Developers cooperate to deliver first class experience. Let us share our know-how across company boundaries and do even better together. 
 ---
@@ -8,13 +8,16 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="jumbotron pt-4 pb-4">
     <div class="row">
         <div class="col-10">
-           <h1 class="display-4 mt-2">infracamp.org  <small> - incubator for open-source frameworks</small></h1>
+           <h1 class="display-4 mt-2">infracamp.org  <small> - Agnostic Development in Interdisciplinary Teams</small></h1>
            <p class="lead">
-             Infracamp is a non-profit organization coordinating and maintaining open-source frameworks
-             developed by enterprises. We focus on <i>business automation</i>, <i>cloud computing</i>, <i>microservices</i>.
+               <i>What's the best programming language? The one framework to use now and in eternity? </i>
            </p>
-           <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
-            <a href="/getting-started/" class="btn btn-danger">See it in action, now!</a>
+           <p class="lead">
+               Use the power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Allow experiments. Make migrations easy. 
+               Hire only the best: To stay prepared for the future to come.
+           </p>
+            <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
+            <a href="/getting-started/" class="btn btn-danger">Onboard now!</a>
         </div>
         <div class="col-2">
             <img src="/assets/infracamp.svg" width="200" class="rounded-circle shadow-sm">
@@ -27,22 +30,22 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="row">
     <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/assets/img/server2.jpg" alt="Card image cap">
+          <img class="card-img-top" src="/assets/img/coding2.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">automate everything</h5>
-            <h6 class="card-subtitle mb-2 text-muted">continuous integration</h6>
+            <h5 class="card-title">develop as one team</h5>
+            <h6 class="card-subtitle mb-2 text-muted">5 minute onboarding</h6>
             <p class="card-text">
-                 Zero configuration. Save time. Deliver fast. Best pactice develop on linux, windows and MacOS.
-                 Its open-source and free.
+                 Get your workstation ready in less than 5 minutes and develop inside
+                 containers. See our onboarding documentation.
             </p>
-            <a href="/getting started/" class="card-link">See kickstart</a>
+            <a href="/getting-started/" class="card-link">with kickstart</a>
             
-            <h6 class="card-subtitle mb-2 text-muted">cloud native webservices</h6>
+            <h6 class="card-subtitle mb-2 text-muted">prebuild containers</h6>
             <p class="card-text">
-                Free webservices for testing, service discovery and more. No token, no
-                registration. 
+                Choose from best practice development/deployment environments 
+                for Python, NodeJS, PHP, Python in our kickstart-flavors 
             </p>
-            <a href="/ws/" class="card-link">Our free web services</a>
+            <a href="/project/" class="card-link">kickstart-flavors</a>
             <!--a href="http://github.com/infracamp" class="card-link">Visit on GitHub</a-->
           </div>
         </div>
@@ -65,7 +68,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
    
    <div class="col-sm-4">
         <div class="card">
-            <img class="card-img-top" src="/assets/img/coding2.jpg" alt="Card image cap">
+            <img class="card-img-top" src="/assets/img/server2.jpg" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">our frameworks</h5>
                 <h6 class="card-subtitle mb-2 text-muted">Phore</h6>
