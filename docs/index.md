@@ -14,7 +14,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
            </p>
            <p class="lead">
                Unveil the real power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Experiment, Migrate, 
-               Benefit: Supporting agile, open-minded infrastructure for the future to come.
+               Benefit: We support agile open-minded infrastructure. Ready for the future to come.
            </p>
             <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
             <a href="/getting-started/" class="btn btn-danger">Onboard now!</a>
