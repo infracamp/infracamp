@@ -8,13 +8,13 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="jumbotron pt-4 pb-4">
     <div class="row">
         <div class="col-10">
-           <h1 class="display-4 mt-2">infracamp.org  <small> - Agnostic Development in Interdisciplinary Teams</small></h1>
+           <h1 class="display-4 mt-2">infracamp.org  <small> - Agnostic Development Support Organisation</small></h1>
            <p class="lead">
-               <i>What's the best programming language? The one framework to use now and in eternity? </i>
+               <i>What's the best programming language? The best framework for now and in eternity?</i>
            </p>
            <p class="lead">
-               The real power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Allow experiments. Make migrations easy. 
-               Hire the best regardless of their background: That's agnostic development!
+               Unveil the real power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Experiment, Migrate, 
+               Benefit: Supporting agile, open-minded infrastructure for the future to come.
            </p>
             <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
             <a href="/getting-started/" class="btn btn-danger">Onboard now!</a>
