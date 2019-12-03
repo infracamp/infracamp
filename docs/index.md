@@ -14,7 +14,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
            </p>
            <p class="lead">
                Use the power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Allow experiments. Make migrations easy. 
-               Hire only the best: To stay prepared for the future to come.
+               Hire the best regardless of their background: That's agnostic development!
            </p>
             <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
             <a href="/getting-started/" class="btn btn-danger">Onboard now!</a>
