@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tools for Agnostic Development in Interdisciplinary Teams
+title: Agnostic Development Support Organisation
 description: Infracamp is an open source community to provide platform services for webdevelopers across multiple companies and private projects. All services are free and will always be free.
 og_description: Infracamp - We think microservice-containers are the future of IoT and BigData development. Developers cooperate to deliver first class experience. Let us share our know-how across company boundaries and do even better together. 
 ---
@@ -13,8 +13,8 @@ og_description: Infracamp - We think microservice-containers are the future of I
                <i>What's the best programming language? The best framework for now and in eternity?</i>
            </p>
            <p class="lead">
-               Unveil the real power of <i>microservices</i>, <i>micro-frontends</i>, <i>automation tools</i>: Experiment, Migrate, 
-               Benefit: We support agile open-minded infrastructure. Ready for the future to come.
+               Unveil the real power of microservices, micro-frontends, automation tools: <i>Experiment, Migrate, 
+               Benefit.</i> We support open-minded agile infrastructure. Ready <i>now</i> for the future to come.
            </p>
             <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
             <a href="/getting-started/" class="btn btn-danger">Onboard now!</a>

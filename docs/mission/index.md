@@ -1,13 +1,29 @@
 ---
-title: "Better Software by sharing Know How"
+title: "Agnostic Development Manifest"
 layout: scrollspy
 description: |
-    Software-quality largely depends on programming skills combined with the underlaying infrastructure/frameworks.
-    This infrastructure is often mission-critical and should be safeguarded from single individual actions,
-    bad judgement or commercial/political interest. 
+    There is no best programming language nor best framework. Even using the most common now, 
+    will end up being obsolete in a few years. So why not rely on a agnostic approach. An infrastructure 
+    approach build for change and multiple languages. 
 ---
 
+## Whom to hire
 
+There are lots of programming languages and frameworks out right now. And each developer has own
+preferences on language and frameworks regardless of skills. In fact all programming languages base upon
+the same methodology. A skilled programmer will be a good programmer in alien language as well.
+
+But think of a programmer as a translator for foreign language. To learn a new language it will take you
+years to gain superiority. The same applies to programming languages or frameworks: Superiority will take years.
+But superiority is needed to fulfill tasks modern businesses require.
+
+Most superior programmers therefor won't apply to offers made regarding foreign languages nor frameworks.
+
+## Open source statement
+
+Software-quality largely depends on programming skills combined with the underlaying infrastructure/frameworks.
+This infrastructure is often mission-critical and should be safeguarded from single individual actions,
+bad judgement or commercial/political interest. 
 
 <div class="alert alert-info">
 Infracamp supports development of open-source frameworks and keeps them publicly available;
