@@ -2,23 +2,26 @@
 title: "Agnostic Development Manifest"
 layout: scrollspy
 description: |
-    There is no best programming language nor best framework. Even using the most common now, 
-    will end up being obsolete in a few years. So why not rely on a agnostic approach. An infrastructure 
+    There is no best programming language nor best framework. Even using the most common now
+    will end up being obsolete in a few years. So why not rely on a agnostic approach? An infrastructure 
     approach build for change and multiple languages. 
 ---
 
-## Developers
+## Superior Developers
 
 There are lots of programming languages and frameworks out right now. And each developer has own
 preferences on language and frameworks regardless of skills. In fact all programming languages base upon
-the same methodology. A skilled programmer will be a good programmer in alien language as well.
+the same methodology and a skilled programmer will be a good programmer in an alien language as well.
 
 But think of a programmer as a translator for foreign language. To learn a new language it will take you
 years to gain superiority. The same applies to programming languages or frameworks: Superiority will take years.
 But superiority is needed to fulfill tasks modern businesses require.
 
 Most superior programmers therefor won't apply to offers made regarding foreign languages or frameworks. They
-want to stay in their scope which makes them inaccessible to rigid companies.
+want to stay in their scope; which makes them inaccessible to rigid companies.
+
+The microservice approach allows different languages to interoperate using common interfaces and allows 
+superiority from the whole spectrum of development.
 
 ## Open source statement
 
