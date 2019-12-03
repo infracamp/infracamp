@@ -7,7 +7,7 @@ description: |
     approach build for change and multiple languages. 
 ---
 
-## Whom to hire
+## Developers
 
 There are lots of programming languages and frameworks out right now. And each developer has own
 preferences on language and frameworks regardless of skills. In fact all programming languages base upon
@@ -17,7 +17,8 @@ But think of a programmer as a translator for foreign language. To learn a new l
 years to gain superiority. The same applies to programming languages or frameworks: Superiority will take years.
 But superiority is needed to fulfill tasks modern businesses require.
 
-Most superior programmers therefor won't apply to offers made regarding foreign languages nor frameworks.
+Most superior programmers therefor won't apply to offers made regarding foreign languages or frameworks. They
+want to stay in their scope which makes them inaccessible to rigid companies.
 
 ## Open source statement
 
