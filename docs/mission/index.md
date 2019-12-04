@@ -18,7 +18,8 @@ years to gain superiority. The same applies to programming languages or framewor
 But superiority is needed to fulfill tasks modern businesses require.
 
 Most superior programmers therefor won't apply to offers made regarding foreign languages or frameworks. They
-want to stay in their scope; which makes them inaccessible to rigid companies.
+want to stay in their scope; which makes them inaccessible to rigid companies. (Rigid requests regarding
+language and framework will prevent [>93%](https://github.com/collections/programming-languages) from applying)
 
 The microservice approach allows different languages to interoperate using common interfaces and allows 
 superiority from the whole spectrum of development.
