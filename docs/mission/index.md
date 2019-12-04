@@ -7,10 +7,10 @@ description: |
     approach build for change and multiple languages. 
 ---
 
-## Superior Developers
+## Superiority
 
 There are lots of programming languages and frameworks out right now. And each developer has own
-preferences on language and frameworks regardless of skills. In fact all programming languages base upon
+preferences on language and frameworks regardless of skills. In fact all programming languages are base upon
 the same methodology and a skilled programmer will be a good programmer in an alien language as well.
 
 But think of a programmer as a translator for foreign language. To learn a new language it will take you
@@ -18,8 +18,8 @@ years to gain superiority. The same applies to programming languages or framewor
 But superiority is needed to fulfill tasks modern businesses require.
 
 Most superior programmers therefor won't apply to offers made regarding foreign languages or frameworks. They
-want to stay in their scope; which makes them inaccessible to rigid companies. (Rigid requests regarding
-language and framework will prevent [>93%](https://github.com/collections/programming-languages) from applying)
+want to stay in their scope; which makes them inaccessible to rigid companies. (Rigid requirements regarding
+language and framework will prevent [>87%](https://github.com/collections/programming-languages) from applying)
 
 The microservice approach allows different languages to interoperate using common interfaces and allows 
 superiority from the whole spectrum of development.
