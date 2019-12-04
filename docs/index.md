@@ -10,7 +10,7 @@ og_description: Infracamp - We think microservice-containers are the future of I
         <div class="col-10">
            <h1 class="display-4 mt-2">infracamp.org  <small> - Agnostic Development Support Organisation</small></h1>
            <p class="lead">
-               <i>What's the best programming language? The best framework for now and in eternity?</i>
+               <i>What's the best programming language? The best framework for now and eternity?</i>
            </p>
            <p class="lead">
                Unveil the real power of microservices, micro-frontends, automation tools: <i>Experiment, Migrate, 
