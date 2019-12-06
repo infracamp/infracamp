@@ -260,11 +260,11 @@ For manual setup, provide the following environemnt variables to `./kickstart.sh
 
 | Environment Variable  | Description | Example |
 |-----------------------|-------------|---------|
-| `CI_BUILD_NAME`       | The tag for the image (Default: 'latest') | `latest` or `testing` |
 | `CI_REGISTRY`         | Hostname of the registry to login and push to | `hub.docker.com`  |
-| `CI_REGISTRY_IMAGE`   | The Image name (including registry url        | `registry.gitlab.com/someorg/imagename` |
-| `CI_REGISTRY_USER`    | Username to login to the registry (write access) | `username` |
-| `CI_REGISTRY_PASSWORD` | The password or token to login to the registry  | `password` |
+| `CI_REGISTRY_IMAGE`   | The Image name (including registry url        | `registry.gitlab.com/some/image` |
+| `CI_BUILD_NAME`       | * (Optional)* The tag for the image (Default: 'latest') | `latest` or `testing` |
+| `CI_REGISTRY_USER`    | *(Optional)* Username to login to the registry (write access) | `username` |
+| `CI_REGISTRY_PASSWORD` | *(Optional)* The password or token to login to the registry  | `password` |
 
 
 ### Example Gitlab CI
@@ -292,18 +292,16 @@ To use kickstart's build in build and push service, you need do provide the corr
 in the `Jenkinsfile` of your project's root directory:
 
 ```
-node {  
+pipeline {  
   environment {
-     CI_BUILD_NAME   = 'latest'     // The images's tag
-     CI_REGISTRY     = 'some.registry.host'
-     CI_REGISTRY_IMAGE = 'some.registry.host/some/image'
-     CI_REGISTRY_USER = $some_jenkins_secrets_user
-     CI_REGISTRY_PASSWORD = $some_jenkins_secrets_secret
+    CI_REGISTRY          = 'some.registry.host'
+    CI_REGISTRY_IMAGE    = 'some.registry.host/some/image'
+    CI_BUILD_NAME        = 'latest'     // The images's tag
+    CI_REGISTRY_USER     = $some_jenkins_secrets_user
+    CI_REGISTRY_PASSWORD = $some_jenkins_secrets_secret
   }
   stage('Build and Push to registry') {
-    setps {
-        ./kickstart.sh ci-build
-    }
+    sh './kickstart.sh ci-build'
   }
 }
 ```
