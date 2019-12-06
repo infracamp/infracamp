@@ -294,7 +294,7 @@ in the `Jenkinsfile` of your project's root directory:
 ```
 node {  
   environment {
-     CI_BUILD_NAME   = 'latest'     # The images's tag
+     CI_BUILD_NAME   = 'latest'     // The images's tag
      CI_REGISTRY     = 'some.registry.host'
      CI_REGISTRY_IMAGE = 'some.registry.host/some/image'
      CI_REGISTRY_USER = $some_jenkins_secrets_user
