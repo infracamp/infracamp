@@ -220,6 +220,8 @@ KICKSTART_DOCKER_RUN_OPTS="--link otherContainerName"
 
 
 
+
+
 ## Building containers
 
 You can build ready-to-deploy containers with kickstart. Just add a `Dockerfile`
@@ -246,6 +248,64 @@ command:
     interval:
       - "sleep 300"
 
+```
+
+## Continuous Integration Pipelines
+
+kickstart includes the action `./kickstart.sh ci-build` which will build the image, login to 
+a container registry and push the newly build image. It will run out of the box with *gitlab-ci* and
+*github actions*.
+
+For manual setup, provide the following environemnt variables to `./kickstart.sh ci-build`:
+
+| Environment Variable  | Description | Example |
+|-----------------------|-------------|---------|
+| `CI_BUILD_NAME`       | The tag for the image (Default: 'latest') | `latest` or `testing` |
+| `CI_REGISTRY`         | Hostname of the registry to login and push to | `hub.docker.com`  |
+| `CI_REGISTRY_IMAGE`   | The Image name (including registry url        | `registry.gitlab.com/someorg/imagename` |
+| `CI_REGISTRY_USER`    | Username to login to the registry (write access) | `username` |
+| `CI_REGISTRY_PASSWORD` | The password or token to login to the registry  | `password` |
+
+
+### Example Gitlab CI
+
+To use gitlab's build in registry and ci-pipeline, just create a `.gitlab-ci.yml` file into the root directory
+of you repository. Nothing else needs to be configured (environment will be set from gitlab runners
+directly): 
+
+```
+image: docker:stable
+stages: [ build ]
+services: [ docker:dind ]
+before_script: [ apk update && apk add bash curl ]
+
+latest:     # The images's tag (CI_BUILD_NAME)
+  stage: build
+  script:
+    - ./kickstart.sh ci-build
+```
+
+
+### Example Jenkins File
+
+To use kickstart's build in build and push service, you need do provide the correct environment variables
+in the `Jenkinsfile` of your project's root directory:
+
+```
+node {  
+  environment {
+     CI_BUILD_NAME   = 'latest'     # The images's tag
+     CI_REGISTRY     = 'some.registry.host'
+     CI_REGISTRY_IMAGE = 'some.registry.host/some/image'
+     CI_REGISTRY_USER = $some_jenkins_secrets_user
+     CI_REGISTRY_PASSWORD = $some_jenkins_secrets_secret
+  }
+  stage('Build and Push to registry') {
+    setps {
+        ./kickstart.sh ci-build
+    }
+  }
+}
 ```
 
 ## Building own flavors
