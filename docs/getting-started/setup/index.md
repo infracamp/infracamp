@@ -1,19 +1,20 @@
 ---
-title: setup your workstation
+title: Kickstart Windows Setup
 ---
 
-# Setup your workstation
+# Kickstart Windows Setup
 
 This document covers
-- [Setup Windows 10 workstation](#Setup-Windows-10-workstation)
-- FAQ
+- Setup kickstart develompent environment on Windows10
 
 ## Setup Windows 10 workstation
-This setup only works if your projects are located under drive `C:\` and kickstart only supports to use one drive. You are able swap the windows drive.
+
+This document assumes you have your project located in drive `C:`.
 
 ### Requirements
-- Docker for windows installed
-- Ubuntu WSL installed
+- Install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
+- [Activate Windows Subsystem for Linux (WSL)](https://code.visualstudio.com/remote-tutorials/wsl/enable-wsl) 
+- [Install Ubuntu for Windows](https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows#3-install-ubuntu-for-windows-10)
 
 ### Required Options in Docker for Windows
 - Open Docker for Windows settings
@@ -29,11 +30,26 @@ This setup only works if your projects are located under drive `C:\` and kicksta
 
 
 ### Required settings in ubuntu shell
-For `kickstart` to be able to work you need to enter the following commands:
-- `sudo apt update && upgrade`
-- `sudo apt install docker.io`
-- `echo "export DOCKER_HOST=tcp://0.0.0.0:2375" >> ~/.kickstartconfig`
-- `echo "export KICKSTART_WIN_PATH=C:/" >> ~/.kickstartconfig`
 
-You will find your `C:/` drive under `/mnt/c`.<br> Navigate with cd to your project folder and run `./kickstart.sh`
+Open the command line pompt and enter
+
+```bash
+bash
+```
+
+For `kickstart` to be able to work, execute the following commands:
+
+```bash
+sudo apt update && upgrade
+sudo apt install docker.io
+echo "export DOCKER_HOST=tcp://0.0.0.0:2375" >> ~/.kickstartconfig
+echo "export KICKSTART_WIN_PATH=C:/" >> ~/.kickstartconfig
+```
+
+You will find your `C:/` drive under `/mnt/c`.
+
+Navigate with cd to your project folder and run `./kickstart.sh`
+
+
+ 
 
