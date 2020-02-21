@@ -29,7 +29,7 @@ This document assumes you have your project located in drive `C:`.
         ![docker fileshare](./docker-fileshare.png)
 
 
-### Required settings in ubuntu shell
+### Configure the ubuntu shell
 
 Open the command line pompt and enter
 
@@ -37,7 +37,7 @@ Open the command line pompt and enter
 bash
 ```
 
-For `kickstart` to be able to work, execute the following commands:
+You're now in the ubuntu bash. Enter the following lines to configure kickstart for windows:
 
 ```bash
 sudo apt update && upgrade
@@ -48,7 +48,7 @@ echo "export KICKSTART_WIN_PATH=C:/" >> ~/.kickstartconfig
 
 You will find your `C:/` drive under `/mnt/c`.
 
-Navigate with cd to your project folder and run `./kickstart.sh`
+Go back to [getting started guide](../) and follow the instructions.
 
 
  
