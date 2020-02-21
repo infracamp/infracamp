@@ -6,7 +6,17 @@ description: |
     will end up being obsolete in a few years. So why not rely on a agnostic approach? An infrastructure 
     approach build for change and multiple languages. 
 ---
+## Agile manifesto
 
+We consent to and live the [agile manifesto](https://agilemanifesto.org/principles.html): 
+
+- Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
+- Working software is the primary measure of progress
+- The best architectures, requirements, and designs emerge from self-organizing teams 
+- Business people and developers work together daily throughout the project
+- Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+- The most efficient and effective method of conveying information to and within a development team is face-to-face conversation
+ 
 ## Superiority
 
 There are lots of programming languages and frameworks out right now. And each developer has own
@@ -23,17 +33,7 @@ language and framework will prevent [>96%](https://github.com/collections/progra
 
 The microservice approach allows superiority from the whole spectrum of development by using common interfaces and tooling.
 
-## Agile manifesto
 
-We consent to and live the [agile manifesto](https://agilemanifesto.org/principles.html): 
-
-- Our highest priority is to satisfy the customer through early and continuous delivery of valuable software
-- Working software is the primary measure of progress
-- The best architectures, requirements, and designs emerge from self-organizing teams 
-- Business people and developers work together daily throughout the project
-- Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
-- The most efficient and effective method of conveying information to and within a development team is face-to-face conversation
- 
 
 ## Open source statement
 
