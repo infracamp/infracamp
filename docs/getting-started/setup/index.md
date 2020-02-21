@@ -9,7 +9,7 @@ This document covers
 - FAQ
 
 ## Setup Windows 10 workstation
-This setup only works if your projects are located under `C:\`
+This setup only works if your projects are located under `C:\` and kickstart only supports to use one drive
 
 ### Requirements
 - Docker for windows installed
