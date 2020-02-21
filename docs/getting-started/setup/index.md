@@ -14,7 +14,7 @@ This document assumes you have your project located in drive `C:`.
 ### Requirements
 - Installed [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
 - [Activated Windows Subsystem for Linux (WSL)](https://code.visualstudio.com/remote-tutorials/wsl/enable-wsl) 
-- [Installd Ubuntu for Windows](https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows#3-install-ubuntu-for-windows-10)
+- [Installed Ubuntu for Windows](https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows#3-install-ubuntu-for-windows-10)
 
 ### Required Options in Docker for Windows
 - Open Docker for Windows settings
