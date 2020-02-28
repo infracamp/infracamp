@@ -31,24 +31,38 @@ This document assumes you have your project located in drive `C:`.
         ![docker fileshare](./docker-fileshare.png)
 
 
+
+
+
 ### Configure the ubuntu shell
 
-Open the command line pompt and enter
+- Open the command line pompt and enter `bash` to enter the ubuntu shell
+   
+- If you see you are logged in as user `root`, you need to create a *unprivileged* user account inside the shell. 
+  Therefor execute:
+    -   Create a new user account inside the ubuntu shell and give it administrative privileges to run sudo:
+        ```bash
+        adduser <username>
+        usermod -aG sudo <username>
+        exit
+        ```
+    -   Exit the ubuntu shell and set the default username by running:
+        ```
+        ubuntu config --default-user <username>
+        ```
+    -   Run `bash` again: You should now be logged in as user
 
-```bash
-bash
-```
 
-You're now in the ubuntu bash. Enter the following lines to configure kickstart for windows:
+-   You're now in the ubuntu bash. Enter the following lines to configure kickstart for windows:
+    ```bash
+    sudo apt update && upgrade
+    sudo apt install docker.io
+    echo "export DOCKER_HOST=tcp://0.0.0.0:2375" >> ~/.kickstartconfig
+    echo "export KICKSTART_WIN_PATH=C:/" >> ~/.kickstartconfig
+    ```
+    You will find your `C:/` drive under `/mnt/c`.
 
-```bash
-sudo apt update && upgrade
-sudo apt install docker.io
-echo "export DOCKER_HOST=tcp://0.0.0.0:2375" >> ~/.kickstartconfig
-echo "export KICKSTART_WIN_PATH=C:/" >> ~/.kickstartconfig
-```
-
-You will find your `C:/` drive under `/mnt/c`.
+**Done**
 
 Go back to [getting started guide](../) and follow the instructions.
 
