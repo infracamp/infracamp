@@ -4,6 +4,8 @@
       href: /project
     - name: Kickstart
       href: /project/kickstart
+    - name: Doc-a-doc
+      href: /project/docdadoc
 
 - name: Phore Library
   childreen:
