@@ -7,23 +7,7 @@ description: |
 ---
 
 
-<div class="row">
-<div class="col-7" markdown="1">
 
-Speed up builds and deployments with intermediate-containers. Dockers overlay-fs will
-download images specified in `from:`-sections of Dockerfiles only once. It is common practice to install software used across multiple
-services using 'intermediate-containers'. Kickstart flavors are publicly maintained *intermediates on steroids* for various
-platforms, languages and frameworks.
-
-See the [getting-started guide](/getting-started) on how to start your projects using these base-containers.
-
-</div>
-<div class="col-5" style="text-align: center" markdown="1">
-
-<img src="logo-docker.png" alt="docker" style="height:200px">
-
-</div>
-</div>
 
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Finfracamp%2Fkickstart-flavor-base%2Fbadge&style=flat)](https://github.com/infracamp/kickstart-flavor-base/actions)
 [![Latest Stable Version](https://img.shields.io/github/release/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base/releases)
