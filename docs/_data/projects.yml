@@ -1,0 +1,122 @@
+
+kickstart:
+  - name: kickstart-flavor-base
+    project: infracamp
+
+  - name: kickstart-flavor-gaia
+    project: infracamp
+    desc: PHP7.2+
+
+  - name: kickstart-flavor-erebos
+    project: infracamp
+    desc: NodeJS
+
+  - name: kickstart-flavor-jekyll
+    project: infracamp
+    desc: Jekyll Websites (Github Pages)
+
+  - name: kickstart-flavor-py3
+    project: infracamp
+    desc: Python3
+
+  - name: kickstart-flavor-sdi
+    project: infracamp
+    desc: Terraform, gcloud, awscli, azure-cli
+
+tools:
+  - name: kickstart
+    project: infracamp
+
+  - name: kicker
+    project: infracamp
+
+
+phore:
+  - name: phore-core
+    project: phore
+    desc: Core library
+
+  - name: phore-filesystem
+    project: phore
+    desc: OOP Filesystem access
+
+  - name: phore-system
+    project: phore
+    desc: exec()/system() wrapper
+
+  - name: phore-log
+    project: phore
+    desc: PSR14 compliant logging library
+
+  - name: phore-http-client
+    project: phore
+    desc: Send http requrests
+
+  - name: phore-mail
+    project: phore
+    desc: template engine for sending mails
+
+  - name: phore-log
+    project: phore
+    desc: PSR14 compliant logging library
+
+  - name: phore-objectstore
+    project: phore
+    desc: Generic for gcloud, aws, azure
+
+  - name: phore-scheduler
+    project: phore
+    desc: Microservice process scheduler
+
+  - name: phore-cache
+    project: phore
+    desc: PSR compliant caching
+
+  - name: phore-html
+    project: phore
+    desc: Fluent html templating engine
+
+  - name: phore-micro-app
+    project: phore
+    desc: Micoservice framework
+
+
+  - name: phore-theme-bootstrap
+    project: phore
+    desc: Bootstap theme
+
+  - name: phore-theme-coreui
+    project: phore
+    desc: CoreUI theme
+
+  - name: phore-status-page
+    project: phore
+    desc: Extension to build CoreUI admin pages
+
+  - name: phore-sock-server
+    project: phore
+    desc: Server listening on UDP sockets (e.g. syslog)
+
+  - name: phore-cloudtool
+    project: phore
+    desc: Extension to build CoreUI admin pages
+
+  - name: phore-status-page
+    project: phore
+    desc: Extension to build CoreUI admin pages
+
+  - name: phore-app-oauth
+    project: phore
+    desc: OAuth2 authentication module
+
+  - name: phore-vcs
+    project: phore
+    desc: Git objectstore
+
+  - name: phore-flash
+    project: phore
+    desc: OAuth2 authentication module
+
+
+
+
