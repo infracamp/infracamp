@@ -41,81 +41,81 @@ tools:
 
 
 phore_general:
-  - name: phore-core
+  - name: core
     project: phore
     desc: Core library
 
-  - name: phore-filesystem
+  - name: filesystem
     project: phore
     desc: OOP Filesystem access
 
-  - name: phore-system
+  - name: system
     project: phore
     desc: exec()/system() wrapper
 
-  - name: phore-log
+  - name: log
     project: phore
     desc: PSR14 compliant logging library
 
-  - name: phore-http-client
+  - name: http-client
     project: phore
     desc: Send http requrests
 
-  - name: phore-mail
+  - name: mail
     project: phore
     desc: template engine for sending mails
 
 phore_cloud:
-  - name: phore-objectstore
+  - name: objectstore
     project: phore
     desc: Generic for gcloud, aws, azure
 
-  - name: phore-scheduler
+  - name: scheduler
     project: phore
     desc: Microservice process scheduler
 
-  - name: phore-cache
+  - name: cache
     project: phore
     desc: PSR compliant caching
 
-  - name: phore-sock-server
+  - name: sock-server
     project: phore
     desc: Server listening on UDP sockets (e.g. syslog)
 
 
 phore_html:
-  - name: phore-html
+  - name: html
     project: phore
     desc: Fluent html templating engine
 
-  - name: phore-micro-app
+  - name: micro-app
     project: phore
     desc: Micoservice framework
 
-  - name: phore-status-page
+  - name: status-page
     project: phore
     desc: Extension to build CoreUI admin pages
 
-  - name: phore-app-oauth
+  - name: app-oauth
     project: phore
     desc: OAuth2 authentication module
-  - name: phore-theme-bootstrap
+  - name: theme-bootstrap
     project: phore
     desc: Bootstap theme
 
-  - name: phore-theme-coreui
+  - name: theme-coreui
     project: phore
     desc: CoreUI theme
 
 
 phore_ext:
-  - name: phore-cloudtool
+  - name: cloudtool
     project: phore
     desc: Extension to build CoreUI admin pages
-  - name: phore-vcs
+  - name: vcs
     project: phore
     desc: Git objectstore
 
-  - name: phore-flash
+  - name: flash
     project: phore
     desc: OAuth2 authentication module
