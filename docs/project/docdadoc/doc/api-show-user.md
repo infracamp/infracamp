@@ -1,4 +1,4 @@
-# Login
+# Show User
 
 Used to collect a Token for a registered User.
 
