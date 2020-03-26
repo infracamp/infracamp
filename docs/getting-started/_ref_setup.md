@@ -23,6 +23,9 @@ title="Set your user name for git commit messages"
 title="Set your email address for git commit messages"
 >git config --global user.email "johndoe@example.com"</code>
 <code data-toggle="tooltip" data-placement="left" 
+title="Store credentials to ~/.git-credentials"
+>git config --global credential.helper store</code>
+<code data-toggle="tooltip" data-placement="left" 
 title="We suggest this flat directory as root for all of your projects"
 >mkdir -p $HOME/Projects</code>
 <code data-toggle="tooltip" data-placement="left" 
