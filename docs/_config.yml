@@ -2,7 +2,6 @@ title: infracamp.org
 description: educational grade development tools
 google_analytics:
 show_downloads: true
-include:
 
 # Make directory-style links
 permalink: pretty
