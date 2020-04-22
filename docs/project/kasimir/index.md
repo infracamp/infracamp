@@ -9,7 +9,8 @@ description: |
     Based on web components
     Fits into one ethernet frame (1500 Byte) when gzip handler is active
 ---
-<script src="lib/ce-polyfill.js"></script>
+<script>this.customElements||document.write('<script src="//unpkg.com/document-register-element"><\x2fscript>');</script>
+<script src="//unpkg.com/@ungap/custom-elements-builtin"></script>
 
 <script src="lib/kasimir-tpl.js"></script>
 <script src="lib/kasimir-form.js"></script>
