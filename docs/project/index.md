@@ -32,6 +32,23 @@ See the [getting-started guide](/getting-started) on how to start your projects 
 {% include_relative _inc_kickstart_flavor.html %}
 
 
+## KasimirJS Browser Libraries
+
+<div class="row">
+<div class="col-7" markdown="1">
+
+Independent libraries with no dependencies for developing awesome Browser side applications. 
+
+- Pure ES6 libraries build on web-components supported by modern Browsers
+- See it in action on our [Online Demo Page](kasimir/)
+
+</div>
+<div class="col-5" style="text-align: center" markdown="1">
+<img src="js-es6.logo.jpg" alt="es6" style="height:150px">
+</div>
+</div>
+{% include_relative _inc_kasimirjs.html %}
+
 ## Phore PHP7 libraries
 
 <div class="row">

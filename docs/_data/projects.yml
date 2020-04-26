@@ -108,6 +108,21 @@ phore_html:
     desc: CoreUI theme
 
 
+kasimirjs:
+  - name: kasimir-tpl
+    project: kasimirjs
+    desc: VanillaJS Template Library
+
+  - name: kasimir-form
+    project: kasimirjs
+    desc: VanillaJS Form Data Access Library
+
+  - name: kasimir-http-request
+    project: kasimirjs
+    desc: Ajax requests made easy
+
+
+
 phore_ext:
   - name: cloudtool
     project: phore
