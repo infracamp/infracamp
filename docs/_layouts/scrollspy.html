@@ -34,7 +34,10 @@
 
         $("#scroll-spy").append('<a class="list-group-item list-group-item-action" href="#' + key + '">' + title + "</a>");
     })
-    $('body').scrollspy({ target: '#scroll-spy' })
+    $('body').scrollspy({ target: '#scroll-spy' });
+    window.setTimeout(()=>{
+        $('body').scrollspy({ target: '#scroll-spy' });
+    },2000)
 </script>
 </body>
 </html>

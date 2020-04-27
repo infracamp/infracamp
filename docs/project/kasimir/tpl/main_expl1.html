@@ -10,6 +10,7 @@
             <tr *for="let name of names indexby idx" [classlist.alert-secondary]="idx % 2 === 1" *if="idx < 5">
                 <td >hello {{ idx }}</td>
                 <td><input [value]="name.name"></td>
+                <td><button [on.click]="alert(`click ${idx}: ` + name.name);" class="btn">click me</button></td>
             </tr>
             </tbody>
         </table>
@@ -25,7 +26,6 @@
                 ]
             }
         }, 100)
-
     </script>
 </div>
 <pre class="code"><ka-val stmt="document.getElementById('main_expl1').innerHTML" unindent auto afterrender="w3codecolor(this)"></ka-val></pre>
