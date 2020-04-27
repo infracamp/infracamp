@@ -73,6 +73,10 @@ See the [core concepts page](phore/concepts/) for more information.
 {% include_relative _inc_phore.html %}
 
 
+## Application containers
+
+{% include_relative _inc_apps.html %}
+
 ## Development Tools
 
 {% include_relative _inc_tools.html %}

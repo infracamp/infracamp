@@ -39,6 +39,10 @@ tools:
   - name: kicker
     project: infracamp
 
+applications:
+  - name: mrcron
+    project: infracamp
+    desc: Mr. Cron Cloud native command scheduler
 
 phore_general:
   - name: core
