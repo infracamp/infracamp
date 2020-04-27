@@ -17,7 +17,7 @@ description: |
 <script type="application/javascript" src="lib/w3codecolor.js"></script>
 <link rel="stylesheet" href="lib/docs.css">
 
-## Template
+## Render Template
 
 Some Updates
 
@@ -27,7 +27,7 @@ Some Updates
 <template is="ka-include" src="tpl/auto_time.html" auto="" raw=""></template>
 
 
-## Forms
+## Data Forms
 
 Welcome
 
@@ -36,6 +36,6 @@ Welcome
 
 <template is="ka-include" src="form/form-expl2.html" auto="" raw=""></template>
 
-## General
+## General Tools
 
 General
