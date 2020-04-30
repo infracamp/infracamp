@@ -74,8 +74,17 @@ See the [core concepts page](phore/concepts/) for more information.
 
 ## Rudl GitOps Cluster Management
 
+<div class="row">
+<div class="col-7" markdown="1">
+
 DevOps containers to spin up and manage Docker Swarm and
 Kubernetes Clusters from git repositories.
+
+</div>
+<div class="col-5" style="text-align: center" markdown="1">
+<img src="logo-rudl.png" alt="rudl" style="height:100px">
+</div>
+</div>
 
 {% include_relative _inc_rudl.html %}
 
