@@ -125,7 +125,22 @@ kasimirjs:
     project: kasimirjs
     desc: Ajax requests made easy
 
+rudl:
+  - name: rudl-metrics
+    project: infracamp
+    desc: Metrics frontend
 
+  - name: rudl-agent
+    project: infracamp
+    desc: Metrics agent
+
+  - name: rudl-cloudfront
+    project: infracamp
+    desc: Nginx cloudfront
+
+  - name: rudl-principal
+    project: infracamp
+    desc: Manager service
 
 phore_ext:
   - name: cloudtool
