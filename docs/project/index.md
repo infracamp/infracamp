@@ -40,7 +40,7 @@ See the [getting-started guide](/getting-started) on how to start your projects 
 Independent libraries with no dependencies for developing awesome Browser side applications. 
 
 - Pure ES6 libraries build on web-components supported by modern Browsers
-- See it in action on our [Online Demo Page](kasimir/)
+- See it in action on our [KasimirJS Project Page](https://kasimirjs.infracamp.org)
 
 </div>
 <div class="col-5" style="text-align: center" markdown="1">
