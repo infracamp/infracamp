@@ -39,6 +39,9 @@ tools:
   - name: kicker
     project: infracamp
 
+  - name: cloudia
+    project: infracamp
+
 applications:
   - name: mrcron
     project: infracamp
