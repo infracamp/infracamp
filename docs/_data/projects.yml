@@ -41,6 +41,7 @@ tools:
 
   - name: cloudia
     project: infracamp
+    desc: Cloud Infrastructur Automatation tool
 
 applications:
   - name: mrcron
