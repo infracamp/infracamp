@@ -8,16 +8,13 @@ og_description: Infracamp - We think microservice-containers are the future of I
 <div class="jumbotron pt-4 pb-4">
     <div class="row">
         <div class="col-10">
-           <h1 class="display-4 mt-2">infracamp.org  <small> - Agnostic Development Support Organisation</small></h1>
-           <p class="lead">
-               <i>What's the best programming language? The best framework for now and eternity?</i>
-           </p>
+           <h1 class="display-4 mt-2">infracamp.org  <small> - Open-Source Support Organisation</small></h1>
+           
            <p class="lead">
                Unveil the real power of microservices, micro-frontends, automation tools: <i>Experiment, Migrate, 
                Benefit.</i> We support open-minded agile infrastructure. Ready <i>now</i> for the future to come.
            </p>
-            <a href="/mission/" class="btn btn-primary">Our mission...</a> <span class="ml-4 mr-4">or</span> 
-            <a href="/getting-started/" class="btn btn-danger">Onboard now!</a>
+            <a href="/getting-started/" class="btn btn-danger">Getting started!</a>
         </div>
         <div class="col-2">
             <img src="/assets/infracamp.svg" width="200" class="rounded-circle shadow-sm">
