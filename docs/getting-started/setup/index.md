@@ -72,9 +72,9 @@ Go back to [getting started guide](../) and follow the instructions.
 - **Kickstart complains about `/opt` beeing empty**
 
   This indicates, docker-daemon has no access to you local drive or
-  your `KICKSTART_WIN_PATH` is not set correctly
+  your `KICKSTART_WIN_PATH` is not set correctly.
   
-  *Resolution:* Open Docker for Windows. Go to <kbd>Resources > File sharing</kbd>.
+  *Solution:* Open Docker for Windows. Go to <kbd>Resources > File sharing</kbd>.
   Remove all drives and add them again. You will be asked for your password. 
   Access should be working right after.
 
