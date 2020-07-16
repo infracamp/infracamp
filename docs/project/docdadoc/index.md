@@ -12,7 +12,7 @@ abstract about the project.
 
 ## Installation
 
-    $ provide some shell script
+    provide some shell script
 
 ## Api
 
