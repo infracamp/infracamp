@@ -123,4 +123,14 @@ But business value will only apply on customer centric development approach.
 
 Should we do mock-ups instead of wasting time in feature-driven developments? 
 
+
+## Check List for User Stories
+
+- Is the US a Minimal Viable Product (less features possible)?
+
+- Are the subtasks between 0.5 - 3 days of work?
+
+- Is the US independent from other development activities?
+
+
 <small>ml</small>
