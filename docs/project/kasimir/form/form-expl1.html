@@ -1,0 +1,16 @@
+<div id="ex01" class="example">
+    <form is="ka-form"
+          onsubmit="document.getElementById('out1').innerText = 'submit:' + JSON.stringify(this.$data)"
+          onchange="document.getElementById('out1').innerText = 'change:' + JSON.stringify(this.$data)">
+        <input type="text" name="text1">
+        <input type="checkbox" name="checkbox1" value="on">
+        <select name="select1">
+            <option value="val1">val1</option>
+            <option value="val2">val2</option>
+        </select>
+        <textarea name="wurst[]"></textarea>
+        <button type="submit" name="send1">send</button>
+    </form>
+    <pre id="out1"></pre>
+</div>
+<pre class="code"><ka-val stmt="document.getElementById('ex01').innerHTML" unindent auto afterrender="w3codecolor(this)"></ka-val></pre>

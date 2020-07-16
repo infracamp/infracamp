@@ -2,8 +2,8 @@
   childreen:
     - name: Flavors
       href: /project
-    - name: Kickstart
-      href: /project/kickstart
+    - name: Kickstart-flavors
+      href: /project/kickstart-flavors
     - name: Doc-a-doc
       href: /project/docdadoc
 

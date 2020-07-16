@@ -1,0 +1,159 @@
+
+kickstart_flavor_x86:
+  - name: kickstart-flavor-base
+    project: infracamp
+
+  - name: kickstart-flavor-gaia
+    project: infracamp
+    desc: PHP7.2, Apache
+
+  - name: kickstart-flavor-erebos
+    project: infracamp
+    desc: NodeJS
+
+  - name: kickstart-flavor-jekyll
+    project: infracamp
+    desc: Jekyll Websites (Github Pages)
+
+  - name: kickstart-flavor-py3
+    project: infracamp
+    desc: Python3
+
+  - name: kickstart-flavor-sdi
+    project: infracamp
+    desc: Terraform, gcloud, awscli, azure-cli
+
+kickstart_flavor_arm32:
+  - name: kickstart-flavor-arm32v7-base
+    project: infracamp
+
+  - name: kickstart-flavor-arm32v7-php7
+    project: infracamp
+    desc: PHP7.2, Apache2
+
+
+tools:
+  - name: kickstart
+    project: infracamp
+
+  - name: kicker
+    project: infracamp
+
+  - name: cloudia
+    project: infracamp
+    desc: Cloud Infrastructur Automatation tool
+
+applications:
+  - name: mrcron
+    project: infracamp
+    desc: Mr. Cron Cloud native command scheduler
+
+phore_general:
+  - name: core
+    project: phore
+    desc: Core library
+
+  - name: filesystem
+    project: phore
+    desc: OOP Filesystem access
+
+  - name: system
+    project: phore
+    desc: exec()/system() wrapper
+
+  - name: log
+    project: phore
+    desc: PSR14 compliant logging library
+
+  - name: http-client
+    project: phore
+    desc: Send http requrests
+
+  - name: mail
+    project: phore
+    desc: template engine for sending mails
+
+phore_cloud:
+  - name: objectstore
+    project: phore
+    desc: Generic for gcloud, aws, azure
+
+  - name: scheduler
+    project: phore
+    desc: Microservice process scheduler
+
+  - name: cache
+    project: phore
+    desc: PSR compliant caching
+
+  - name: sock-server
+    project: phore
+    desc: Server listening on UDP sockets (e.g. syslog)
+
+
+phore_html:
+  - name: html
+    project: phore
+    desc: Fluent html templating engine
+
+  - name: micro-app
+    project: phore
+    desc: Micoservice framework
+
+  - name: status-page
+    project: phore
+    desc: Extension to build CoreUI admin pages
+
+  - name: app-oauth
+    project: phore
+    desc: OAuth2 authentication module
+  - name: theme-bootstrap
+    project: phore
+    desc: Bootstap theme
+
+  - name: theme-coreui
+    project: phore
+    desc: CoreUI theme
+
+
+kasimirjs:
+  - name: kasimir-tpl
+    project: kasimirjs
+    desc: VanillaJS Template Library
+
+  - name: kasimir-form
+    project: kasimirjs
+    desc: VanillaJS Form Data Access Library
+
+  - name: kasimir-http-request
+    project: kasimirjs
+    desc: Ajax requests made easy
+
+rudl:
+  - name: rudl-metrics
+    project: infracamp
+    desc: Metrics frontend
+
+  - name: rudl-agent
+    project: infracamp
+    desc: Metrics agent
+
+  - name: rudl-cloudfront
+    project: infracamp
+    desc: Nginx cloudfront
+
+  - name: rudl-principal
+    project: infracamp
+    desc: Manager service
+
+phore_ext:
+  - name: cloudtool
+    project: phore
+    desc: Extension to build CoreUI admin pages
+  - name: vcs
+    project: phore
+    desc: Git objectstore
+
+  - name: flash
+    project: phore
+    desc: OAuth2 authentication module

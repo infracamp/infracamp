@@ -1,0 +1,15 @@
+<div id="ex02" class="example">
+    <form is="ka-form" id="form02">
+        <input type="text" name="text1">
+        <input type="checkbox" name="checkbox1" value="on">
+        <select name="select1">
+            <option value="val1">val1</option>
+            <option value="val2">val2</option>
+        </select>
+        <textarea name="wurst[]"></textarea>
+        <button type="submit" name="send1">send</button>
+    </form>
+    <button class="btn btn-primary" onclick="ka_form('form02').$data = {text1: 'val1', checkbox1: 'on', select1: 'val1'}">Set data 1</button>
+    <button class="btn btn-primary" onclick="ka_form('form02').$data = {text1: 'new val', checkbox1: false, select1: 'val2'}">Set data 2</button>
+</div>
+<pre class="code"><ka-val stmt="document.getElementById('ex02').innerHTML" unindent auto afterrender="w3codecolor(this)"></ka-val></pre>

@@ -1,0 +1,10 @@
+- name: Doc-da-doc
+  link: /project/docdadoc
+  desc: How to write documentation
+
+- name: UserStories
+  link: /project/how-to/user-stories
+  desc: How to do user stories
+- name: Provision Docker Swarm on GCP
+  link: /project/how-to/gcp-install-debian-ubuntu
+  desc: How to do user stories

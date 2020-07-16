@@ -30,11 +30,12 @@
 
         var key = new String(title);
         key = key.replace(/[ \/]/g, "");
-        $(this).prev().append("<a id='" + key +"'></a>");
+        $(this).append("<a id='" + key +"'></a>");
 
         $("#scroll-spy").append('<a class="list-group-item list-group-item-action" href="#' + key + '">' + title + "</a>");
     })
-    $('body').scrollspy({ target: '#scroll-spy' })
+    $('body').scrollspy({ target: '#scroll-spy' });
+
 </script>
 </body>
 </html>

@@ -1,0 +1,20 @@
+<h3>Autonomous templates</h3>
+<div id="ex03" class="example">
+    <template is="ka-tpl" auto>
+        <script>
+            // this
+            ((self) => {
+                self.$scope = {"time": "init value"};
+
+                window.setInterval(() => {
+                    self.$scope.time = (new Date).toLocaleString();
+                } , 1000);
+
+            })(KASELF);
+        </script>
+        <div>
+            Time: {{ time }}
+</div>
+    </template>
+</div>
+<pre class="code"><ka-val stmt="document.getElementById('ex03').innerHTML" unindent auto afterrender="w3codecolor(this)"></ka-val></pre>

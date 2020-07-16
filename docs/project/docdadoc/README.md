@@ -44,6 +44,8 @@ Some Output
 
 [See example connect](examples/connect)
 
+## Configuration
+
 
 
 ## Rest Api
@@ -54,11 +56,11 @@ overview.
 
 ### Open Endpoints
 
-- [Show info](api-show-info.md): `GET /v1/show/:user`
+- [Show user](doc/api-show-user.md): `GET /v1/show/:user`
 
 ### Endpoinds that require Authentication
 
-- [Show info](api-show-info.md): `GET /v1/show/:user`
-- [Show info](api-show-info.md): `GET /v1/show/:user`
+- [Show info](doc/api-show-info.md): `GET /v1/show/:user`
+- [Show info](doc/api-show-info.md): `GET /v1/show/:user`
 
 

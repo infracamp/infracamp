@@ -1,0 +1,34 @@
+
+
+<div id="main_expl1" class="example">
+    <template is="ka-tpl" id="tpl01">
+        <table class="table table-bordered">
+            <tbody>
+            <tr *if="names.length === 0">
+                <td colspan="2">No data</td>
+            </tr>
+            <tr *for="let name of names indexby idx" [classlist.alert-secondary]="idx % 2 === 1" *if="idx < 5">
+                <td >hello {{ idx }}</td>
+                <td><input [value]="name.name"></td>
+                <td><button [on.click]="alert(`click ${idx}: ` + name.name);" class="btn">click me</button></td>
+            </tr>
+            </tbody>
+        </table>
+    </template>
+    <button class="btn btn-primary" onclick="ka_tpl('tpl01').$scope.names.push({})">Push</button>
+    <button class="btn btn-primary" onclick="ka_tpl('tpl01').$scope.names.pop()">Pop</button>
+    <script language="JavaScript">
+        window.setTimeout(() => {
+            ka_tpl("tpl01").$scope = {
+                names: [
+                    {name: "alfed", surname: "wasigno"},
+                    {name: "manni", surname: "gemini"}
+                ]
+            }
+        }, 100)
+    </script>
+</div>
+<pre class="code"><ka-val stmt="document.getElementById('main_expl1').innerHTML" unindent auto afterrender="w3codecolor(this)"></ka-val></pre>
+
+
+

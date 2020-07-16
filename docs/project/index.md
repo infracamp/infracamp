@@ -1,11 +1,16 @@
 ---
-title: Kickstart prebuild Containers
+title: Project Overview
+layout: scrollspy
 description: |
-    Intermediate containers help speeding up build and deployment times. Infracamp provides containers
-    for PHP, NodeJs, C++, Jekyll, Python. They are available on dockerhub and build daily, weekly and
-    with long time support.
+    On this page you find all projects currently maintained by infracamp.
 ---
 
+
+## Kickstart containers
+
+Intermediate containers help speeding up build and deployment times. Infracamp provides containers
+for PHP, NodeJs, C++, Jekyll, Python. They are available on dockerhub and build daily, weekly and
+with long time support.
 
 <div class="row">
 <div class="col-7" markdown="1">
@@ -19,51 +24,81 @@ See the [getting-started guide](/getting-started) on how to start your projects 
 
 </div>
 <div class="col-5" style="text-align: center" markdown="1">
-
 <img src="logo-docker.png" alt="docker" style="height:200px">
-
 </div>
 </div>
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Finfracamp%2Fkickstart-flavor-base%2Fbadge&style=flat)](https://github.com/infracamp/kickstart-flavor-base/actions)
-[![Latest Stable Version](https://img.shields.io/github/release/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base/releases)
-[![Docker Pulls](https://img.shields.io/docker/pulls/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base)
-[![Docker Build status](https://img.shields.io/docker/cloud/build/infracamp/kickstart-flavor-base.svg)](https://cloud.docker.com/repository/docker/infracamp/kickstart-flavor-base/builds)
+
+{% include_relative _inc_kickstart_flavor.html %}
 
 
-| Name                                  | Synopsis                  | Documentation                                    |
-|---------------------------------------|---------------------------|--------------------------------------------------|
-| *Platform: **x86** (IBM-PC)*  |
-| **`infracamp/kickstart-flavor-base`**     | Base image (Ubuntu 18.04) | [GitHub](https://github.com/infracamp/kickstart-flavor-base) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-base/) |
-| **`infracamp/kickstart-flavor-gaia`**     | PHP7.2, Apache2 **new PHP7.4! see docs**          | [GitHub](https://github.com/infracamp/kickstart-flavor-gaia) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-gaia/) |
-| **`infracamp/kickstart-flavor-jekyll`**   | Jekyll Github pages       | [GitHub](https://github.com/infracamp/kickstart-flavor-jekyll) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-jekyll/) |
-| **`infracamp/kickstart-flavor-py3`**      | Python3, pip              | [GitHub](https://github.com/infracamp/kickstart-flavor-py3) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-py3/) |
-| **`infracamp/kickstart-flavor-erebos`**   | nodejs, angular           | [GitHub](https://github.com/infracamp/kickstart-flavor-erebos) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-erebos/) |
-| **`infracamp/kickstart-flavor-datalytics`** [alpha!]  | R,Python3,RStudio,Jupyter | [GitHub](https://github.com/infracamp/kickstart-flavor-datalytics) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-datalytics/) |
-| **`infracamp/kickstart-flavor-sdi`**      | gcloud,azure,aws | [GitHub](https://github.com/infracamp/kickstart-flavor-sdi) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-sdi/) |
+## KasimirJS Browser Libraries
 
-| *Platform: **arm32v7** (e.g. Raspberry Pi)*  <small>[Best practise arm32](arm32-tipps)  </small>    |
-| **`infracamp/kickstart-flavor-arm32v7-base`**     | Base image (Ubuntu 18.04) | [GitHub](https://github.com/infracamp/kickstart-flavor-arm32v7-base) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-arm32v7-base/) |
-| **`infracamp/kickstart-flavor-arm32v7-php7`**     | PHP7.2, Apache2 (eq. x86-gaia) | [GitHub](https://github.com/infracamp/kickstart-flavor-arm32v7-php7) - [DockerHub](https://hub.docker.com/r/infracamp/kickstart-flavor-arm32v7-php7/) |
+<div class="row">
+<div class="col-7" markdown="1">
+
+Independent libraries with no dependencies for developing awesome Browser side applications. 
+
+- Pure ES6 libraries build on web-components supported by modern Browsers
+- See it in action on our [KasimirJS Project Page](https://kasimirjs.infracamp.org)
+
+</div>
+<div class="col-5" style="text-align: center" markdown="1">
+<img src="js-es6.logo.jpg" alt="es6" style="height:150px">
+</div>
+</div>
+{% include_relative _inc_kasimirjs.html %}
+
+## Phore PHP7 libraries
+
+<div class="row">
+<div class="col-7" markdown="1">
+
+Independent libraries with less dependencies. Phore libraries do what the should. 
+No more.
+
+Most parts are written for large scale stateless clustered microservices demanded by
+big-data, infrastructural, IoT environments.
+
+See the [core concepts page](phore/concepts/) for more information.
+
+</div>
+<div class="col-5" style="text-align: center" markdown="1">
+<img src="logo-php.png" alt="docker" style="height:100px">
+</div>
+</div>
 
 
-# Prebuild service containers <small>ready to use software</small>
 
-We offer management software containers for various tasks. These containers
-are based on our flavored containers.
+{% include_relative _inc_phore.html %}
 
-## Viper application container
+## Rudl GitOps Cluster Management
 
-| Name                                  | Synopsis                  | Documentation                                    |
-|---------------------------------------|---------------------------|--------------------------------------------------|
-| `infracamp/viper-smtpd`               | SMTPd Server              | [GitHub](https://github.com/infracamp/viper-smtpd) - [DockerHub](https://hub.docker.com/r/infracamp/viper-smtpd/) |
-| `infracamp/redis`                     | Redis Server              | [GitHub](https://github.com/infracamp/redis) - [DockerHub](https://hub.docker.com/r/infracamp/redis/) |
+<div class="row">
+<div class="col-7" markdown="1">
 
-## Rudl cloud management tools
+DevOps containers to spin up and manage Docker Swarm and
+Kubernetes Clusters from git repositories.
 
-| Name                                  | Synopsis                  | Documentation                                    |
-|---------------------------------------|---------------------------|--------------------------------------------------|
-| `infracamp/rudl-manager`              | Docker Cluster Manager    | [GitHub](https://github.com/infracamp/rudl-manager) - [DockerHub](https://hub.docker.com/r/infracamp/rudl-manager/) |
+</div>
+<div class="col-5" style="text-align: center" markdown="1">
+<img src="logo-rudl.png" alt="rudl" style="height:100px">
+</div>
+</div>
 
+{% include_relative _inc_rudl.html %}
+
+## Application containers
+
+{% include_relative _inc_apps.html %}
+
+## Development Tools
+
+{% include_relative _inc_tools.html %}
+
+
+## Working Documents 
+
+{% include_relative _inc_documents.html %}
 
 

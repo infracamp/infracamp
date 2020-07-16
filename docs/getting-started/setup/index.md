@@ -67,5 +67,19 @@ This document assumes you have your project located in drive `C:`.
 Go back to [getting started guide](../) and follow the instructions.
 
 
- 
+## Frequent problems / solutions:
 
+- **Kickstart complains about `/opt` beeing empty**
+
+  This indicates, docker-daemon has no access to you local drive or
+  your `KICKSTART_WIN_PATH` is not set correctly.
+  
+  *Solution:* Open Docker for Windows. Go to <kbd>Resources > File sharing</kbd>.
+  Remove all drives and add them again. You will be asked for your password. 
+  Access should be working right after.
+
+- **Kickstart complains about ports beeing already in use**
+
+  Kickstart normally requires ports 80,4000,4100,4200 not to be
+  assigned already. Use `netstat -ab` on the windows shell to 
+  investigate the programs using these ports.
