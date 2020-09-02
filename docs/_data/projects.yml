@@ -69,6 +69,10 @@ phore_general:
     project: phore
     desc: Send http requrests
 
+  - name: hydrator
+    project: phore
+    desc: hydrate user data into objects and validate structure
+
   - name: mail
     project: phore
     desc: template engine for sending mails
