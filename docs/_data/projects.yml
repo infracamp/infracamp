@@ -153,7 +153,7 @@ rudl:
 phore_ext:
   - name: cloudtool
     project: phore
-    desc: Extension to build CoreUI admin pages
+    desc: cli-tool to configure containers
   - name: vcs
     project: phore
     desc: Git objectstore
