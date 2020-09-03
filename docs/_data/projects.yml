@@ -48,6 +48,10 @@ applications:
     project: infracamp
     desc: Mr. Cron Cloud native command scheduler
 
+  - name: mailtainer
+    project: infracamp
+    desc: A GitOps SMTP/IMAP Server with spam/antivirus
+
 phore_general:
   - name: core
     project: phore
