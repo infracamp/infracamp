@@ -7,7 +7,7 @@ main:
   - name: "Home"
     href: "/"
   - name: "Getting started"
-    href: "/getting-started/"
+    href: "https://nfra.infracamp.org"
   - name: "Projects"
     href: /project/
 

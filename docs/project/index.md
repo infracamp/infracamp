@@ -8,6 +8,8 @@ description: |
 
 ## Kickstart containers
 
+**Kickstart Flavors moved to nfra-project! Please see [the dedicated website](https://nfra.infracamp.org) for new versions**
+
 Intermediate containers help speeding up build and deployment times. Infracamp provides containers
 for PHP, NodeJs, C++, Jekyll, Python. They are available on dockerhub and build daily, weekly and
 with long time support.
