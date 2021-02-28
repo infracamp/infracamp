@@ -6,8 +6,7 @@ brand_href: "/"
 main:
   - name: "Home"
     href: "/"
-  - name: "Getting started"
-    href: "https://nfra.infracamp.org"
+
   - name: "Projects"
     href: /project/
 
