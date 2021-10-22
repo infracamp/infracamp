@@ -16,7 +16,8 @@ instead of rebuilding your container over and over again.
 
 ```yaml
 version: 1
-from: infracamp/kickstart-flavor-base:testing
+from: infracamp/kickstart-flavor-bare:1.0
+ports: "80:80/tcp;4000:4000/tcp;4100:4100/tcp"
 
 command:
   build:
