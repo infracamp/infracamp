@@ -1,7 +1,13 @@
 title: infracamp.org
 description: educational grade development tools
+publisher: infracamp.org
+url: "https://infracamp.org"
+site_name: "infracamp.org"
+icon_path: /assets/infracamp.png
+image_path: /assets/infracamp.png
 google_analytics:
 show_downloads: true
+
 
 # Make directory-style links
 permalink: pretty
@@ -24,6 +30,7 @@ defaults:
     values:
       layout: "default"
       title: developer camp
+
 
 sass:
   style: compressed

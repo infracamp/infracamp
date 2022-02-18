@@ -1,6 +1,8 @@
 ---
 title: Project Overview
 layout: scrollspy
+section: Projects
+keywords: Docker, Microservice, kickstart
 description: |
     On this page you find all projects currently maintained by infracamp.
 ---

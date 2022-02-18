@@ -1,6 +1,8 @@
 ---
 title: "Agnostic Development Manifest"
 layout: scrollspy
+section: Mission
+keywords: Agile, Open-Source, Mindset
 description: |
     There is no best programming language nor best framework. Even using the most common now
     will end up being obsolete in a few years. So why not rely on a agnostic approach? An infrastructure 

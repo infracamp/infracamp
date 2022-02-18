@@ -1,6 +1,8 @@
 ---
 title: "kickstart.sh: zero-conf sdk for agile software development"
 layout: default-fullsize
+section: Getting Stated
+keywords: kickstart, infracamp, docker, git, container, kick.yml
 description: |
     Zero-conf container development in action for php, pyhton, node.js, c++. Setup guide for github, 
     gitlab, gitlab-ci continuous integrated microservice projects

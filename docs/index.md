@@ -1,8 +1,11 @@
 ---
 layout: default
+type: website
 title: Open-Source Support Organisation
-description: Infracamp is an open source community to provide platform services for webdevelopers across multiple companies and private projects. All services are free and will always be free.
-og_description: Infracamp - We think microservice-containers are the future of IoT and BigData development. Developers cooperate to deliver first class experience. Let us share our know-how across company boundaries and do even better together. 
+keywords: infracamp, docker, microservice, kickstart
+description: |
+    Infracamp is an open source community to provide platform services for webdevelopers across multiple companies and 
+    private projects. All services are free and will always be free.
 ---
 
 <div class="jumbotron pt-4 pb-4">
