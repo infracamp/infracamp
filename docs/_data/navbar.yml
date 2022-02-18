@@ -10,7 +10,8 @@ main:
   - name: "Projects"
     href: /project/
 
-
+  - name: "leanea consulting"
+    href: "https://leanea.de"
 
 right:
   - icon: "fab fa-github"
