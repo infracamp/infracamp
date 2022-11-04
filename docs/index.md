@@ -42,7 +42,8 @@ description: |
           <small>({{post.date | date_to_string}})</small>      
       {% endfor %}
 </div>
-<a href="https://www.website-für-ärzte.de">Website für Ärzte</a>
+<a href="https://www.website-für-ärzte.de">Website für Ärzte</a> |
+<a href="https://med.leuffen.de">Leuffen Praxis-Websites</a>
 
 
 
